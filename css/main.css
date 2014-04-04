@@ -55,12 +55,17 @@ nav {
 
 }
 
-#button{
-
+.button{
     border-radius: 8px;
     background: #FAFAFA;
-    padding: 20px 20px;
+    color:#555;
+    padding: 10px 15px;
     overflow: hidden;
+}
+
+.a:hover{
+
+    text-decoration: none;
 
 }
 

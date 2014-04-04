@@ -5,8 +5,8 @@
     <ignored path="PWA2.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="31ff2663-1e34-4db7-9501-115403d25b79" time="1396572523981" ignored="false" />
-    <file path="/index.html" changelist="31ff2663-1e34-4db7-9501-115403d25b79" time="1396578492274" ignored="false" />
-    <file path="/main.css" changelist="31ff2663-1e34-4db7-9501-115403d25b79" time="1396578561057" ignored="false" />
+    <file path="/index.html" changelist="31ff2663-1e34-4db7-9501-115403d25b79" time="1396579209373" ignored="false" />
+    <file path="/main.css" changelist="31ff2663-1e34-4db7-9501-115403d25b79" time="1396579414910" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="21" selection-start="550" selection-end="550" vertical-scroll-proportion="-13.730769">
+            <state line="20" column="5" selection-start="554" selection-end="554" vertical-scroll-proportion="-13.076923">
               <folding />
             </state>
           </provider>
@@ -38,16 +38,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="22" selection-start="624" selection-end="624" vertical-scroll-proportion="0.7701019">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../rs/CSS/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="19" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0">
+            <state line="56" column="2" selection-start="647" selection-end="647" vertical-scroll-proportion="0.6159251">
               <folding />
             </state>
           </provider>
@@ -77,10 +68,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="width" value="960" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -199,13 +188,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="0" y="0" width="960" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12124407" sideWeight="0.99449944" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24972856" sideWeight="0.99449944" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -297,14 +286,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="21" selection-start="550" selection-end="550" vertical-scroll-proportion="-13.730769">
+        <state line="20" column="5" selection-start="554" selection-end="554" vertical-scroll-proportion="-13.076923">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="22" selection-start="624" selection-end="624" vertical-scroll-proportion="0.7701019">
+        <state line="56" column="2" selection-start="647" selection-end="647" vertical-scroll-proportion="0.6159251">
           <folding />
         </state>
       </provider>
