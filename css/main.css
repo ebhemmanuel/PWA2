@@ -93,8 +93,8 @@ footer{
     color: #FAFAFA;
     float:left;
     margin-left: -500px;
-    padding-top: 10px;
-    font-size: 27px;
+    padding-top: 18px;
+    font-size: 18px;
     font-weight: 800;
 }
 
@@ -116,7 +116,7 @@ footer{
 
 .ctaBG{
     width: 100%;
-    background:#FFBE7D;
+    background:#99C9C0; /*#FFBE7D*/
     height: 590px;
     overflow: hidden;
 }
@@ -209,7 +209,7 @@ footer{
 
 .signUpContent{
     margin: auto auto;
-    display: block;
+    display: none;
     padding-top: 120px;
     padding-left: 20px;
     height: 280px;
@@ -219,7 +219,7 @@ footer{
 }
 
 .sliderContent{
-    display: none;
+    display: block;
     color: #444;
     padding-top: 120px;
     padding-left: 20px;
