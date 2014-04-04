@@ -5,8 +5,8 @@
     <ignored path="PWA2.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="31ff2663-1e34-4db7-9501-115403d25b79" time="1396572523981" ignored="false" />
-    <file path="/index.html" changelist="31ff2663-1e34-4db7-9501-115403d25b79" time="1396579209373" ignored="false" />
-    <file path="/main.css" changelist="31ff2663-1e34-4db7-9501-115403d25b79" time="1396579414910" ignored="false" />
+    <file path="/index.html" changelist="31ff2663-1e34-4db7-9501-115403d25b79" time="1396585842309" ignored="false" />
+    <file path="/main.css" changelist="31ff2663-1e34-4db7-9501-115403d25b79" time="1396585935742" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="5" selection-start="554" selection-end="554" vertical-scroll-proportion="-13.076923">
+            <state line="21" column="40" selection-start="727" selection-end="727" vertical-scroll-proportion="-13.730769">
               <folding />
             </state>
           </provider>
@@ -38,7 +38,16 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="2" selection-start="647" selection-end="647" vertical-scroll-proportion="0.6159251">
+            <state line="44" column="9" selection-start="661" selection-end="661" vertical-scroll-proportion="0.71662766">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../rs/CSS/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="2" selection-start="794" selection-end="853" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -188,7 +197,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="960" height="1050" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -279,21 +288,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../rs/CSS/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="19" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0">
+        <state line="42" column="2" selection-start="794" selection-end="853" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="5" selection-start="554" selection-end="554" vertical-scroll-proportion="-13.076923">
+        <state line="21" column="40" selection-start="727" selection-end="727" vertical-scroll-proportion="-13.730769">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="2" selection-start="647" selection-end="647" vertical-scroll-proportion="0.6159251">
+        <state line="44" column="9" selection-start="661" selection-end="661" vertical-scroll-proportion="0.71662766">
           <folding />
         </state>
       </provider>
