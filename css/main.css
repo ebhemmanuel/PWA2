@@ -17,7 +17,7 @@ body {
     font-style: normal;
     font-weight:normal;
     font-size: 100%;
-    background: #999;
+    background: #2F343B;
     overflow-y:hidden;
 }
 
@@ -56,10 +56,11 @@ nav a:hover{
 }
 
 footer{
+
     display: block;
-    background: #999;
+    background: #FAFAFA;
     width: 100%;
-    height: 300px;
+    height: 150px;
     overflow: hidden;
 }
 
@@ -117,6 +118,7 @@ footer{
     width: 100%;
     background:#FFBE7D;
     height: 590px;
+    overflow: hidden;
 }
 
 .button{
@@ -124,7 +126,7 @@ footer{
     background: #2F343B;
     color:#FAFAFA;
     height: 30px;
-    width:100%;
+    width:90%;
     padding-top: 12px;
     padding-bottom: 5px;
     margin: auto auto;
@@ -157,19 +159,67 @@ footer{
 
 }
 
+.label{
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: -10px;
+
+}
+
+.input{
+    display: inline-block;
+    width: 85%;
+    height: 15px;
+    padding: 10px 5px 15px 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    background: #FAFAFA;
+    color: #cbcbcb;
+
+}
+
+.titleSec{
+    margin-top: -10px;
+    font-size: 28px;
+    font-weight: 700;
+    height:100px;
+    color: #FAFAFA;
+}
+
+.whiteSpacer{
+    padding-left: 30px;
+    margin-bottom: 10px;
+    height:1px;
+    width:80% ;
+    background: #FAFAFA;
+
+}
+
 .logInContent{
 
+    margin: auto auto;
     display: none;
+    padding-top: 120px;
+    padding-left: 20px;
+    height: 280px;
+    width: 80%;
+    overflow: hidden;
 
 }
 
 .signUpContent{
-
-    display: none;
+    margin: auto auto;
+    display: block;
+    padding-top: 120px;
+    padding-left: 20px;
+    height: 280px;
+    width: 80%;
+    overflow: hidden;
 
 }
 
 .sliderContent{
+    display: none;
     color: #444;
     padding-top: 120px;
     padding-left: 20px;

@@ -5,8 +5,8 @@
     <ignored path="PWA2.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="31ff2663-1e34-4db7-9501-115403d25b79" time="1396572523981" ignored="false" />
-    <file path="/index.html" changelist="31ff2663-1e34-4db7-9501-115403d25b79" time="1396588321373" ignored="false" />
-    <file path="/main.css" changelist="31ff2663-1e34-4db7-9501-115403d25b79" time="1396590016457" ignored="false" />
+    <file path="/index.html" changelist="31ff2663-1e34-4db7-9501-115403d25b79" time="1396592730366" ignored="false" />
+    <file path="/main.css" changelist="31ff2663-1e34-4db7-9501-115403d25b79" time="1396592663334" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="28" selection-start="722" selection-end="722" vertical-scroll-proportion="-13.538462">
+            <state line="46" column="41" selection-start="1269" selection-end="1269" vertical-scroll-proportion="0.5643225">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="146" column="17" selection-start="2294" selection-end="2294" vertical-scroll-proportion="0.946875">
+            <state line="191" column="29" selection-start="2926" selection-end="2926" vertical-scroll-proportion="-3.4509804">
               <folding />
             </state>
           </provider>
@@ -71,16 +71,16 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="599" />
-    <option name="y" value="109" />
-    <option name="width" value="960" />
-    <option name="height" value="874" />
+    <option name="x" value="26" />
+    <option name="y" value="174" />
+    <option name="width" value="907" />
+    <option name="height" value="805" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -199,7 +199,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="599" y="109" width="960" height="874" extended-state="1" />
+    <frame x="26" y="174" width="907" height="805" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -295,16 +295,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="28" selection-start="722" selection-end="722" vertical-scroll-proportion="-13.538462">
+        <state line="191" column="29" selection-start="2926" selection-end="2926" vertical-scroll-proportion="-3.4509804">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="17" selection-start="2294" selection-end="2294" vertical-scroll-proportion="0.946875">
+        <state line="46" column="41" selection-start="1269" selection-end="1269" vertical-scroll-proportion="0.5643225">
           <folding />
         </state>
       </provider>
