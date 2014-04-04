@@ -17,17 +17,15 @@ body {
     font-style: normal;
     font-weight:normal;
     font-size: 100%;
-    background:#666;
-    overflow-x: hidden;
+    background: #999;
+    overflow-y:hidden;
 }
 
 nav {
     padding:10px 0 15px 0;
     width: 100%;
-    height: 75px;
-    background: #333;
-    margin-top: -20px;
-
+    height: 60px;
+    background: #FF7F66;
 }
 
 nav a{
@@ -44,22 +42,46 @@ ul li{
 
 }
 
+
+a{
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: #FFBE7D;
+}
+
+footer{
+    display: block;
+    background: #999;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
 .smallB{
     font-weight: 600;
     border-radius: 3px;
     display: inline-block;
     padding:5px 10px 5px 10px ;
+    opacity: 0.5;
     background: #FAFAFA;
     color:#666;
-
-
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
 
-.clear {
-
-    clear:both;
-
+.smallB:hover{
+    opacity: 1;
+    color: #FFBE7D;
 }
+
+.clear {clear:both;}
 
 .c960 {
     margin: auto;
@@ -67,10 +89,12 @@ ul li{
 }
 
 .logo {
-
-    float: left;
-    padding: 10px 10px;
-
+    color: #FAFAFA;
+    float:left;
+    margin-left: -500px;
+    padding-top: 10px;
+    font-size: 27px;
+    font-weight: 800;
 }
 
 .menu {
@@ -91,14 +115,14 @@ ul li{
 
 .ctaBG{
     width: 100%;
-    background:#666;
+    background:#FFBE7D;
     height: 590px;
 }
 
 .button{
     border-radius: 3px;
-    background: #FAFAFA;
-    color:#555;
+    background: #2F343B;
+    color:#FAFAFA;
     height: 30px;
     width:100%;
     padding-top: 12px;
@@ -113,12 +137,15 @@ ul li{
     -ms-user-select:none;
     user-select:none;
     text-align: center;
+
 }
 
 
 .button:hover{
 
-    background: #777;
+    background: #FAFAFA;
+    color:#2F343B;
+
 }
 
 #sliderSpot {
@@ -127,6 +154,18 @@ ul li{
     height: 590px;
     float: right;
     overflow: hidden;
+
+}
+
+.logInContent{
+
+    display: none;
+
+}
+
+.signUpContent{
+
+    display: none;
 
 }
 
@@ -145,17 +184,6 @@ ul li{
 
 }
 
-a{
-    -webkit-transition-duration: 0.4s;
-    -moz-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    text-decoration: none;
-}
-
-a:hover{
-    text-decoration: none;
-    color: red;
-}
 
 
 
