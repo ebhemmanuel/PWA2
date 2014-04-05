@@ -110,8 +110,18 @@ footer{
     float: left;
     height: 590px;
     width: 600px;
+    z-index: 1;
+    position: absolute;
 
-    overflow: hidden;
+
+}
+
+#viking img{
+    margin-top: 210px;
+    margin-left: 40px;
+    max-height:75% ;
+    max-width: 75%;
+
 }
 
 .ctaBG{
@@ -129,7 +139,7 @@ footer{
     width:90%;
     padding-top: 12px;
     padding-bottom: 5px;
-    margin: auto auto;
+
     overflow: hidden;
     -webkit-transition-duration: 0.4s;
     -moz-transition-duration: 0.4s;
@@ -171,8 +181,11 @@ footer{
     width: 85%;
     height: 15px;
     padding: 10px 5px 15px 10px;
+    margin-top: -20px;
     margin-bottom: 20px;
     border-radius: 3px;
+    z-index: 1;
+
     background: #FAFAFA;
     color: #cbcbcb;
 
@@ -180,6 +193,7 @@ footer{
 
 .titleSec{
     margin-top: -10px;
+    margin-bottom: -20px;
     font-size: 28px;
     font-weight: 700;
     height:100px;
@@ -223,7 +237,7 @@ footer{
     color: #444;
     padding-top: 120px;
     padding-left: 20px;
-    height: 280px;
+    height: 330px;
     width: 80%;
     overflow: hidden;
 }
@@ -232,6 +246,11 @@ footer{
      color:#FAFAFA;
     margin-bottom: 10px;
 
+}
+
+.contentCTA {
+
+    height: 200px;
 }
 
 
