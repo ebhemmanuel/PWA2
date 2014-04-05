@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31ff2663-1e34-4db7-9501-115403d25b79" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PWA2.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="31ff2663-1e34-4db7-9501-115403d25b79" time="1396656694934" ignored="false" />
     <file path="/index.html" changelist="31ff2663-1e34-4db7-9501-115403d25b79" time="1396661604308" ignored="false" />
-    <file path="/main.css" changelist="31ff2663-1e34-4db7-9501-115403d25b79" time="1396661521414" ignored="false" />
+    <file path="/main.css" changelist="31ff2663-1e34-4db7-9501-115403d25b79" time="1396666513180" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,19 +28,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="46" selection-start="684" selection-end="684" vertical-scroll-proportion="0.61601645">
+            <state line="20" column="46" selection-start="684" selection-end="684" vertical-scroll-proportion="-12.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="252" column="13" selection-start="3742" selection-end="3742" vertical-scroll-proportion="-8.137255">
+            <state line="214" column="19" selection-start="3209" selection-end="3209" vertical-scroll-proportion="0.22826087">
               <folding />
             </state>
           </provider>
@@ -66,8 +64,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -300,16 +298,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="252" column="13" selection-start="3742" selection-end="3742" vertical-scroll-proportion="-8.137255">
+        <state line="20" column="46" selection-start="684" selection-end="684" vertical-scroll-proportion="-12.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="46" selection-start="684" selection-end="684" vertical-scroll-proportion="0.61601645">
+        <state line="214" column="19" selection-start="3209" selection-end="3209" vertical-scroll-proportion="0.22826087">
           <folding />
         </state>
       </provider>

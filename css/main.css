@@ -212,7 +212,7 @@ footer{
 .logInContent{
 
     margin: auto auto;
-    display: none;
+    display: block;
     padding-top: 120px;
     padding-left: 20px;
     height: 280px;
@@ -233,7 +233,7 @@ footer{
 }
 
 .sliderContent{
-    display: block;
+    display: none;
     color: #444;
     padding-top: 120px;
     padding-left: 20px;
