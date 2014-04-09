@@ -10,8 +10,7 @@
 jQuery(document).ready(function($){
 
     $("#checkbox").change(function($){
-        setInterval(function(){
-            moveRight();},3000);
+        setInterval(function(){moveRight();},3000);
     });
 
     var sliderCount  = $('#myslider ul li').length;
