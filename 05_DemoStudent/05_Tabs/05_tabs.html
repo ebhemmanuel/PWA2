@@ -63,7 +63,49 @@
   </div>
 <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>  
 <script type="text/javascript">
- 
+   $('ul.tabs').each(function(){
+
+       //For each set of tabs, we want to keep track of
+       //which tab is active and it's associated content
+
+      var $active, $content, $link= $(this).find('a');
+
+       //If the location.has matches one of the links, use that as the active tab.
+       //If no match is found, use the first link as the initial active tab.
+
+       $active = $($link.filter('[href="'+location.hash+'"]')[0] || $link[0]);
+       $active.addClass('active');
+
+       $content = $($active[0].hash);
+
+       //Hide the remaining content
+       $link.not($active).each(function (){
+
+            $(this.hash).hide();
+
+       });
+             //bind the click event handler
+           $(this).on('click', 'a', function(e){
+
+               $active.removeClass('active');
+               $content.hide();
+
+              $active = $(this);
+              $content = $(this.hash);
+
+               $active.addClass('active');
+               $content.show();
+
+               e.preventDefault();
+
+
+       });
+
+   });
+
+
+
+
  
  </script> 
 </body>
