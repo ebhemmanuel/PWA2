@@ -9,9 +9,9 @@
 
 jQuery(document).ready(function($){
 
-    $("#checkbox").change(function($){
-        setInterval(function(){moveRight();},3000);
-    });
+//    $("#checkbox").change(function(){
+//        setInterval(function(){moveRight();},3000);
+//    });
 
     var sliderCount  = $('#myslider ul li').length;
     var sliderWidth  = $('#myslider ul li').width();
