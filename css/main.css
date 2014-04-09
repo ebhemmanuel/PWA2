@@ -161,11 +161,14 @@ footer{
 }
 
 #sliderSpot {
+    z-index: 5;
+    position: absolute;
     display: block;
+    margin-left: 600px;
     width:360px ;
-    height: 590px;
-    float: right;
-    overflow: hidden;
+    height: 1080px;
+    float: left;
+    overflow: visible;
 
 }
 
@@ -210,36 +213,40 @@ footer{
 }
 
 .logInContent{
-
+    position: relative;
     margin: auto auto;
-    display: block;
+    display: inline-block;
     padding-top: 120px;
     padding-left: 20px;
     height: 280px;
-    width: 80%;
+    width: 360px;
     overflow: hidden;
+    opacity: 1;
 
 }
 
 .signUpContent{
+    position: relative;
     margin: auto auto;
-    display: none;
+    display: inline-block;
     padding-top: 120px;
     padding-left: 20px;
     height: 280px;
-    width: 80%;
+    width: 360px;
     overflow: hidden;
-
+    opacity: 1;
 }
 
 .sliderContent{
-    display: none;
+    position: relative;
+    display: inline-block;
     color: #444;
     padding-top: 120px;
     padding-left: 20px;
     height: 330px;
-    width: 80%;
+    width: 360px;
     overflow: hidden;
+    opacity: 1;
 }
 
 .sliderContent h1{
