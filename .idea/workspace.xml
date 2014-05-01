@@ -1,57 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31ff2663-1e34-4db7-9501-115403d25b79" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Barreto_Emmanuel_PWA2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/04_01.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/04_02.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/04_03.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/04_04.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/04_05.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/css/04_01.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/css/04_02.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/css/04_03.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/css/04_04.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/css/04_05.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/images/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/images/cone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/images/down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/images/down2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/images/img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/images/img2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/images/img3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/images/img4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/images/img5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/images/left 2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/images/left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/images/left2 2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/images/left2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/images/planeDown.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/images/planeLeft.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/images/planeRight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/images/planeUp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/images/right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/images/right2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/images/stop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/images/stop2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/images/up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/images/up2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/js/04_01.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/js/04_02.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/js/04_03.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/js/04_04.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/js/04_05.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/js/jquery-1.11.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sf01/js/main.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="31ff2663-1e34-4db7-9501-115403d25b79" name="Default" comment="" />
     <ignored path="PWA2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="31ff2663-1e34-4db7-9501-115403d25b79" time="1397183158235" ignored="false" />
+    <file path="/Dummy.txt" changelist="31ff2663-1e34-4db7-9501-115403d25b79" time="1398628922265" ignored="false" />
     <file path="/index.html" changelist="31ff2663-1e34-4db7-9501-115403d25b79" time="1397087481617" ignored="false" />
     <file path="/main.css" changelist="31ff2663-1e34-4db7-9501-115403d25b79" time="1397087894813" ignored="false" />
     <file path="/main.js" changelist="31ff2663-1e34-4db7-9501-115403d25b79" time="1397068414705" ignored="false" />
@@ -105,7 +58,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="20" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.5480379">
+            <state line="25" column="20" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.020297699">
               <folding />
             </state>
           </provider>
@@ -114,7 +67,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="228" column="8" selection-start="3441" selection-end="3441" vertical-scroll-proportion="0.0">
+            <state line="245" column="8" selection-start="3961" selection-end="3961" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -184,6 +137,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,18 +186,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="vcs.Git" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="FullScreen" value="true" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -316,12 +269,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.49940264" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.49940264" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36979535" sideWeight="0.670398" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36979535" sideWeight="0.670398" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.50059736" order="7" side_tool="true" content_ui="tabs" />
@@ -481,7 +434,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="228" column="8" selection-start="3441" selection-end="3441" vertical-scroll-proportion="0.0">
+        <state line="245" column="8" selection-start="3961" selection-end="3961" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -502,7 +455,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="20" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.5480379">
+        <state line="25" column="20" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.020297699">
           <folding />
         </state>
       </provider>

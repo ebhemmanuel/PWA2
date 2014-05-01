@@ -73,6 +73,14 @@ nav a:hover{
     color: #FFBE7D;
 }
 
+.body2{
+    padding-top: 20px;
+    display: block;
+    background: #FAFAFA;
+    width: 100%;
+    height: 220px;
+
+}
 footer{
     display: block;
     background: #FAFAFA;
