@@ -1,0 +1,342 @@
+//
+// Globals = persistant dom layout across pages
+@import 'compass/css3';
+@import 'compass/css3/transform';
+@import 'compass/css3/transition';
+@import 'globals/variables';
+//
+// Includes = persistent aesthetic styling across pages
+//
+@import 'includes/resets';
+@import 'includes/colors';
+@import 'includes/fonts';
+//
+// Mixins
+//
+@import 'mixins/responsive';
+//
+@import 'globals/navigation';
+//
+// Default on.
+//
+
+ html, body {
+  background        : $white;
+}
+
+.pointer{
+  cursor            : pointer
+}
+
+.phoneView{
+  display           : none;
+}
+
+
+.smallerText{
+  font-size         : 16px;
+}
+
+.highlight{
+  display           : block;
+  background        : $white;
+  color             : $black;
+  padding           : $paddingH;
+  border-radius     : 3px;
+  letter-spacing    : 2px;
+}
+
+.highlight-red{
+  display           : block;
+  font-weight       : lighter;
+  letter-spacing    : 3px;
+  background        : $red;
+  color             : $white;
+  padding           : $paddingH;
+  border-radius     : 3px;
+  a{
+    letter-spacing  : 3px;
+    transition      : .2s;
+  }
+}
+
+.highlight-black{
+  display           : block;
+  background        : $black;
+  color             : $white;
+  padding           : $paddingH;
+  border-radius     : 3px;
+  transition        : .2s;
+}
+
+%feature-block{
+  @include background-size(cover);
+  height            : 760px;
+  margin-bottom     : 0;
+}
+
+%detail-block{
+  @include background-size(cover);
+  height            : 595px;
+  margin-bottom     : 0;
+}
+
+.t-cam{
+  background: url(../images/menu/t.svg);
+  @include background-size(contain);
+}
+
+.m-cam{
+  background: url(../images/menu/m.svg);
+  @include background-size(contain);
+}
+
+.s-cam{
+  background: url(../images/menu/s.svg);
+  @include background-size(contain);
+}
+
+.x-cam{
+  background: url(../images/menu/x.svg);
+  @include background-size(contain);
+}
+
+
+
+//
+// Index Page
+//
+
+.cta{
+  height            : 500px;
+  letter-spacing    : 5px;
+  background        : url(../images/m9c.jpg)  no-repeat center center;
+  @include background-size(cover);
+  a{  transition    : .2s ;
+      font-size     : 18px;
+  }
+  a:hover{
+    color           : $white;
+  }
+  .highlight{
+
+    &:hover{
+      background    : $red;
+    }
+  }
+}
+
+%big-detail{
+  height            : 530px;
+  a{
+    font-size       : 20px;
+    color           : $black;
+    &:hover{
+     transition     : .2s;
+     color          : $red;
+    }
+  }
+}
+
+%small-detail{
+  height            : 300px
+}
+
+.tile1{
+  @extend %big-detail;
+  h2{
+    font-weight     : lighter;
+    letter-spacing  : 3px;
+  }
+  padding-top       : 180px;
+  // background        : #111;
+  background        : url(../images/100y.jpg) no-repeat center center;
+  @include background-size(cover);
+  color             : $white;
+}
+
+.tile2{
+  .highlight{
+    padding: 25px;
+  }
+  @extend %big-detail;
+  background        : url(../images/values.jpg)  no-repeat center center;
+  @include background-size(cover);
+  // background        : $white;
+}
+
+.tile3 {
+  @extend %big-detail;
+  background        : $red;
+  color             : $white;
+  h2{
+    letter-spacing  : 3px;
+    font-weight     : lighter;
+    padding-bottom  : 40px;
+  }
+}
+
+$icon-size          : 80px;
+
+%social-icon{
+  height            : $icon-size;
+  width             : $icon-size;
+}
+
+.google-icon{
+  @extend %social-icon;
+  background: url(../images/follow/gp.svg);
+  @include background-size(contain);
+}
+
+.facebook-icon{
+  @extend %social-icon;
+  background: url(../images/follow/fb.svg);
+  @include background-size(contain);
+
+}
+
+.twitter-icon{
+  @extend %social-icon;
+  background: url(../images/follow/tw.svg);
+  @include background-size(contain);
+
+}
+
+.youtube-icon{
+  @extend %social-icon;
+  background: url(../images/follow/yt.svg);
+  @include background-size(contain);
+}
+
+
+//
+// Product Page
+//
+
+.LM{
+
+  background        : url(../images/products/m1.jpg)  no-repeat center center;
+  @extend %big-detail;
+  @include background-size(cover);
+  background-position: 0px 0px;
+}
+
+.LM7{
+  background        : url(../images/products/m71.jpg)  no-repeat center center;
+  @extend %big-detail;
+  @include background-size(cover);
+  background-position: 0px 0px;
+}
+
+.LM9{
+  background        : url(../images/products/m91.jpg)  no-repeat center center;
+  @extend %big-detail;
+  @include background-size(cover);
+  background-position: 0px 0px;
+
+}
+
+//
+// Product Detail Page
+//
+
+.overview{
+  background        : url(../images/leica/t/side.jpg)  no-repeat center center;
+  @include background-size(cover);
+  @extend %detail-block;
+  padding-top       : 300px;
+
+  a .highlight:hover{
+    background      : $red;
+    color           : $white;
+  }
+  // background        : $white;
+}
+
+.build{
+  background        : url(../images/leica/t/n4.jpg)  no-repeat center center;
+  @include background-size(cover);
+  @extend %feature-block;
+  padding-top       : 300px;
+  // background        : $black;
+  color             : $black;
+
+}
+
+.quality{
+  background        : url(../images/79H.jpg)  no-repeat center center;
+  @include background-size(cover);
+  @extend %feature-block;
+  padding-top       : 300px;
+  // background        : #fafafa;
+}
+
+.memory{
+  background        : url(../images/leica/t/backface.jpg)  no-repeat center center;
+  @include background-size(cover);
+  @extend %detail-block;
+  height            : 600px;
+  padding-top       : 300px;
+  // background        : #555;
+}
+
+.accessories{
+  height            : 680px;
+}
+
+//
+// Support Page
+//
+.support{
+  background        : url(../images/support.jpg) no-repeat center center;
+  @include background-size(cover);
+  padding           : 200px 0 0 0;
+  min-height        : 680px;
+}
+
+//
+// Contact Us
+//
+
+
+//
+// Sign Up Page
+//
+
+.signup-content{
+  @include background-size(cover);
+}
+
+.signup{
+  padding           : 200px 0 0 0;
+  min-height        : 680px;
+  label{
+  letter-spacing    : 1px;
+   color            :$black;
+  }
+
+  .highlight{
+    letter-spacing  : 3px;
+    font-size       : 16px;
+    font-weight     : lighter;
+    background      : $black;
+    color           : $white;
+    border-radius   : 3px;
+
+    &:hover{
+       transition   : .4s;
+       background   :$red;
+    }
+  }
+}
+
+@import 'includes/footer';
+//
+// Different view includes.
+//
+@import 'views/widescreen';
+@import 'views/tablet';
+@import 'views/phone';
+
+

@@ -1,0 +1,70 @@
+doctype html
+html
+	head
+		title Lecia Camera AG
+		meta(charset="utf-8")
+		meta(description="Mycamera website")
+		meta(keywords="cage, boom, brim")
+		meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+
+		link(href="public/css/bootstrap.min.css" type="text/css" rel="stylesheet")
+		link(href="public/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet")
+		link(href="public/css/application.css" type="text/css" rel="stylesheet")
+
+	body
+		//- Header and Nav
+		//- ___________________________.navbar-fixed-top
+		include includes/_nav
+
+		//- Big picture CTA
+		//- ___________________________
+
+		.cta
+			.col-xs-12.col-md-8.col-md-push-2.text-center
+				h1
+					|Passion for perfection.
+				.container.text-center.desktopView
+					.col-xs-6.col-xs-push-3.col.col-md-3.col-md-push-3
+						a(href="products.html").highlight
+							| LEARN MORE
+				.container.text-center.phoneView
+					.col-xs-10.col-xs-push-1.col.col-md-3.col-md-push-2
+						p.highlight
+							| LEARN MORE
+		.tile2.container-fluid
+			.pushDown
+				.highlight.col-md-3.col-md-push-2
+					h2
+						| OUR VALUES
+					p
+						|  Leica products are designed from the ground up as tools for creating completely unique visual experiences - nothing more and nothing less.
+		.tile1.container-fluid.text-center
+			h2
+				| THE LEGEND LIVES ON
+			p
+				| 100 YEARS OF LEICA
+			.col-md-2.col-md-push-5
+				a(href="#")
+					h6.highlight
+						|	READ MORE
+		.tile3.container-fluid.text-center
+			.pushDown
+				h2
+					| FOLLOW US
+				.container.text-center
+					a(href="#").col-md-1.col-md-push-4
+						.google-icon
+					a(href="#").col-md-1.col-md-push-4
+						.facebook-icon
+					a(href="#").col-md-1.col-md-push-4
+						.twitter-icon
+					a(href="#").col-md-1.col-md-push-4
+						.youtube-icon
+
+
+		//-Footer
+		//-___________________________
+		include includes/_footer
+		include includes/_js
+
+

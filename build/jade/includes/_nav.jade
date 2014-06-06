@@ -1,0 +1,39 @@
+nav.navbar.navbar-default(role="navigation")
+	.container
+		.navbar-header
+			button.navbar-toggle(type="button")(data-toggle="collapse")(data-target=".navbar-collapse")
+				span.sr-only Toggle navigation
+				span.icon-bar
+				span.icon-bar
+				span.icon-bar
+			a.navbar-brand.resetLeft(href="#")
+				img.logo(src="public/images/logo3.svg")
+
+
+		.collapse.navbar-collapse
+
+			ul.nav.navbar-nav.pull-right.nav-text
+				li
+					a(href="index.html").active Home
+				li
+					a(href="#").menu-toggle Cameras
+				li
+					a(href="support.html") Support
+				li
+					a(href="signup.html") Sign Up
+
+.camera-menu.desktopView
+	.container.text-center
+		a(href="product_details.html").col-md-1.col-md-push-7
+			.thumbnail.t-cam
+			p Leica T
+		a(href="products.html").col-md-1.col-md-push-7
+			.thumbnail.m-cam
+			p Leica M
+		a(href="#").col-md-1.col-md-push-7
+			.thumbnail.s-cam
+			p Leica S
+		a(href="#").col-md-1.col-md-push-7
+			.thumbnail.x-cam
+			p Leica X
+
