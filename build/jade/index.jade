@@ -1,66 +1,31 @@
 doctype html
 html
 	head
-		title Lecia Camera AG
-		meta(charset="utf-8")
-		meta(description="Mycamera website")
-		meta(keywords="cage, boom, brim")
-		meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
-
-		link(href="public/css/bootstrap.min.css" type="text/css" rel="stylesheet")
-		link(href="public/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet")
-		link(href="public/css/application.css" type="text/css" rel="stylesheet")
-
+		title MOTIV - Get Motivated
+		include includes/_meta
 	body
 		//- Header and Nav
 		//- ___________________________.navbar-fixed-top
 		include includes/_nav
-
 		//- Big picture CTA
 		//- ___________________________
-
-		.cta
-			.col-xs-12.col-md-8.col-md-push-2.text-center
-				h1
-					|Passion for perfection.
-				.container.text-center.desktopView
-					.col-xs-6.col-xs-push-3.col.col-md-3.col-md-push-3
-						a(href="products.html").highlight
-							| LEARN MORE
-				.container.text-center.phoneView
-					.col-xs-10.col-xs-push-1.col.col-md-3.col-md-push-2
-						p.highlight
-							| LEARN MORE
-		.tile2.container-fluid
-			.pushDown
-				.highlight.col-md-3.col-md-push-2
-					h2
-						| OUR VALUES
-					p
-						|  Leica products are designed from the ground up as tools for creating completely unique visual experiences - nothing more and nothing less.
 		.tile1.container-fluid.text-center
-			h2
-				| THE LEGEND LIVES ON
-			p
-				| 100 YEARS OF LEICA
-			.col-md-2.col-md-push-5
+			.cta
 				a(href="#")
-					h6.highlight
-						|	READ MORE
-		.tile3.container-fluid.text-center
-			.pushDown
+					img.cta-logo(src="public/images/logo-05.svg")
 				h2
-					| FOLLOW US
-				.container.text-center
-					a(href="#").col-md-1.col-md-push-4
-						.google-icon
-					a(href="#").col-md-1.col-md-push-4
-						.facebook-icon
-					a(href="#").col-md-1.col-md-push-4
-						.twitter-icon
-					a(href="#").col-md-1.col-md-push-4
-						.youtube-icon
-
+					| GET MOTIVATED
+				//- p.descript
+				//- 	| MANAGE YOUR WORKOUT
+				a(href="").col-md-2.col-md-push-5.button
+					h6
+						|SIGN UP
+			#signUpContent.signUpContent
+				input#userName.input(name='username', type='text', placeholder='Username', required='')
+				input#password.input(name='password', type='password', placeholder='Password', required='')
+				input#email.input(name='email', type='text', placeholder='Email', required='')
+				a#register.button.textB(href='#' type='submit')
+					|	SIGN UP
 
 		//-Footer
 		//-___________________________

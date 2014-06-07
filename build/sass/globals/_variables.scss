@@ -1,4 +1,16 @@
-$paddingH          : 10px;
-$thumbnailPadding  : 20px;
-$thumbnailSize     : 72px;
+$footerType         : 11px;
+$logo               :"(./public/images/logo.svg)";
+
+%feature-block{
+  @include background-size(cover);
+  height            : 760px;
+  margin-bottom     : 0;
+}
+
+%detail-block{
+  @include background-size(cover);
+  height            : 595px;
+  margin-bottom     : 0;
+}
+
 

@@ -1,0 +1,71 @@
+//
+// Index Page
+//
+
+%big-detail{
+  height            : 530px;
+}
+
+%small-detail{
+  height            : 300px
+}
+.cta{
+margin-top          : -90px;
+}
+.cta-logo{
+  width             : 40%;
+  margin-top: 80px;
+}
+
+.descript{
+  letter-spacing    : 1px
+}
+
+.tile1{
+  @extend %big-detail;
+  h2{
+    font-weight     : lighter;
+    letter-spacing  : 3px;
+  }
+  color             : $white;
+  padding-top       : 180px;
+  background        : url(../images/cta2.jpg) no-repeat center center;
+  background-position: 0px -120px;
+  @include background-size(cover);
+  a{
+      color           : $brandAccent;
+      letter-spacing  : 1px;
+      &:hover{
+        text-decoration: none;
+      }
+    }
+
+
+  .button{
+    background        : $white;
+    border-radius     : 6px;
+    width             : 180px;
+    margin-left       : 25px;
+
+}
+
+
+
+}
+
+#signUpContent{
+  display           : none;
+}
+
+$icon-size          : 80px;
+
+%social-icon{
+  height            : $icon-size;
+  width             : $icon-size;
+}
+
+.google-icon{
+  @extend %social-icon;
+  background: url(../images/follow/gp.svg);
+  @include background-size(contain);
+}

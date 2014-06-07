@@ -1,58 +1,202 @@
-/*
-Syntax error: File to import not found or unreadable: includes/resets.
-              Load paths:
-                /Applications/MAMP/htdocs/PWA2/build/sass
-                /Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/blueprint/stylesheets
-                /Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets
-                Compass::SpriteImporter
-        on line 10 of /Applications/MAMP/htdocs/PWA2/build/sass/application.scss
+/* line 23, ../../build/sass/globals/_navigation.scss */
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 11px;
+  background: transparent;
+  border: none;
+}
 
-Backtrace:
-/Applications/MAMP/htdocs/PWA2/build/sass/application.scss:10
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/import_node.rb:67:in `rescue in import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/import_node.rb:45:in `import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/import_node.rb:28:in `imported_file'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/import_node.rb:37:in `css_import?'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/root_node.rb:20:in `render'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/engine.rb:315:in `_render'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/engine.rb:262:in `render'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:139:in `block (2 levels) in compile'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:138:in `block in compile'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/logger.rb:45:in `red'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:137:in `compile'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:118:in `compile_if_required'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `each'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `block in run'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:100:in `run'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/commands/update_project.rb:45:in `perform'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/commands/base.rb:18:in `execute'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/commands/project_base.rb:19:in `execute'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/bin/compass:30:in `block in <top (required)>'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/bin/compass:44:in `call'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/bin/compass:44:in `<top (required)>'
-/usr/bin/compass:23:in `load'
-/usr/bin/compass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: includes/resets.\A               Load paths:\A                 /Applications/MAMP/htdocs/PWA2/build/sass\A                 /Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/blueprint/stylesheets\A                 /Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 10 of /Applications/MAMP/htdocs/PWA2/build/sass/application.scss"; }
+/* line 32, ../../build/sass/globals/_navigation.scss */
+.navbar-brand, .navbar-nav > li > a {
+  text-shadow: none;
+}
+
+/* line 36, ../../build/sass/globals/_navigation.scss */
+.nav-text {
+  letter-spacing: 1px;
+  margin-left: 120px;
+}
+
+/* line 41, ../../build/sass/globals/_navigation.scss */
+.logo {
+  width: 100%;
+  height: 100%;
+  margin-top: -5px;
+  margin-left: -35px;
+}
+
+/* line 48, ../../build/sass/globals/_navigation.scss */
+nav {
+  z-index: 3;
+  position: absolute;
+  padding-top: 10px;
+  background: white;
+  width: 100%;
+  top: 0px;
+  height: 65px;
+}
+/* line 57, ../../build/sass/globals/_navigation.scss */
+nav ul {
+  margin-left: 30px;
+  margin-top: -70px;
+  list-style-type: none;
+}
+/* line 62, ../../build/sass/globals/_navigation.scss */
+nav ul li {
+  display: inline;
+  padding: 0 10px;
+}
+
+/* line 69, ../../build/sass/globals/_navigation.scss */
+.camera-menu {
+  z-index: 2;
+  position: absolute;
+  background: #333333;
+  color: white;
+  width: 100%;
+  height: 135px;
+  transition: top .2s;
+}
+
+/* line 80, ../../build/sass/globals/_navigation.scss */
+.camera-menu {
+  top: 0px;
+  margin-top: -70px;
+}
+
+/* line 85, ../../build/sass/globals/_navigation.scss */
+.open-camera-menu {
+  top: 135px;
+}
+
+/* line 18, ../../build/sass/application.scss */
+html, body {
+  background: white;
+}
+
+/* line 5, ../../build/sass/views/_index.scss */
+.tile1 {
+  height: 530px;
+}
+
+/* line 12, ../../build/sass/views/_index.scss */
+.cta {
+  margin-top: -90px;
+}
+
+/* line 15, ../../build/sass/views/_index.scss */
+.cta-logo {
+  width: 40%;
+  margin-top: 80px;
+}
+
+/* line 20, ../../build/sass/views/_index.scss */
+.descript {
+  letter-spacing: 1px;
+}
+
+/* line 24, ../../build/sass/views/_index.scss */
+.tile1 {
+  color: white;
+  padding-top: 180px;
+  background: url(../images/cta2.jpg) no-repeat center center;
+  background-position: 0px -120px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 26, ../../build/sass/views/_index.scss */
+.tile1 h2 {
+  font-weight: lighter;
+  letter-spacing: 3px;
+}
+/* line 35, ../../build/sass/views/_index.scss */
+.tile1 a {
+  color: #91cc8e;
+  letter-spacing: 1px;
+}
+/* line 38, ../../build/sass/views/_index.scss */
+.tile1 a:hover {
+  text-decoration: none;
+}
+/* line 44, ../../build/sass/views/_index.scss */
+.tile1 .button {
+  background: white;
+  border-radius: 6px;
+  width: 180px;
+  margin-left: 25px;
+}
+
+/* line 56, ../../build/sass/views/_index.scss */
+#signUpContent {
+  display: none;
+}
+
+/* line 62, ../../build/sass/views/_index.scss */
+.google-icon {
+  height: 80px;
+  width: 80px;
+}
+
+/* line 67, ../../build/sass/views/_index.scss */
+.google-icon {
+  background: url(../images/follow/gp.svg);
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+/* line 5, ../../build/sass/views/_project.scss */
+.signup-content {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 9, ../../build/sass/views/_project.scss */
+.signup {
+  padding: 200px 0 0 0;
+  min-height: 680px;
+}
+/* line 12, ../../build/sass/views/_project.scss */
+.signup label {
+  letter-spacing: 1px;
+  color: #333333;
+}
+/* line 17, ../../build/sass/views/_project.scss */
+.signup .highlight {
+  letter-spacing: 3px;
+  font-size: 16px;
+  font-weight: lighter;
+  background: #333333;
+  color: white;
+  border-radius: 3px;
+}
+/* line 25, ../../build/sass/views/_project.scss */
+.signup .highlight:hover {
+  transition: .4s;
+}
+
+/* line 2, ../../build/sass/includes/_footer.scss */
+#footer {
+  font-size: 11px;
+  color: #333333;
+  background: white;
+  width: 100%;
+  height: 120px;
+  padding-top: 100px;
+}
+/* line 10, ../../build/sass/includes/_footer.scss */
+#footer a {
+  color: #333333;
+}
+/* line 14, ../../build/sass/includes/_footer.scss */
+#footer ul li {
+  padding-right: 36px;
+  display: inline;
+}
