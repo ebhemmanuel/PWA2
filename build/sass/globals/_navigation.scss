@@ -24,8 +24,8 @@ $logoSize             : 100%;
   margin-bottom       : 0px;
   border-radius       : 0;
   box-shadow          : none;
-  font-size           : $footerType;
-  background          : transparent;
+  font-size           : $navType;
+  background-color    : transparent;
   border              : none;
  }
 
@@ -49,7 +49,7 @@ nav{
   z-index             : 3;
   position            : absolute;
   padding-top         : $paddingDesktopNav;
-  background          : $white;
+  background-color    : transparent;
   width               : 100%;
   top                 : 0px;
   height              : $navDesktopHeight;

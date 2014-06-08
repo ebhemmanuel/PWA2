@@ -3,8 +3,8 @@
   margin-bottom: 0px;
   border-radius: 0;
   box-shadow: none;
-  font-size: 11px;
-  background: transparent;
+  font-size: 12px;
+  background-color: transparent;
   border: none;
 }
 
@@ -32,7 +32,7 @@ nav {
   z-index: 3;
   position: absolute;
   padding-top: 10px;
-  background: white;
+  background-color: transparent;
   width: 100%;
   top: 0px;
   height: 65px;
@@ -77,27 +77,21 @@ html, body {
 }
 
 /* line 5, ../../build/sass/views/_index.scss */
-.tile1 {
+.tile1, .tile2 {
   height: 530px;
 }
 
 /* line 12, ../../build/sass/views/_index.scss */
 .cta {
-  margin-top: -90px;
+  margin-top: -20px;
 }
 
-/* line 15, ../../build/sass/views/_index.scss */
+/* line 16, ../../build/sass/views/_index.scss */
 .cta-logo {
   width: 40%;
-  margin-top: 80px;
 }
 
 /* line 20, ../../build/sass/views/_index.scss */
-.descript {
-  letter-spacing: 1px;
-}
-
-/* line 24, ../../build/sass/views/_index.scss */
 .tile1 {
   color: white;
   padding-top: 180px;
@@ -108,21 +102,23 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 26, ../../build/sass/views/_index.scss */
+/* line 22, ../../build/sass/views/_index.scss */
 .tile1 h2 {
   font-weight: lighter;
   letter-spacing: 3px;
+  margin-bottom: 20px;
+  margin-top: -5px;
 }
-/* line 35, ../../build/sass/views/_index.scss */
+/* line 33, ../../build/sass/views/_index.scss */
 .tile1 a {
   color: #91cc8e;
   letter-spacing: 1px;
 }
-/* line 38, ../../build/sass/views/_index.scss */
+/* line 36, ../../build/sass/views/_index.scss */
 .tile1 a:hover {
   text-decoration: none;
 }
-/* line 44, ../../build/sass/views/_index.scss */
+/* line 41, ../../build/sass/views/_index.scss */
 .tile1 .button {
   background: white;
   border-radius: 6px;
@@ -130,18 +126,39 @@ html, body {
   margin-left: 25px;
 }
 
+/* line 49, ../../build/sass/views/_index.scss */
+.tile2 {
+  background: #ECECEC;
+  padding-top: 70px;
+}
+/* line 53, ../../build/sass/views/_index.scss */
+.tile2 h2 {
+  font-weight: 300;
+}
 /* line 56, ../../build/sass/views/_index.scss */
+.tile2 p {
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+/* line 62, ../../build/sass/views/_index.scss */
+.tile3 {
+  padding-top: 20px;
+  margin-top: 120px;
+}
+
+/* line 68, ../../build/sass/views/_index.scss */
 #signUpContent {
   display: none;
 }
 
-/* line 62, ../../build/sass/views/_index.scss */
+/* line 74, ../../build/sass/views/_index.scss */
 .google-icon {
   height: 80px;
   width: 80px;
 }
 
-/* line 67, ../../build/sass/views/_index.scss */
+/* line 79, ../../build/sass/views/_index.scss */
 .google-icon {
   background: url(../images/follow/gp.svg);
   -webkit-background-size: contain;
@@ -189,7 +206,7 @@ html, body {
   background: white;
   width: 100%;
   height: 120px;
-  padding-top: 100px;
+  padding-top: 60px;
 }
 /* line 10, ../../build/sass/includes/_footer.scss */
 #footer a {

@@ -5,20 +5,16 @@
 %big-detail{
   height            : 530px;
 }
-
 %small-detail{
   height            : 300px
 }
+
 .cta{
-margin-top          : -90px;
-}
-.cta-logo{
-  width             : 40%;
-  margin-top: 80px;
+margin-top          : -20px;
 }
 
-.descript{
-  letter-spacing    : 1px
+.cta-logo{
+  width             : 40%;
 }
 
 .tile1{
@@ -26,6 +22,8 @@ margin-top          : -90px;
   h2{
     font-weight     : lighter;
     letter-spacing  : 3px;
+    margin-bottom   : 20px;
+    margin-top      : -5px;
   }
   color             : $white;
   padding-top       : 180px;
@@ -40,28 +38,42 @@ margin-top          : -90px;
       }
     }
 
-
   .button{
     background        : $white;
     border-radius     : 6px;
     width             : 180px;
     margin-left       : 25px;
-
+  }
 }
 
-
-
+.tile2{
+    @extend %big-detail;
+    background        : #ECECEC;
+    padding-top       : 70px;
+    h2{
+      font-weight     : 300;
+    }
+    p{
+      font-weight     : 300;
+      letter-spacing  : 1px;
+    }
 }
+
+.tile3{
+  padding-top         : 20px;
+  margin-top          : 120px;
+}
+
 
 #signUpContent{
-  display           : none;
+  display            : none;
 }
 
-$icon-size          : 80px;
+$icon-size           : 80px;
 
 %social-icon{
-  height            : $icon-size;
-  width             : $icon-size;
+  height             : $icon-size;
+  width              : $icon-size;
 }
 
 .google-icon{
