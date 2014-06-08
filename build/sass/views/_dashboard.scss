@@ -12,7 +12,7 @@
 
 
   #addCollapse{
-    display           : none;
+    display           : block;
     margin-top        : 30px;
     width             : $addButton;
     height            : $addButton;
@@ -22,19 +22,25 @@
     font-weight       : 300;
     background        : $white;
      a{
-      color           : $brandSecondary
+      color           : $brandAccent;
       }
     &:hover{
-      background      : $brandSecondary;
+      background      : $brandAccent;
       a{
         color           : $white;
         text-decoration : none;
       }
+     &:active{
+      background      : $brandSecondary;
+      a:{
+        color         : $white;
+      }
+     }
     }
   }
 
 .addEntry{
-  display             : none;
+  display             : block;
   padding-top         : 60px;
   background          : $green;
   height              : 420px;

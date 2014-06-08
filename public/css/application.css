@@ -187,7 +187,7 @@ html, body {
 
 /* line 14, ../../build/sass/views/_dashboard.scss */
 #addCollapse {
-  display: none;
+  display: block;
   margin-top: 30px;
   width: 50px;
   height: 50px;
@@ -199,26 +199,31 @@ html, body {
 }
 /* line 24, ../../build/sass/views/_dashboard.scss */
 #addCollapse a {
-  color: #33ba9e;
+  color: #91cc8e;
 }
 /* line 27, ../../build/sass/views/_dashboard.scss */
 #addCollapse:hover {
-  background: #33ba9e;
+  background: #91cc8e;
 }
 /* line 29, ../../build/sass/views/_dashboard.scss */
 #addCollapse:hover a {
   color: white;
   text-decoration: none;
 }
+/* line 33, ../../build/sass/views/_dashboard.scss */
+#addCollapse:hover:active {
+  background: #33ba9e;
+  a-color: white;
+}
 
-/* line 36, ../../build/sass/views/_dashboard.scss */
+/* line 42, ../../build/sass/views/_dashboard.scss */
 .addEntry {
-  display: none;
+  display: block;
   padding-top: 60px;
   background: #33ba9e;
   height: 420px;
 }
-/* line 42, ../../build/sass/views/_dashboard.scss */
+/* line 48, ../../build/sass/views/_dashboard.scss */
 .addEntry label {
   color: white;
   font-size: 16px;
@@ -231,7 +236,7 @@ html, body {
   float: left;
   clear: left;
 }
-/* line 55, ../../build/sass/views/_dashboard.scss */
+/* line 61, ../../build/sass/views/_dashboard.scss */
 .addEntry input {
   display: inline-block;
   background: #ECECEC;
@@ -241,35 +246,35 @@ html, body {
   margin-left: 15px;
   float: left;
 }
-/* line 65, ../../build/sass/views/_dashboard.scss */
+/* line 71, ../../build/sass/views/_dashboard.scss */
 .addEntry -moz-focus-inner {
   border: 0;
   padding: 0;
 }
-/* line 70, ../../build/sass/views/_dashboard.scss */
+/* line 76, ../../build/sass/views/_dashboard.scss */
 .addEntry input:focus, .addEntry textarea:focus {
   outline: none;
 }
-/* line 73, ../../build/sass/views/_dashboard.scss */
+/* line 79, ../../build/sass/views/_dashboard.scss */
 .addEntry .submit {
   margin-top: 20px;
   padding: 10px;
   width: 160px;
 }
-/* line 78, ../../build/sass/views/_dashboard.scss */
+/* line 84, ../../build/sass/views/_dashboard.scss */
 .addEntry ul li {
   list-style: none;
   padding-top: 20px;
   padding-bottom: 35px;
 }
 
-/* line 90, ../../build/sass/views/_dashboard.scss */
+/* line 96, ../../build/sass/views/_dashboard.scss */
 .history {
   height: 520px;
   background: #91cc8e;
   color: white;
 }
-/* line 94, ../../build/sass/views/_dashboard.scss */
+/* line 100, ../../build/sass/views/_dashboard.scss */
 .history h2 {
   font-weight: 300;
   letter-spacing: 1px;
