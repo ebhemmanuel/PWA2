@@ -140,42 +140,45 @@ html, body {
 .tile1 .button {
   background: white;
   border-radius: 6px;
-  width: 180px;
-  margin-left: 25px;
+  width: 230px;
+}
+/* line 45, ../../build/sass/views/_index.scss */
+.tile1 .button h5 {
+  font-weight: 300;
 }
 
-/* line 49, ../../build/sass/views/_index.scss */
+/* line 51, ../../build/sass/views/_index.scss */
 .tile2 {
   background: #ECECEC;
   padding-top: 70px;
 }
-/* line 53, ../../build/sass/views/_index.scss */
+/* line 55, ../../build/sass/views/_index.scss */
 .tile2 h2 {
   font-weight: 300;
 }
-/* line 56, ../../build/sass/views/_index.scss */
+/* line 58, ../../build/sass/views/_index.scss */
 .tile2 p {
   font-weight: 300;
   letter-spacing: 1px;
 }
 
-/* line 62, ../../build/sass/views/_index.scss */
+/* line 64, ../../build/sass/views/_index.scss */
 .tile3 {
   padding-top: 220px;
 }
 
-/* line 66, ../../build/sass/views/_index.scss */
-.grid3 {
-  margin-left: 120px;
+/* line 68, ../../build/sass/views/_index.scss */
+.grid-align {
+  margin-left: 125px;
 }
 
-/* line 70, ../../build/sass/views/_index.scss */
-.gridPad {
+/* line 72, ../../build/sass/views/_index.scss */
+.grid-pad {
   padding: 2px;
   margin-right: 40px;
 }
 
-/* line 76, ../../build/sass/views/_index.scss */
+/* line 78, ../../build/sass/views/_index.scss */
 .grid-spacer {
   height: 2px;
   background: #999;
@@ -184,7 +187,7 @@ html, body {
   border-radius: 3px;
 }
 
-/* line 84, ../../build/sass/views/_index.scss */
+/* line 86, ../../build/sass/views/_index.scss */
 .number {
   display: block;
   margin-top: -50px;
@@ -198,18 +201,18 @@ html, body {
   padding-top: 5px;
 }
 
-/* line 98, ../../build/sass/views/_index.scss */
+/* line 100, ../../build/sass/views/_index.scss */
 #signUpContent {
   display: none;
 }
 
-/* line 104, ../../build/sass/views/_index.scss */
+/* line 106, ../../build/sass/views/_index.scss */
 .google-icon {
   height: 80px;
   width: 80px;
 }
 
-/* line 109, ../../build/sass/views/_index.scss */
+/* line 111, ../../build/sass/views/_index.scss */
 .google-icon {
   background: url(../images/follow/gp.svg);
   -webkit-background-size: contain;
