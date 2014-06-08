@@ -23,24 +23,28 @@ height                : 2px;
 
 .nav-invis {
   padding-top         : 30px;
+  transition          : 0.2;
 
   li>a{
     color             : $white;
-    font-size         : 15px;
+    font-size         : 11px;
+    font-weight       : 300;
+    letter-spacing    : 2px;
   }
   li>a:hover{
     background        : transparent;
+    text-decoration   : underline;
  }
 }
 
-// .navbar{
-//   margin-bottom       : 0px;
-//   border-radius       : 0;
-//   box-shadow          : none;
-//   font-size           : $navType;
-//   background          : $white;
-//   border              : none;
-//  }
+.navbar{
+  margin-bottom       : 0px;
+  border-radius       : 0;
+  box-shadow          : none;
+  font-size           : $navType;
+  background          : $white;
+  border              : none;
+ }
 
 .navbar-admin{
   background          : $white;

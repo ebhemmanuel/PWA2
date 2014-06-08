@@ -8,34 +8,48 @@
 /* line 24, ../../build/sass/globals/_navigation.scss */
 .nav-invis {
   padding-top: 30px;
+  transition: 0.2;
 }
-/* line 27, ../../build/sass/globals/_navigation.scss */
+/* line 28, ../../build/sass/globals/_navigation.scss */
 .nav-invis li > a {
   color: white;
-  font-size: 15px;
+  font-size: 11px;
+  font-weight: 300;
+  letter-spacing: 2px;
 }
-/* line 31, ../../build/sass/globals/_navigation.scss */
+/* line 34, ../../build/sass/globals/_navigation.scss */
 .nav-invis li > a:hover {
   background: transparent;
+  text-decoration: underline;
 }
 
-/* line 45, ../../build/sass/globals/_navigation.scss */
+/* line 40, ../../build/sass/globals/_navigation.scss */
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 12px;
+  background: white;
+  border: none;
+}
+
+/* line 49, ../../build/sass/globals/_navigation.scss */
 .navbar-admin {
   background: white;
 }
 
-/* line 51, ../../build/sass/globals/_navigation.scss */
+/* line 55, ../../build/sass/globals/_navigation.scss */
 .navbar-brand, .navbar-nav > li > a {
   text-shadow: none;
 }
 
-/* line 55, ../../build/sass/globals/_navigation.scss */
+/* line 59, ../../build/sass/globals/_navigation.scss */
 .nav-text {
   letter-spacing: 1px;
   margin-left: 120px;
 }
 
-/* line 60, ../../build/sass/globals/_navigation.scss */
+/* line 64, ../../build/sass/globals/_navigation.scss */
 .logo {
   width: 100%;
   height: 100%;
@@ -43,13 +57,13 @@
   margin-left: -35px;
 }
 
-/* line 67, ../../build/sass/globals/_navigation.scss */
+/* line 71, ../../build/sass/globals/_navigation.scss */
 .smallLogo {
   margin-top: -5px;
   margin-left: 85px;
 }
 
-/* line 72, ../../build/sass/globals/_navigation.scss */
+/* line 76, ../../build/sass/globals/_navigation.scss */
 nav {
   z-index: 3;
   position: absolute;
@@ -58,19 +72,19 @@ nav {
   top: 0px;
   height: 65px;
 }
-/* line 80, ../../build/sass/globals/_navigation.scss */
+/* line 84, ../../build/sass/globals/_navigation.scss */
 nav ul {
   margin-left: 30px;
   margin-top: -70px;
   list-style-type: none;
 }
-/* line 85, ../../build/sass/globals/_navigation.scss */
+/* line 89, ../../build/sass/globals/_navigation.scss */
 nav ul li {
   display: inline;
   padding: 0 10px;
 }
 
-/* line 92, ../../build/sass/globals/_navigation.scss */
+/* line 96, ../../build/sass/globals/_navigation.scss */
 .camera-menu {
   z-index: 2;
   position: absolute;
@@ -81,13 +95,13 @@ nav ul li {
   transition: top .2s;
 }
 
-/* line 103, ../../build/sass/globals/_navigation.scss */
+/* line 107, ../../build/sass/globals/_navigation.scss */
 .camera-menu {
   top: 0px;
   margin-top: -70px;
 }
 
-/* line 108, ../../build/sass/globals/_navigation.scss */
+/* line 112, ../../build/sass/globals/_navigation.scss */
 .open-camera-menu {
   top: 135px;
 }
@@ -110,7 +124,7 @@ html, body {
 /* line 16, ../../build/sass/views/_index.scss */
 .cta-logo {
   width: 40%;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 
 /* line 21, ../../build/sass/views/_index.scss */
@@ -127,20 +141,28 @@ html, body {
 /* line 23, ../../build/sass/views/_index.scss */
 .tile1 h2 {
   font-weight: lighter;
-  letter-spacing: 3px;
+  font-size: 22px;
+  letter-spacing: 6px;
   margin-bottom: 20px;
   margin-top: -5px;
 }
-/* line 34, ../../build/sass/views/_index.scss */
+/* line 35, ../../build/sass/views/_index.scss */
 .tile1 a {
   color: #91cc8e;
   letter-spacing: 1px;
 }
-/* line 37, ../../build/sass/views/_index.scss */
+/* line 38, ../../build/sass/views/_index.scss */
 .tile1 a:hover {
   text-decoration: none;
 }
 /* line 42, ../../build/sass/views/_index.scss */
+.tile1 .cta-spacer {
+  width: 400px;
+  height: 2px;
+  background: #ececec;
+  opacity: .5;
+}
+/* line 49, ../../build/sass/views/_index.scss */
 .tile1 .button {
   background: white;
   border-radius: 6px;
@@ -149,43 +171,43 @@ html, body {
   height: 40px;
   padding-top: 3px;
 }
-/* line 49, ../../build/sass/views/_index.scss */
+/* line 56, ../../build/sass/views/_index.scss */
 .tile1 .button h5 {
   font-weight: 300;
 }
 
-/* line 55, ../../build/sass/views/_index.scss */
+/* line 62, ../../build/sass/views/_index.scss */
 .tile2 {
-  background: #ECECEC;
+  background: #ececec;
   padding-top: 70px;
 }
-/* line 59, ../../build/sass/views/_index.scss */
+/* line 66, ../../build/sass/views/_index.scss */
 .tile2 h2 {
   font-weight: 300;
 }
-/* line 62, ../../build/sass/views/_index.scss */
+/* line 69, ../../build/sass/views/_index.scss */
 .tile2 p {
   font-weight: 300;
   letter-spacing: 1px;
 }
 
-/* line 68, ../../build/sass/views/_index.scss */
+/* line 75, ../../build/sass/views/_index.scss */
 .tile3 {
   padding-top: 220px;
 }
 
-/* line 72, ../../build/sass/views/_index.scss */
+/* line 79, ../../build/sass/views/_index.scss */
 .grid-align {
   margin-left: 125px;
 }
 
-/* line 76, ../../build/sass/views/_index.scss */
+/* line 83, ../../build/sass/views/_index.scss */
 .grid-pad {
   padding: 2px;
   margin-right: 40px;
 }
 
-/* line 82, ../../build/sass/views/_index.scss */
+/* line 89, ../../build/sass/views/_index.scss */
 .grid-spacer {
   height: 2px;
   background: #999;
@@ -194,7 +216,7 @@ html, body {
   border-radius: 3px;
 }
 
-/* line 90, ../../build/sass/views/_index.scss */
+/* line 97, ../../build/sass/views/_index.scss */
 .number {
   display: block;
   margin-top: -50px;
@@ -208,18 +230,18 @@ html, body {
   padding-top: 5px;
 }
 
-/* line 104, ../../build/sass/views/_index.scss */
+/* line 111, ../../build/sass/views/_index.scss */
 #signUpContent {
   display: none;
 }
 
-/* line 110, ../../build/sass/views/_index.scss */
+/* line 117, ../../build/sass/views/_index.scss */
 .google-icon {
   height: 80px;
   width: 80px;
 }
 
-/* line 115, ../../build/sass/views/_index.scss */
+/* line 122, ../../build/sass/views/_index.scss */
 .google-icon {
   background: url(../images/follow/gp.svg);
   -webkit-background-size: contain;
@@ -314,8 +336,8 @@ html, body {
 /* line 96, ../../build/sass/views/_dashboard.scss */
 .history {
   height: 520px;
-  background: #91cc8e;
-  color: white;
+  background: #ECECEC;
+  color: #333333;
 }
 /* line 100, ../../build/sass/views/_dashboard.scss */
 .history h2 {
