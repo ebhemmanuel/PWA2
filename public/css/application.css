@@ -1,4 +1,11 @@
-/* line 23, ../../build/sass/globals/_navigation.scss */
+/* line 18, ../../build/sass/globals/_navigation.scss */
+.spacer-line {
+  background: #91cc8e;
+  width: 100%;
+  height: 2px;
+}
+
+/* line 24, ../../build/sass/globals/_navigation.scss */
 .navbar {
   margin-bottom: 0px;
   border-radius: 0;
@@ -8,18 +15,23 @@
   border: none;
 }
 
-/* line 32, ../../build/sass/globals/_navigation.scss */
+/* line 33, ../../build/sass/globals/_navigation.scss */
+.navbar-admin {
+  background: white;
+}
+
+/* line 39, ../../build/sass/globals/_navigation.scss */
 .navbar-brand, .navbar-nav > li > a {
   text-shadow: none;
 }
 
-/* line 36, ../../build/sass/globals/_navigation.scss */
+/* line 43, ../../build/sass/globals/_navigation.scss */
 .nav-text {
   letter-spacing: 1px;
   margin-left: 120px;
 }
 
-/* line 41, ../../build/sass/globals/_navigation.scss */
+/* line 48, ../../build/sass/globals/_navigation.scss */
 .logo {
   width: 100%;
   height: 100%;
@@ -27,7 +39,13 @@
   margin-left: -35px;
 }
 
-/* line 48, ../../build/sass/globals/_navigation.scss */
+/* line 55, ../../build/sass/globals/_navigation.scss */
+.smallLogo {
+  margin-top: -5px;
+  margin-left: 85px;
+}
+
+/* line 60, ../../build/sass/globals/_navigation.scss */
 nav {
   z-index: 3;
   position: absolute;
@@ -37,19 +55,19 @@ nav {
   top: 0px;
   height: 65px;
 }
-/* line 57, ../../build/sass/globals/_navigation.scss */
+/* line 69, ../../build/sass/globals/_navigation.scss */
 nav ul {
   margin-left: 30px;
   margin-top: -70px;
   list-style-type: none;
 }
-/* line 62, ../../build/sass/globals/_navigation.scss */
+/* line 74, ../../build/sass/globals/_navigation.scss */
 nav ul li {
   display: inline;
   padding: 0 10px;
 }
 
-/* line 69, ../../build/sass/globals/_navigation.scss */
+/* line 81, ../../build/sass/globals/_navigation.scss */
 .camera-menu {
   z-index: 2;
   position: absolute;
@@ -60,13 +78,13 @@ nav ul li {
   transition: top .2s;
 }
 
-/* line 80, ../../build/sass/globals/_navigation.scss */
+/* line 92, ../../build/sass/globals/_navigation.scss */
 .camera-menu {
   top: 0px;
   margin-top: -70px;
 }
 
-/* line 85, ../../build/sass/globals/_navigation.scss */
+/* line 97, ../../build/sass/globals/_navigation.scss */
 .open-camera-menu {
   top: 135px;
 }
@@ -167,36 +185,94 @@ html, body {
   background-size: contain;
 }
 
-/* line 5, ../../build/sass/views/_project.scss */
-.signup-content {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+/* line 14, ../../build/sass/views/_dashboard.scss */
+#addCollapse {
+  display: none;
+  margin-top: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 300;
+  background: white;
+}
+/* line 24, ../../build/sass/views/_dashboard.scss */
+#addCollapse a {
+  color: #33ba9e;
+}
+/* line 27, ../../build/sass/views/_dashboard.scss */
+#addCollapse:hover {
+  background: #33ba9e;
+}
+/* line 29, ../../build/sass/views/_dashboard.scss */
+#addCollapse:hover a {
+  color: white;
+  text-decoration: none;
 }
 
-/* line 9, ../../build/sass/views/_project.scss */
-.signup {
-  padding: 200px 0 0 0;
-  min-height: 680px;
+/* line 36, ../../build/sass/views/_dashboard.scss */
+.addEntry {
+  display: none;
+  padding-top: 60px;
+  background: #33ba9e;
+  height: 420px;
 }
-/* line 12, ../../build/sass/views/_project.scss */
-.signup label {
-  letter-spacing: 1px;
-  color: #333333;
-}
-/* line 17, ../../build/sass/views/_project.scss */
-.signup .highlight {
-  letter-spacing: 3px;
-  font-size: 16px;
-  font-weight: lighter;
-  background: #333333;
+/* line 42, ../../build/sass/views/_dashboard.scss */
+.addEntry label {
   color: white;
-  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  width: 250px;
+  display: inline-block;
+  text-align: right;
+  float: left;
+  clear: left;
 }
-/* line 25, ../../build/sass/views/_project.scss */
-.signup .highlight:hover {
-  transition: .4s;
+/* line 55, ../../build/sass/views/_dashboard.scss */
+.addEntry input {
+  display: inline-block;
+  background: #ECECEC;
+  padding: 10px;
+  border-width: 0;
+  border-radius: 6px;
+  margin-left: 15px;
+  float: left;
+}
+/* line 65, ../../build/sass/views/_dashboard.scss */
+.addEntry -moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+/* line 70, ../../build/sass/views/_dashboard.scss */
+.addEntry input:focus, .addEntry textarea:focus {
+  outline: none;
+}
+/* line 73, ../../build/sass/views/_dashboard.scss */
+.addEntry .submit {
+  margin-top: 20px;
+  padding: 10px;
+  width: 160px;
+}
+/* line 78, ../../build/sass/views/_dashboard.scss */
+.addEntry ul li {
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+
+/* line 90, ../../build/sass/views/_dashboard.scss */
+.history {
+  height: 520px;
+  background: #91cc8e;
+  color: white;
+}
+/* line 94, ../../build/sass/views/_dashboard.scss */
+.history h2 {
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
 /* line 2, ../../build/sass/includes/_footer.scss */

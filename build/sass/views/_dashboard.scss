@@ -1,0 +1,98 @@
+//
+// Dashboard Page
+//
+
+#add{
+  // display           : none;
+}
+
+.block{
+  // display           : block;
+}
+
+
+  #addCollapse{
+    display           : none;
+    margin-top        : 30px;
+    width             : $addButton;
+    height            : $addButton;
+    border-radius     : 50%;
+    font-size         : 32px;
+    text-align        : center;
+    font-weight       : 300;
+    background        : $white;
+     a{
+      color           : $brandSecondary
+      }
+    &:hover{
+      background      : $brandSecondary;
+      a{
+        color           : $white;
+        text-decoration : none;
+      }
+    }
+  }
+
+.addEntry{
+  display             : none;
+  padding-top         : 60px;
+  background          : $green;
+  height              : 420px;
+
+  label{
+    color             : $white;
+    font-size         : 16px;
+    font-weight       : 300;
+    letter-spacing    : 1px;
+    margin-top: 10px;
+    width             : 250px;
+    display           : inline-block;
+    text-align        : right;
+    float             : left;
+    clear             : left;
+  }
+
+  input {
+    display           : inline-block;
+    background        : #ECECEC;
+    padding           : 10px;
+    border-width      : 0;
+    border-radius     : 6px;
+    margin-left       : 15px;
+    float             : left;
+  }
+
+  -moz-focus-inner {
+    border            : 0;
+    padding           : 0;
+}
+
+input:focus, textarea:focus {
+    outline           : none;
+}
+.submit{
+margin-top            : 20px;
+padding               : 10px;
+width                 : 160px;
+}
+  ul li{
+    list-style        : none;
+    padding-top       : 20px;
+    padding-bottom    : 35px;
+  }
+}
+
+
+//
+// History
+//
+
+.history{
+  height              : 520px;
+  background          : $brandAccent;
+  color               : $white;
+h2{
+  font-weight         : 300;
+  letter-spacing      : 1px;
+  }
+}
