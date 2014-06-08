@@ -6,10 +6,11 @@ html
 	body
 		//- Header and Nav
 		//- ___________________________.navbar-fixed-top
-		include includes/_nav
+
 		//- Big picture CTA
 		//- ___________________________
 		.tile1.container-fluid.text-center
+			include includes/_nav
 			.cta
 				img.cta-logo(src="public/images/logo-05.svg")
 				.tag-line
@@ -20,17 +21,20 @@ html
 				a(href="").col-md-2.col-md-push-5.button
 					h5
 						|SIGN UP
+
 			#signUpContent.signUpContent
 				input#userName.input(name='username', type='text', placeholder='Username', required='')
 				input#password.input(name='password', type='password', placeholder='Password', required='')
 				input#email.input(name='email', type='text', placeholder='Email', required='')
 				a#register.button.textB(href='#' type='submit')
 					|	SIGN UP
+
 		.tile2.container-fluid
 			.col-md-12.text-center
 				h2 MORE WORK OUT, LESS CALORIES.
 				p Organize and manage the amount of daily calories.
 				.grid-spacer.col-md-8.col-md-push-2
+
 			.tile3.container-fluid
 				.grid-align.col-md-10
 					.grid-pad.col-md-3.col-md-push-1

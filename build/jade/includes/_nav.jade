@@ -1,20 +1,8 @@
-nav.navbar.navbar-default(role="navigation")
-	.container
-		.navbar-header
-			button.navbar-toggle(type="button")(data-toggle="collapse")(data-target=".navbar-collapse")
-				span.sr-only Toggle navigation
-				span.icon-bar
-				span.icon-bar
-				span.icon-bar
-			//- a.navbar-brand.resetLeft(href="#")
-			//- 	img.logo(src="public/images/logo.svg")
-
-
-		.collapse.navbar-collapse
-			ul.nav.navbar-nav.nav-text.pull-right
-				li
-					a(href="index.html").active.pull-right
-						| Sign In
+nav.nav-invis.col-md-push-9
+	ul.navbar-nav
+		li
+			a(href="index.html")
+				| Sign In
 			//- #logInContent.logInContent
 			//- 	input#user.input(name='signinButton', type='text', placeholder='Username', required='')
 			//- 	input#pass.input(name='signinButton', type='password', placeholder='Password', required='')

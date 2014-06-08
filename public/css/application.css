@@ -6,32 +6,36 @@
 }
 
 /* line 24, ../../build/sass/globals/_navigation.scss */
-.navbar {
-  margin-bottom: 0px;
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 12px;
-  background: white;
-  border: none;
+.nav-invis {
+  padding-top: 30px;
+}
+/* line 27, ../../build/sass/globals/_navigation.scss */
+.nav-invis li > a {
+  color: white;
+  font-size: 15px;
+}
+/* line 31, ../../build/sass/globals/_navigation.scss */
+.nav-invis li > a:hover {
+  background: transparent;
 }
 
-/* line 33, ../../build/sass/globals/_navigation.scss */
+/* line 45, ../../build/sass/globals/_navigation.scss */
 .navbar-admin {
   background: white;
 }
 
-/* line 39, ../../build/sass/globals/_navigation.scss */
+/* line 51, ../../build/sass/globals/_navigation.scss */
 .navbar-brand, .navbar-nav > li > a {
   text-shadow: none;
 }
 
-/* line 43, ../../build/sass/globals/_navigation.scss */
+/* line 55, ../../build/sass/globals/_navigation.scss */
 .nav-text {
   letter-spacing: 1px;
   margin-left: 120px;
 }
 
-/* line 48, ../../build/sass/globals/_navigation.scss */
+/* line 60, ../../build/sass/globals/_navigation.scss */
 .logo {
   width: 100%;
   height: 100%;
@@ -39,35 +43,34 @@
   margin-left: -35px;
 }
 
-/* line 55, ../../build/sass/globals/_navigation.scss */
+/* line 67, ../../build/sass/globals/_navigation.scss */
 .smallLogo {
   margin-top: -5px;
   margin-left: 85px;
 }
 
-/* line 60, ../../build/sass/globals/_navigation.scss */
+/* line 72, ../../build/sass/globals/_navigation.scss */
 nav {
   z-index: 3;
   position: absolute;
   padding-top: 10px;
   background-color: transparent;
-  width: 100%;
   top: 0px;
   height: 65px;
 }
-/* line 69, ../../build/sass/globals/_navigation.scss */
+/* line 80, ../../build/sass/globals/_navigation.scss */
 nav ul {
   margin-left: 30px;
   margin-top: -70px;
   list-style-type: none;
 }
-/* line 74, ../../build/sass/globals/_navigation.scss */
+/* line 85, ../../build/sass/globals/_navigation.scss */
 nav ul li {
   display: inline;
   padding: 0 10px;
 }
 
-/* line 81, ../../build/sass/globals/_navigation.scss */
+/* line 92, ../../build/sass/globals/_navigation.scss */
 .camera-menu {
   z-index: 2;
   position: absolute;
@@ -78,13 +81,13 @@ nav ul li {
   transition: top .2s;
 }
 
-/* line 92, ../../build/sass/globals/_navigation.scss */
+/* line 103, ../../build/sass/globals/_navigation.scss */
 .camera-menu {
   top: 0px;
   margin-top: -70px;
 }
 
-/* line 97, ../../build/sass/globals/_navigation.scss */
+/* line 108, ../../build/sass/globals/_navigation.scss */
 .open-camera-menu {
   top: 135px;
 }
@@ -96,7 +99,7 @@ html, body {
 
 /* line 5, ../../build/sass/views/_index.scss */
 .tile1, .tile2 {
-  height: 530px;
+  height: 625px;
 }
 
 /* line 12, ../../build/sass/views/_index.scss */
@@ -107,78 +110,82 @@ html, body {
 /* line 16, ../../build/sass/views/_index.scss */
 .cta-logo {
   width: 40%;
+  margin-left: 30px;
 }
 
-/* line 20, ../../build/sass/views/_index.scss */
+/* line 21, ../../build/sass/views/_index.scss */
 .tile1 {
   color: white;
   padding-top: 180px;
-  background: url(../images/cta2.jpg) no-repeat center center;
+  background: url(../images/cta.jpg) no-repeat center center;
   background-position: 0px -120px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 22, ../../build/sass/views/_index.scss */
+/* line 23, ../../build/sass/views/_index.scss */
 .tile1 h2 {
   font-weight: lighter;
   letter-spacing: 3px;
   margin-bottom: 20px;
   margin-top: -5px;
 }
-/* line 33, ../../build/sass/views/_index.scss */
+/* line 34, ../../build/sass/views/_index.scss */
 .tile1 a {
   color: #91cc8e;
   letter-spacing: 1px;
 }
-/* line 36, ../../build/sass/views/_index.scss */
+/* line 37, ../../build/sass/views/_index.scss */
 .tile1 a:hover {
   text-decoration: none;
 }
-/* line 41, ../../build/sass/views/_index.scss */
+/* line 42, ../../build/sass/views/_index.scss */
 .tile1 .button {
   background: white;
   border-radius: 6px;
-  width: 230px;
+  margin-left: -3px;
+  width: 240px;
+  height: 40px;
+  padding-top: 3px;
 }
-/* line 45, ../../build/sass/views/_index.scss */
+/* line 49, ../../build/sass/views/_index.scss */
 .tile1 .button h5 {
   font-weight: 300;
 }
 
-/* line 51, ../../build/sass/views/_index.scss */
+/* line 55, ../../build/sass/views/_index.scss */
 .tile2 {
   background: #ECECEC;
   padding-top: 70px;
 }
-/* line 55, ../../build/sass/views/_index.scss */
+/* line 59, ../../build/sass/views/_index.scss */
 .tile2 h2 {
   font-weight: 300;
 }
-/* line 58, ../../build/sass/views/_index.scss */
+/* line 62, ../../build/sass/views/_index.scss */
 .tile2 p {
   font-weight: 300;
   letter-spacing: 1px;
 }
 
-/* line 64, ../../build/sass/views/_index.scss */
+/* line 68, ../../build/sass/views/_index.scss */
 .tile3 {
   padding-top: 220px;
 }
 
-/* line 68, ../../build/sass/views/_index.scss */
+/* line 72, ../../build/sass/views/_index.scss */
 .grid-align {
   margin-left: 125px;
 }
 
-/* line 72, ../../build/sass/views/_index.scss */
+/* line 76, ../../build/sass/views/_index.scss */
 .grid-pad {
   padding: 2px;
   margin-right: 40px;
 }
 
-/* line 78, ../../build/sass/views/_index.scss */
+/* line 82, ../../build/sass/views/_index.scss */
 .grid-spacer {
   height: 2px;
   background: #999;
@@ -187,7 +194,7 @@ html, body {
   border-radius: 3px;
 }
 
-/* line 86, ../../build/sass/views/_index.scss */
+/* line 90, ../../build/sass/views/_index.scss */
 .number {
   display: block;
   margin-top: -50px;
@@ -201,18 +208,18 @@ html, body {
   padding-top: 5px;
 }
 
-/* line 100, ../../build/sass/views/_index.scss */
+/* line 104, ../../build/sass/views/_index.scss */
 #signUpContent {
   display: none;
 }
 
-/* line 106, ../../build/sass/views/_index.scss */
+/* line 110, ../../build/sass/views/_index.scss */
 .google-icon {
   height: 80px;
   width: 80px;
 }
 
-/* line 111, ../../build/sass/views/_index.scss */
+/* line 115, ../../build/sass/views/_index.scss */
 .google-icon {
   background: url(../images/follow/gp.svg);
   -webkit-background-size: contain;
