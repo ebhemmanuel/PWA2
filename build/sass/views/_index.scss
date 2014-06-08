@@ -10,7 +10,7 @@
 }
 
 .cta{
-margin-top          : -20px;
+margin-top          : -2px;
 }
 
 .cta-logo{
@@ -60,8 +60,38 @@ margin-top          : -20px;
 }
 
 .tile3{
-  padding-top         : 20px;
-  margin-top          : 120px;
+  padding-top         : 220px;
+}
+
+.grid3{
+  margin-left         : 120px;
+}
+
+.gridPad{
+padding               : 2px;
+margin-right          : 40px;
+
+}
+
+.grid-spacer{
+  height              : 2px;
+  background          : #999;
+  margin-top          : 50px;
+  opacity             : .3;
+  border-radius       : 3px;
+}
+
+.number{
+  display             : block;
+  margin-top          : -50px;
+  width               : $addButton;
+  height              : $addButton;
+  border-radius       : 50%;
+  font-size           : 28px;
+  text-align          : center;
+  font-weight         : 300;
+  background          : $white;
+  padding-top         : 5px;
 }
 
 

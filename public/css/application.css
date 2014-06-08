@@ -11,7 +11,7 @@
   border-radius: 0;
   box-shadow: none;
   font-size: 12px;
-  background-color: transparent;
+  background: white;
   border: none;
 }
 
@@ -101,7 +101,7 @@ html, body {
 
 /* line 12, ../../build/sass/views/_index.scss */
 .cta {
-  margin-top: -20px;
+  margin-top: -2px;
 }
 
 /* line 16, ../../build/sass/views/_index.scss */
@@ -161,22 +161,55 @@ html, body {
 
 /* line 62, ../../build/sass/views/_index.scss */
 .tile3 {
-  padding-top: 20px;
-  margin-top: 120px;
+  padding-top: 220px;
 }
 
-/* line 68, ../../build/sass/views/_index.scss */
+/* line 66, ../../build/sass/views/_index.scss */
+.grid3 {
+  margin-left: 120px;
+}
+
+/* line 70, ../../build/sass/views/_index.scss */
+.gridPad {
+  padding: 2px;
+  margin-right: 40px;
+}
+
+/* line 76, ../../build/sass/views/_index.scss */
+.grid-spacer {
+  height: 2px;
+  background: #999;
+  margin-top: 50px;
+  opacity: .3;
+  border-radius: 3px;
+}
+
+/* line 84, ../../build/sass/views/_index.scss */
+.number {
+  display: block;
+  margin-top: -50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 28px;
+  text-align: center;
+  font-weight: 300;
+  background: white;
+  padding-top: 5px;
+}
+
+/* line 98, ../../build/sass/views/_index.scss */
 #signUpContent {
   display: none;
 }
 
-/* line 74, ../../build/sass/views/_index.scss */
+/* line 104, ../../build/sass/views/_index.scss */
 .google-icon {
   height: 80px;
   width: 80px;
 }
 
-/* line 79, ../../build/sass/views/_index.scss */
+/* line 109, ../../build/sass/views/_index.scss */
 .google-icon {
   background: url(../images/follow/gp.svg);
   -webkit-background-size: contain;
