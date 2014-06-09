@@ -40,9 +40,9 @@
   }
 
 .addEntry{
-  display             : none;
+  display             : block;
   padding-top         : 60px;
-  background          : $green;
+  background          : $brandSecondary;
   height              : 420px;
 
   label{
@@ -95,7 +95,7 @@ width                 : 160px;
 
 .history{
   height              : 520px;
-  background          : #ECECEC;
+  background          : $backgroundB;
   color               : $black;
 h2{
   font-weight         : 300;

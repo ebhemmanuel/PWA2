@@ -206,28 +206,32 @@ html, body {
   color: #33ba9e;
 }
 /* line 78, ../../build/sass/views/_index.scss */
+.tile2 h5 {
+  color: #464f55;
+}
+/* line 81, ../../build/sass/views/_index.scss */
 .tile2 p {
-  font-weight: 300;
+  font-weight: 200;
   letter-spacing: 1px;
 }
 
-/* line 84, ../../build/sass/views/_index.scss */
+/* line 87, ../../build/sass/views/_index.scss */
 .tile3 {
   padding-top: 220px;
 }
 
-/* line 88, ../../build/sass/views/_index.scss */
+/* line 91, ../../build/sass/views/_index.scss */
 .grid-align {
   margin-left: 125px;
 }
 
-/* line 92, ../../build/sass/views/_index.scss */
+/* line 95, ../../build/sass/views/_index.scss */
 .grid-pad {
   padding: 2px;
   margin-right: 40px;
 }
 
-/* line 98, ../../build/sass/views/_index.scss */
+/* line 101, ../../build/sass/views/_index.scss */
 .grid-spacer {
   height: 2px;
   background: #999;
@@ -236,7 +240,7 @@ html, body {
   border-radius: 3px;
 }
 
-/* line 106, ../../build/sass/views/_index.scss */
+/* line 109, ../../build/sass/views/_index.scss */
 .number {
   display: block;
   margin-top: -50px;
@@ -250,18 +254,18 @@ html, body {
   padding-top: 5px;
 }
 
-/* line 120, ../../build/sass/views/_index.scss */
+/* line 123, ../../build/sass/views/_index.scss */
 #signUpContent {
   display: none;
 }
 
-/* line 126, ../../build/sass/views/_index.scss */
+/* line 129, ../../build/sass/views/_index.scss */
 .google-icon {
   height: 80px;
   width: 80px;
 }
 
-/* line 131, ../../build/sass/views/_index.scss */
+/* line 134, ../../build/sass/views/_index.scss */
 .google-icon {
   background: url(../images/follow/gp.svg);
   -webkit-background-size: contain;
@@ -303,7 +307,7 @@ html, body {
 
 /* line 42, ../../build/sass/views/_dashboard.scss */
 .addEntry {
-  display: none;
+  display: block;
   padding-top: 60px;
   background: #33ba9e;
   height: 420px;
@@ -356,7 +360,7 @@ html, body {
 /* line 96, ../../build/sass/views/_dashboard.scss */
 .history {
   height: 520px;
-  background: #ECECEC;
+  background: #464f55;
   color: #333333;
 }
 /* line 100, ../../build/sass/views/_dashboard.scss */
