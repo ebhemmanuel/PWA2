@@ -25,32 +25,27 @@
         </div>
       </div>
     </nav>
-    <div class="addEntry contrainer-fluid">
-      <div id="add" class="col-md-8 col-md-push-3">
-        <form id="addForm">
-          <ul>
-            <li>
-              <label class="block">Project Name:</label>
-              <input id="projectName" name="projectName" type="text">
-            </li>
-            <li>
-              <label class="block">Project Description:</label>
-              <input id="projectDescription" name="projectDescrition" type="text">
-            </li>
-            <li>
-              <label class="block">Project Due Date:</label>
-              <input id="projectDueDate" name="projectDueDate" type="text">
-            </li>
-            <li>
-              <label class="block">Project Status:</label>
-              <input id="projectStatus" name="projectStatus" type="text">
-            </li>
-          </ul>
-        </form>
-        <div class="col-md-4 col-md-push-4">
-          <input id="addButton" name="addButton" type="button" value="SUBMIT" class="submit">
-        </div>
+    <div class="contrainer-fluid subject">
+      <div class="col-md-8 col-md-push-2">
+        <input id="projectName" name="projectName" type="text" placeholder="Project Name.." class="subject-line">
       </div>
+    </div>
+    <div class="contrainer-fluid add-section">
+      <div class="col-md-8 col-md-push-2">
+        <textarea id="projectDescription" name="projectDescrition" type="text" placeholder="Just Write.."></textarea>
+      </div>
+      <div class="col-md-4">
+        <input id="projectDueDate" name="projectDueDate" type="text">
+      </div>
+      <div class="col-md-4">
+        <input id="projectStatus" name="projectStatus" type="text">
+      </div>
+      <div class="col-md-3"><a href="" name="addButton" type="button" value="SUBMIT" class="col-md-2 button push-add">
+          <h5>SAVE</h5></a></div>
+    </div>
+    <div class="add-entry contrainer-fluid">
+      <div class="col-md-6 col-md-push-5"><a href="" name="addButton" type="button" value="SUBMIT" class="col-md-2 button">
+          <h5>Cancel</h5></a></div>
     </div>
     <div class="profiles contrainer-fluid"></div>
     <div class="history contrainer-fluid">

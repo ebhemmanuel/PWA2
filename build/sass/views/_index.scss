@@ -33,10 +33,10 @@ margin-top          : -2px;
   background-position: 0px -120px;
   @include background-size(cover);
   a{
-      color           : $brandAccent;
-      letter-spacing  : 1px;
-      &:hover{
-        text-decoration: none;
+    color           : $brandAccent;
+    letter-spacing  : 1px;
+    &:hover{
+      text-decoration: none;
       }
     }
 
