@@ -23,7 +23,7 @@ height                : 2px;
 
 .nav-invis {
   padding-top         : 30px;
-  transition          : 0.2;
+  transition          : border-bottom 0.2s ease;
 
   li>a{
     color             : $white;
@@ -31,10 +31,19 @@ height                : 2px;
     font-weight       : 300;
     letter-spacing    : 2px;
   }
+
   li>a:hover{
     background        : transparent;
-    text-decoration   : underline;
+    padding-bottom    : 8px;
+    border-bottom     : 1px solid $white;
  }
+}
+
+.navbar-default .navbar-nav>li>a{
+  color               : $white;
+  &:hover{
+    color             : $white;
+  }
 }
 
 .navbar{
@@ -47,7 +56,7 @@ height                : 2px;
  }
 
 .navbar-admin{
-  background          : $white;
+  background          : $brandSecondary;
 }
 
 
@@ -76,10 +85,10 @@ height                : 2px;
 nav{
   z-index             : 3;
   position            : absolute;
+  height              : $navDesktopHeight;
   padding-top         : $paddingDesktopNav;
   background-color    : transparent;
   top                 : 0px;
-  height              : $navDesktopHeight;
 
  ul{
   margin-left         : 30px;

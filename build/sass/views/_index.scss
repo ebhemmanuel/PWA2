@@ -39,6 +39,7 @@ margin-top          : -2px;
         text-decoration: none;
       }
     }
+
   .cta-spacer{
     width             : 400px;
     height            : 2px;
@@ -47,8 +48,11 @@ margin-top          : -2px;
   }
 
   .button{
-    background        : $white;
+    transition        : background 0.2s ease, color 0.2s ease;
+    background        : transparent;
     border-radius     : 6px;
+    border            : 1px solid $white;
+    color             : $white;;
     margin-left       : -3px;
     width             : 240px;
     height            : 40px;
@@ -56,15 +60,20 @@ margin-top          : -2px;
     h5{
       font-weight     : 300;
     }
+    &:hover{
+      background      :$white;
+      color           :$brandSecondary;
+    }
   }
 }
 
 .tile2{
-    @extend %big-detail;
+    height            : 525px;
     background        : $grey;
     padding-top       : 70px;
     h2{
       font-weight     : 300;
+      color           : $brandSecondary;
     }
     p{
       font-weight     : 300;
