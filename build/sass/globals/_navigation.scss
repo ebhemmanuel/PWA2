@@ -1,0 +1,123 @@
+//
+// Main persistant header, logo, and navigation
+//
+
+$paddingDesktopNav    : 10px;
+$paddingTabletNav     : 10px;
+$paddingPhoneNav      : 13px;
+$lineheightTabletNav  : 48px;
+$linehPhoneNav        : 45px;
+$lineheight           : -70px;
+$navDesktopHeight     : 65px;
+$navPhoneHeight       : 65px;
+$navTabletHeight      : 160px;
+$logoSize             : 100%;
+
+// Navigation
+
+.spacer-line{
+background            : $brandAccent;
+width                 : 100%;
+height                : 2px;
+}
+
+.nav-invis {
+  padding-top         : 30px;
+  transition          : border-bottom 0.2s ease;
+
+  li>a{
+    color             : $white;
+    font-size         : 11px;
+    font-weight       : 300;
+    letter-spacing    : 2px;
+  }
+
+  li>a:hover{
+    background        : transparent;
+    padding-bottom    : 8px;
+    border-bottom     : 1px solid $white;
+ }
+}
+
+.navbar-default .navbar-nav>li>a{
+  color               : $white;
+  &:hover{
+    color             : $white;
+  }
+}
+
+.navbar{
+  margin-bottom       : 0px;
+  border-radius       : 0;
+  box-shadow          : none;
+  font-size           : $navType;
+  background          : $white;
+  border              : none;
+ }
+
+.navbar-admin{
+  background          : $brandSecondary;
+}
+
+
+
+.navbar-brand, .navbar-nav>li>a{
+  text-shadow         : none;
+}
+
+.nav-text{
+  letter-spacing      : 1px;
+  margin-left         : 120px;
+}
+
+.logo{
+  width               : $logoSize;
+  height              : $logoSize;
+  margin-top          : -5px;
+  margin-left         : -35px;
+}
+
+.smallLogo{
+  margin-top          : -5px;
+  margin-left         : 85px;
+}
+
+nav{
+  z-index             : 3;
+  position            : absolute;
+  height              : $navDesktopHeight;
+  padding-top         : $paddingDesktopNav;
+  background-color    : transparent;
+  top                 : 0px;
+
+ ul{
+  margin-left         : 30px;
+  margin-top          : $lineheight;
+  list-style-type     : none;
+
+ li{
+  display             : inline;
+  padding             : 0 10px;
+  }
+ }
+}
+
+.camera-menu{
+  z-index           : 2;
+  position          : absolute;
+  background        : $black;
+  color             : $white;
+  width             : 100%;
+  height            : 135px;
+
+  transition        : top .2s;
+}
+
+.camera-menu{
+  top               : 0px;
+  margin-top:-70px
+}
+
+.open-camera-menu{
+    top             : 135px;
+  }

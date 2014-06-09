@@ -1,0 +1,50 @@
+doctype html
+html
+	head
+		title MOTIV - Dashboard
+		include includes/_meta
+	body
+		//- Header and Nav
+		//- ___________________________.navbar-fixed-top
+		include includes/_navAdmin
+		//- Add Project
+		//- ___________________________
+		.addEntry.contrainer-fluid
+			#add.col-md-8.col-md-push-3
+				form#addForm
+					ul
+						li
+							label.block Project Name:
+							input#projectName(name='projectName', type='text')
+						li
+							label.block Project Description:
+							input#projectDescription(name='projectDescrition', type='text')
+						li
+							label.block Project Due Date:
+							input#projectDueDate(name='projectDueDate', type='text')
+						li
+							label.block Project Status:
+							input#projectStatus(name='projectStatus', type='text')
+				.col-md-4.col-md-push-4
+					input#addButton.submit(name='addButton', type='button', value='SUBMIT')
+
+		//- Current Users
+		//- ___________________________
+		.profiles.contrainer-fluid
+
+
+		//- Projects
+		//- ___________________________
+		.history.contrainer-fluid
+			.col-md-8.col-md-push-2.text-center
+				#projectlist
+					h2 History Listing
+					.projects
+
+
+		//-Footer
+		//-___________________________
+		include includes/_footer
+		include includes/_js
+
+
