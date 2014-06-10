@@ -8,7 +8,9 @@
   // display           : none;
 }
 
-
+   input:focus, textarea:focus{
+    outline           : none;
+  }
 
   #addCollapse{
     display           : block;
@@ -50,9 +52,9 @@ width                 : 160px;
 
 .add-entry{
   display             : block;
-  padding-top         : 100px;
+  padding-top         : 40px;
   background          : $brandSecondary;
-  height              : 220px;
+  height              : 120px;
 }
 
 .subject{
@@ -74,14 +76,15 @@ width                 : 160px;
   }
 
    .button{
-    transition        : background 0.2s ease, color 0.2s ease;
-    background        : transparent;
-    border-radius     : 6px;
-    border            : 1px solid $white;
-    color             : $white;;
-    margin-left       : -3px;
+    @include border-radius(6px);
     width             : 215px;
     height            : 40px;
+    border            : 1px solid $white;
+    transition        : background 0.2s ease, color 0.2s ease;
+    background        : transparent;
+    color             : $white;
+    margin-left       : -3px;
+    letter-spacing    : 2px;
     padding-top       : 3px;
     text-align        : center;
     h5{
@@ -108,9 +111,7 @@ width                 : 160px;
     padding           : 0;
   }
 
-  input:focus, textarea:focus{
-    outline           : none;
-  }
+
 
   ul li{
     list-style        : none;
@@ -128,7 +129,7 @@ width                 : 160px;
     letter-spacing    : .07em;
     font-weight       : 300;
     width             : 600px;
-    height            : 350px;
+    height            : 280px;
   }
 
   .submit{
@@ -172,7 +173,7 @@ width                 : 160px;
 
 .history{
   height              : 520px;
-  background          : $backgroundB;
+  background          : $grey;
   color               : $black;
 h2{
   font-weight         : 300;
