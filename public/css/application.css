@@ -274,12 +274,37 @@ html, body {
   background-size: contain;
 }
 
+/* line 5, ../../build/sass/views/_dashboard.scss */
+#add-entry {
+  transition: margin-top .6s ease;
+}
+
+/* line 8, ../../build/sass/views/_dashboard.scss */
+.move-up {
+  margin-top: -500px;
+}
+
 /* line 11, ../../build/sass/views/_dashboard.scss */
+.move-down {
+  margin-top: 0;
+}
+
+/* line 14, ../../build/sass/views/_dashboard.scss */
+.menu-toggle {
+  display: none;
+}
+
+/* line 17, ../../build/sass/views/_dashboard.scss */
+.cursor {
+  cursor: pointer;
+}
+
+/* line 21, ../../build/sass/views/_dashboard.scss */
 input:focus, textarea:focus {
   outline: none;
 }
 
-/* line 15, ../../build/sass/views/_dashboard.scss */
+/* line 25, ../../build/sass/views/_dashboard.scss */
 #addCollapse {
   display: block;
   margin-top: 30px;
@@ -291,38 +316,38 @@ input:focus, textarea:focus {
   font-weight: 300;
   background: white;
 }
-/* line 25, ../../build/sass/views/_dashboard.scss */
+/* line 35, ../../build/sass/views/_dashboard.scss */
 #addCollapse a {
   color: #91cc8e;
 }
-/* line 28, ../../build/sass/views/_dashboard.scss */
+/* line 38, ../../build/sass/views/_dashboard.scss */
 #addCollapse:hover {
   background: #91cc8e;
 }
-/* line 30, ../../build/sass/views/_dashboard.scss */
+/* line 40, ../../build/sass/views/_dashboard.scss */
 #addCollapse:hover a {
   color: white;
   text-decoration: none;
 }
-/* line 34, ../../build/sass/views/_dashboard.scss */
+/* line 44, ../../build/sass/views/_dashboard.scss */
 #addCollapse:hover:active {
   background: #33ba9e;
   a-color: white;
 }
 
-/* line 43, ../../build/sass/views/_dashboard.scss */
+/* line 53, ../../build/sass/views/_dashboard.scss */
 ::-webkit-input-placeholder {
   color: #616c72;
 }
 
-/* line 47, ../../build/sass/views/_dashboard.scss */
+/* line 57, ../../build/sass/views/_dashboard.scss */
 .submit {
   margin-top: 20px;
   padding: 10px;
   width: 160px;
 }
 
-/* line 53, ../../build/sass/views/_dashboard.scss */
+/* line 63, ../../build/sass/views/_dashboard.scss */
 .add-entry {
   display: block;
   padding-top: 40px;
@@ -330,7 +355,7 @@ input:focus, textarea:focus {
   height: 120px;
 }
 
-/* line 60, ../../build/sass/views/_dashboard.scss */
+/* line 70, ../../build/sass/views/_dashboard.scss */
 .subject {
   background: #464f55;
   height: 100px;
@@ -338,7 +363,7 @@ input:focus, textarea:focus {
   margin-left: -20px;
 }
 
-/* line 67, ../../build/sass/views/_dashboard.scss */
+/* line 77, ../../build/sass/views/_dashboard.scss */
 .subject-line {
   background: transparent;
   color: #33ba9e;
@@ -350,7 +375,7 @@ input:focus, textarea:focus {
   width: 400px;
 }
 
-/* line 78, ../../build/sass/views/_dashboard.scss */
+/* line 88, ../../build/sass/views/_dashboard.scss */
 .button {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -368,18 +393,18 @@ input:focus, textarea:focus {
   padding-top: 3px;
   text-align: center;
 }
-/* line 90, ../../build/sass/views/_dashboard.scss */
+/* line 100, ../../build/sass/views/_dashboard.scss */
 .button h5 {
   font-weight: 300;
 }
-/* line 93, ../../build/sass/views/_dashboard.scss */
+/* line 103, ../../build/sass/views/_dashboard.scss */
 .button:hover {
   text-decoration: none;
   background: white;
   color: #33ba9e;
 }
 
-/* line 101, ../../build/sass/views/_dashboard.scss */
+/* line 111, ../../build/sass/views/_dashboard.scss */
 .add-section {
   background: #616c72;
   font-size: 20px;
@@ -388,31 +413,32 @@ input:focus, textarea:focus {
   padding-top: 60px;
   margin-left: -20px;
 }
-/* line 109, ../../build/sass/views/_dashboard.scss */
+/* line 119, ../../build/sass/views/_dashboard.scss */
 .add-section -moz-focus-inner {
   border: 0;
   padding: 0;
 }
-/* line 116, ../../build/sass/views/_dashboard.scss */
+/* line 126, ../../build/sass/views/_dashboard.scss */
 .add-section ul li {
   list-style: none;
 }
-/* line 120, ../../build/sass/views/_dashboard.scss */
+/* line 130, ../../build/sass/views/_dashboard.scss */
 .add-section ::-webkit-input-placeholder {
   color: #464f55;
 }
-/* line 124, ../../build/sass/views/_dashboard.scss */
+/* line 134, ../../build/sass/views/_dashboard.scss */
 .add-section textarea {
   color: #ececec;
   background: transparent;
   border: none;
   resize: none;
   letter-spacing: .07em;
+  font-size: 18px;
   font-weight: 300;
   width: 600px;
   height: 280px;
 }
-/* line 135, ../../build/sass/views/_dashboard.scss */
+/* line 146, ../../build/sass/views/_dashboard.scss */
 .add-section .submit {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -423,7 +449,7 @@ input:focus, textarea:focus {
   padding: 10px;
   width: 160px;
 }
-/* line 142, ../../build/sass/views/_dashboard.scss */
+/* line 153, ../../build/sass/views/_dashboard.scss */
 .add-section input {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -438,7 +464,7 @@ input:focus, textarea:focus {
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
-/* line 153, ../../build/sass/views/_dashboard.scss */
+/* line 164, ../../build/sass/views/_dashboard.scss */
 .add-section .label {
   -webkit-border-radius: 6px 0px 0px 6px;
   -moz-border-radius: 6px 0px 0px 6px;
@@ -458,13 +484,13 @@ input:focus, textarea:focus {
   padding-right: 10px;
 }
 
-/* line 174, ../../build/sass/views/_dashboard.scss */
+/* line 185, ../../build/sass/views/_dashboard.scss */
 .history {
   height: 520px;
   background: #ececec;
   color: #333333;
 }
-/* line 178, ../../build/sass/views/_dashboard.scss */
+/* line 189, ../../build/sass/views/_dashboard.scss */
 .history h2 {
   font-weight: 300;
   letter-spacing: 1px;

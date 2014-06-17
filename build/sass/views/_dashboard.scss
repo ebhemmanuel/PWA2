@@ -2,46 +2,56 @@
 // Dashboard Page
 //
 @import "compass/css3/border-radius";
-
-
-#add{
-  // display           : none;
+#add-entry{
+  transition          : margin-top .6s ease;
+}
+.move-up{
+  margin-top          : -500px;
+}
+.move-down{
+  margin-top          : 0;
+}
+.menu-toggle{
+  display             : none;
+}
+.cursor{
+  cursor              : pointer;
 }
 
-   input:focus, textarea:focus{
-    outline           : none;
-  }
+input:focus, textarea:focus{
+  outline             : none;
+}
 
-  #addCollapse{
-    display           : block;
-    margin-top        : 30px;
-    width             : $addButton;
-    height            : $addButton;
-    border-radius     : 50%;
-    font-size         : 32px;
-    text-align        : center;
-    font-weight       : 300;
-    background        : $white;
-     a{
-      color           : $brandAccent;
-      }
-    &:hover{
-      background      : $brandAccent;
-      a{
-        color           : $white;
-        text-decoration : none;
-      }
-     &:active{
-      background      : $brandSecondary;
-      a:{
-        color         : $white;
-      }
-     }
+#addCollapse{
+  display             : block;
+  margin-top          : 30px;
+  width               : $addButton;
+  height              : $addButton;
+  border-radius       : 50%;
+  font-size           : 32px;
+  text-align          : center;
+  font-weight         : 300;
+  background          : $white;
+   a{
+    color             : $brandAccent;
     }
+  &:hover{
+    background        : $brandAccent;
+    a{
+      color           : $white;
+      text-decoration : none;
+    }
+   &:active{
+    background        : $brandSecondary;
+    a:{
+      color           : $white;
+    }
+   }
   }
+}
 
-  ::-webkit-input-placeholder {
-    color             : $mediumGrey;
+::-webkit-input-placeholder {
+  color               : $mediumGrey;
 }
 
 .submit{
@@ -127,6 +137,7 @@ width                 : 160px;
     border            : none;
     resize            : none;
     letter-spacing    : .07em;
+    font-size         : 18px;
     font-weight       : 300;
     width             : 600px;
     height            : 280px;

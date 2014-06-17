@@ -25,27 +25,29 @@
         </div>
       </div>
     </nav>
-    <div class="contrainer-fluid subject">
-      <div class="col-md-8 col-md-push-2">
-        <input id="projectName" name="projectName" type="text" placeholder="Project Name.." class="subject-line">
+    <div id="add-entry" class="contrainer-fluid move-up">
+      <div class="contrainer-fluid subject">
+        <div class="col-md-8 col-md-push-2">
+          <input id="projectName" name="projectName" type="text" placeholder="Project Name.." class="subject-line">
+        </div>
       </div>
-    </div>
-    <div class="contrainer-fluid add-section">
-      <div class="col-md-8 col-md-push-2">
-        <textarea id="projectDescription" name="projectDescrition" type="text" placeholder="Just Write.."></textarea>
+      <div class="contrainer-fluid add-section">
+        <div class="col-md-8 col-md-push-2">
+          <textarea id="projectDescription" name="projectDescrition" type="text" placeholder="Just Write.."></textarea>
+        </div>
+        <div class="col-md-4">
+          <input id="projectDueDate" name="projectDueDate" type="text">
+        </div>
+        <div class="col-md-4">
+          <input id="projectStatus" name="projectStatus" type="text">
+        </div>
+        <div class="col-md-3"><a href="" name="addButton" type="button" value="SUBMIT" class="col-md-2 button push-add">
+            <h5>SAVE</h5></a></div>
       </div>
-      <div class="col-md-4">
-        <input id="projectDueDate" name="projectDueDate" type="text">
+      <div class="add-entry contrainer-fluid">
+        <div class="col-md-6 col-md-push-5"><a id="add-section" href="#" class="col-md-2 button cursor">
+            <h5>+</h5></a></div>
       </div>
-      <div class="col-md-4">
-        <input id="projectStatus" name="projectStatus" type="text">
-      </div>
-      <div class="col-md-3"><a href="" name="addButton" type="button" value="SUBMIT" class="col-md-2 button push-add">
-          <h5>SAVE</h5></a></div>
-    </div>
-    <div class="add-entry contrainer-fluid">
-      <div class="col-md-6 col-md-push-5"><a href="" name="addButton" type="button" value="SUBMIT" class="col-md-2 button">
-          <h5>Cancel</h5></a></div>
     </div>
     <div class="profiles contrainer-fluid"></div>
     <div class="history contrainer-fluid">
@@ -72,5 +74,6 @@
     <script src="public/js/jquery-1.11.1.min.js"></script>
     <script src="public/js/bootstrap.min.js"></script>
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    <script src="public/js/effects.js"></script>
   </body>
 </html>
