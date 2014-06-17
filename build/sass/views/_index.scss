@@ -1,0 +1,138 @@
+//
+// Index Page
+//
+
+%big-detail{
+  height            : 625px;
+}
+%small-detail{
+  height            : 300px
+}
+
+.cta{
+margin-top          : -2px;
+}
+
+.cta-logo{
+  width             : 40%;
+  margin-left       : 10px;
+}
+
+.tile1{
+  @extend %big-detail;
+  h2{
+    font-weight     : lighter;
+    font-size       : 22px;
+    letter-spacing  : 6px;
+    margin-bottom   : 20px;
+    margin-top      : -5px;
+  }
+  color             : $white;
+  padding-top       : 180px;
+  background        : url(../images/cta.jpg) no-repeat center center;
+  background-position: 0px -120px;
+  @include background-size(cover);
+  a{
+    color           : $brandAccent;
+    letter-spacing  : 1px;
+    &:hover{
+      text-decoration: none;
+      }
+    }
+
+  .cta-spacer{
+    width             : 400px;
+    height            : 2px;
+    background        : $grey;
+    opacity           : .5;
+  }
+
+  .button{
+    transition        : background 0.2s ease, color 0.2s ease;
+    background        : transparent;
+    border-radius     : 6px;
+    border            : 1px solid $white;
+    color             : $white;;
+    margin-left       : -3px;
+    width             : 240px;
+    height            : 40px;
+    padding-top       : 3px;
+    h5{
+      font-weight     : 300;
+    }
+    &:hover{
+      background      : $white;
+      color           : $brandSecondary;
+    }
+  }
+}
+
+.tile2{
+    height            : 525px;
+    background        : $grey;
+    padding-top       : 70px;
+    h2{
+      font-weight     : 300;
+      color           : $brandSecondary;
+    }
+    h5{
+      color           : $deepGrey;
+    }
+    p{
+      font-weight     : 200;
+      letter-spacing  : 1px;
+    }
+}
+
+.tile3{
+  padding-top         : 220px;
+}
+
+.grid-align{
+  margin-left         : 125px;
+}
+
+.grid-pad{
+padding               : 2px;
+margin-right          : 40px;
+
+}
+
+.grid-spacer{
+  height              : 2px;
+  background          : #999;
+  margin-top          : 50px;
+  opacity             : .3;
+  border-radius       : 3px;
+}
+
+.number{
+  display             : block;
+  margin-top          : -50px;
+  width               : $addButton;
+  height              : $addButton;
+  border-radius       : 50%;
+  font-size           : 28px;
+  text-align          : center;
+  font-weight         : 300;
+  background          : $white;
+  padding-top         : 5px;
+}
+
+
+#signUpContent{
+  display            : none;
+}
+
+$icon-size           : 80px;
+
+%social-icon{
+  height             : $icon-size;
+  width              : $icon-size;
+}
+
+.google-icon{
+  @extend %social-icon;
+  background: url(../images/follow/gp.svg);
+  @include background-size(contain);
+}

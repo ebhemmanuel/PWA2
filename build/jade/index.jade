@@ -1,0 +1,68 @@
+doctype html
+html
+	head
+		title MOTIV - Get Motivated
+		include includes/_meta
+	body
+		//- Header and Nav
+		//- ___________________________.navbar-fixed-top
+
+		//- Big picture CTA
+		//- ___________________________
+		.tile1.container-fluid.text-center
+			include includes/_nav
+			.cta
+				img.cta-logo(src="public/images/logo-04.svg")
+				.tag-line
+					h2
+						| GET MOTIVATED
+				//- p.descript
+				//- 	| MANAGE YOUR WORKOUT
+				a(href="").col-md-2.col-md-push-5.button
+					h5
+						|SIGN UP
+
+			#signUpContent.signUpContent
+				input#userName.input(name='username', type='text', placeholder='Username', required='')
+				input#password.input(name='password', type='password', placeholder='Password', required='')
+				input#email.input(name='email', type='text', placeholder='Email', required='')
+				a#register.button.textB(href='#' type='submit')
+					|	SIGN UP
+
+		.tile2.container-fluid
+			.col-md-12.text-center
+				h2 MORE WORK OUT, LESS CALORIES.
+				p Organize and manage the amount of daily calories.
+				.grid-spacer.col-md-8.col-md-push-2
+
+			.tile3.container-fluid
+				.grid-align.col-md-10
+					.grid-pad.col-md-3.col-md-push-1
+						//- .number.col-md-1
+						//- 	p.text-muted
+						//- 		|	1
+						h5 Calorie Calculator
+						p.text-muted
+							| Create a steady diet with additional information like daily protien intake and saturated fat per week.
+					.grid-pad.col-md-3.col-md-push-1
+						//- .number.col-md-1
+						//- 	p.text-muted
+						//- 		|	2
+						h5 Weight Tracker
+						p.text-muted
+							| Take control of your bad habbits. You'll know if you're on a roll with a good calorie intake, just make sure not to take too many cheat days!
+					.grid-pad.col-md-3.col-md-push-1
+						//- .number.col-md-1
+						//- 	p.text-muted
+						//- 		|	3
+						h5 Share a Common Goal
+						p.text-muted
+							| Challenge your friends on bike rides, and compare your results. See who's on top of their game.
+
+
+		//-Footer
+		//-___________________________
+		include includes/_footer
+		include includes/_js
+
+
