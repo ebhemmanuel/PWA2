@@ -9,39 +9,37 @@ html
 		include includes/_navAdmin
 		//- Add Project
 		//- ___________________________
-		.addEntry.contrainer-fluid
-			#add.col-md-8.col-md-push-3
-				form#addForm
-					ul
-						li
-							label.block Project Name:
-							input#projectName(name='projectName', type='text')
-						li
-							label.block Project Description:
-							input#projectDescription(name='projectDescrition', type='text')
-						li
-							label.block Project Due Date:
-							input#projectDueDate(name='projectDueDate', type='text')
-						li
-							label.block Project Status:
-							input#projectStatus(name='projectStatus', type='text')
-				.col-md-4.col-md-push-4
-					input#addButton.submit(name='addButton', type='button', value='SUBMIT')
-
+		.contrainer-fluid#add-entry.move-up
+			.contrainer-fluid.subject
+				.col-md-8.col-md-push-2
+					input#projectName.subject-line(name='projectName', type='text', placeholder='Project Name..')
+			.contrainer-fluid.add-section
+				.col-md-8.col-md-push-2
+					textarea#projectDescription(name='projectDescrition', type='text', placeholder='Just Write..')
+				.col-md-4
+					input#projectDueDate(name='projectDueDate', type='text')
+				.col-md-4
+					input#projectStatus(name='projectStatus', type='text')
+					//- form#addForm
+				.col-md-3
+					a.col-md-2.button.push-add(href="", name='addButton', type='button', value='SUBMIT')
+						h5
+							|SAVE
+			.add-entry.contrainer-fluid
+				.col-md-6.col-md-push-5
+					a.col-md-2#add-section.button.cursor(href="#")
+						h5
+							|+
 		//- Current Users
 		//- ___________________________
 		.profiles.contrainer-fluid
-
-
 		//- Projects
 		//- ___________________________
 		.history.contrainer-fluid
-			.col-md-8.col-md-push-2.text-center
+			.col-md-8.col-md-push-2
 				#projectlist
-					h2 History Listing
+					h2
 					.projects
-
-
 		//-Footer
 		//-___________________________
 		include includes/_footer
