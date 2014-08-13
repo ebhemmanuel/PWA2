@@ -12,22 +12,26 @@ html
 		.tile1.container-fluid.text-center
 			include includes/_nav
 			.cta
-				img.cta-logo(src="public/images/logo-04.svg")
-				.tag-line
-					h2
-						| GET MOTIVATED
-				//- p.descript
-				//- 	| MANAGE YOUR WORKOUT
-				a(href="").col-md-2.col-md-push-5.button
-					h5
-						|SIGN UP
-
-			#signUpContent.signUpContent
-				input#userName.input(name='username', type='text', placeholder='Username', required='')
-				input#password.input(name='password', type='password', placeholder='Password', required='')
-				input#email.input(name='email', type='text', placeholder='Email', required='')
-				a#register.button.textB(href='#' type='submit')
-					|	SIGN UP
+				.cta-content
+					img.cta-logo(src="public/images/logo-04.svg")
+					.tag-line
+						h2
+							| GET MOTIVATED
+					//- p.descript
+					//- 	| MANAGE YOUR WORKOUT
+					a#signUpCta(href="#").col-md-2.col-md-push-5.button
+						h5
+							|SIGN UP
+			.container.col-md-3#signUpContent.signUpContent.pull-right.col-md-push-
+				.col-md-4.padding
+					input#userName.input(name='username', type='text', placeholder='Username', required='')
+				.col-md-4.padding
+					input#password.input(name='password', type='password', placeholder='Password', required='')
+				.col-md-4.padding
+					input#email.input(name='email', type='text', placeholder='Email', required='')
+				.col-md-4.padding
+					a#register.col-md-1.button.textB(href='#' type='submit')
+						|	SIGN UP
 
 		.tile2.container-fluid
 			.col-md-12.text-center

@@ -257,15 +257,24 @@ html, body {
 /* line 123, ../../build/sass/views/_index.scss */
 #signUpContent {
   display: none;
+  opacity: 1;
+}
+/* line 126, ../../build/sass/views/_index.scss */
+#signUpContent input {
+  display: block;
+}
+/* line 129, ../../build/sass/views/_index.scss */
+#signUpContent .padding {
+  padding-bottom: 20px;
 }
 
-/* line 129, ../../build/sass/views/_index.scss */
+/* line 136, ../../build/sass/views/_index.scss */
 .google-icon {
   height: 80px;
   width: 80px;
 }
 
-/* line 134, ../../build/sass/views/_index.scss */
+/* line 141, ../../build/sass/views/_index.scss */
 .google-icon {
   background: url(../images/follow/gp.svg);
   -webkit-background-size: contain;
@@ -350,9 +359,9 @@ input:focus, textarea:focus {
 /* line 63, ../../build/sass/views/_dashboard.scss */
 .add-entry {
   display: block;
-  padding-top: 40px;
+  padding-top: 30px;
   background: #33ba9e;
-  height: 120px;
+  height: 90px;
 }
 
 /* line 70, ../../build/sass/views/_dashboard.scss */
@@ -458,13 +467,16 @@ input:focus, textarea:focus {
   border-radius: 6px;
   display: inline-block;
   height: 40px;
+  width: 215px;
   border-width: 0;
   background: #ececec;
   font-weight: 200;
+  font-size: 15px;
   letter-spacing: 1px;
+  padding-left: 10px;
   margin-bottom: 20px;
 }
-/* line 164, ../../build/sass/views/_dashboard.scss */
+/* line 167, ../../build/sass/views/_dashboard.scss */
 .add-section .label {
   -webkit-border-radius: 6px 0px 0px 6px;
   -moz-border-radius: 6px 0px 0px 6px;
@@ -484,13 +496,13 @@ input:focus, textarea:focus {
   padding-right: 10px;
 }
 
-/* line 185, ../../build/sass/views/_dashboard.scss */
+/* line 188, ../../build/sass/views/_dashboard.scss */
 .history {
   height: 520px;
   background: #ececec;
   color: #333333;
 }
-/* line 189, ../../build/sass/views/_dashboard.scss */
+/* line 192, ../../build/sass/views/_dashboard.scss */
 .history h2 {
   font-weight: 300;
   letter-spacing: 1px;

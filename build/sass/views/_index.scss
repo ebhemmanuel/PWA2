@@ -122,6 +122,13 @@ margin-right          : 40px;
 
 #signUpContent{
   display            : none;
+  opacity            : 1;
+  input{
+    display          : block;
+  }
+  .padding{
+    padding-bottom   : 20px;
+  }
 }
 
 $icon-size           : 80px;

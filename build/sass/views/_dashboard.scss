@@ -62,9 +62,9 @@ width                 : 160px;
 
 .add-entry{
   display             : block;
-  padding-top         : 40px;
+  padding-top         : 30px;
   background          : $brandSecondary;
-  height              : 120px;
+  height              : 90px;
 }
 
 .subject{
@@ -154,10 +154,13 @@ width                 : 160px;
     @include border-radius(6px);
     display           : inline-block;
     height            : 40px;
+    width             : 215px;
     border-width      : 0;
     background        : $grey;
     font-weight       : 200;
+    font-size         : 15px;
     letter-spacing    : 1px;
+    padding-left      : 10px;
     margin-bottom     : 20px;
   }
 
