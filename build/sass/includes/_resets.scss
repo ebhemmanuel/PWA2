@@ -1,0 +1,39 @@
+//
+// Global aesthetic styling resets
+//
+ul, ol, li {
+  margin: 0;
+  padding: 0;
+}
+
+//Thumbnail
+.thumbnail{
+  display           : block;
+  height            : $thumbnailSize;
+  width             : $thumbnailSize;
+  background        : #999;
+  margin-left       : auto;
+  margin-right      : auto;
+  margin-top        : 15px;
+  margin-bottom     : 4px;
+  border-radius     : 0;
+  border: none;
+  box-shadow: none;
+
+}
+
+.resetLeft{
+  margin-left       : 0;
+  padding-left      : 0;
+}
+.resetBottom{
+  margin-bottom     : 0px;
+}
+
+.pushDown{
+  margin-top        : 140px;
+}
+
+.space{
+  padding-bottom    : 30px;
+}
