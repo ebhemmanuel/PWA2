@@ -15,7 +15,81 @@
 			</form>
 		</div>
 	</h1>
-	<script src="jquery-1.11.1.min.js"></script>
-	<script src="main.js"></script>
+<div>
+	<ul id="tabs-nav">
+		<li><a href="#projects">
+		<img src="images/projects.gif" width="100" height="67" id="projects"></a></li>
+		<li><a href="#tasks"><img src="images/task.gif" width="100" height="67" id="tasks"></a></li>
+		<li><a href="#users"><img src="images/user.gif" width="100" height="67" id="users"></a></li>
+	</ul>
+	<div id="tabs">
+		<p id="projects">
+		Hi, this is the first tab. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>
+		Go to my projects... <button class="projectsbtn">Projects</button>
+		</p>
+
+		<p id="tasks"> This is the 2nd tab. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br><br>
+		     Go to my tasks... <button class="taskbtn">Tasks</button>
+		</p>
+
+		<p id="users">And this is the 3rd tab. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>
+		   Go to my users... <button class="usersbtn">Users</button>
+		</p>
+	</div>
+</div>
+
+<div>
+<h3>Image Gallery Here:</h3>
+<p>You can make this any kind of gallery. You can make icons or images, however works best with your site.</p>
+</div>
+
+<!-- Project Listing -->
+<div class="welcome">
+	<p><a href="#" class="modalClick">Add +</a></p>
+</div>
+
+<div id="projectlist">
+	<h1>Current Projects</h1>
+		<div class="projects"></div>
+</div>
+
+<!-- Modal New Project -->
+<div id="overlay">
+	<div id="modal"><span class="close">x</span>
+			<h3 class="header">Add Project</h3>
+				<div class="add"></div>
+				<form action="" id="addForm">
+					<label for="">Project Name: <input type="text" name="projectName" id="projectName">
+					</label><br>
+					<label for="">Project Description <input type="text" name="projectDescription" id="projectDescription">
+					</label><br>
+					<label for="">Project Due Date: <input type="text" name="projectDueDate" id="projectDueDate">
+					</label><br>
+					<label for="status">Select status:</label>
+				</form>
+				<label for="" class="mystatus">
+					<input type="radio" name="status" id="urgent">
+						<img src="images/btn1.jpg" alt="" width="100" height="75">
+					</input>
+				</label>
+				<label for="" class="mystatus">
+					<input type="radio" name="status" id="sort-of-urgent">
+						<img src="images/btn2.jpg" alt="" width="100" height="75">
+					</input>
+				</label>
+				<label for="" class="mystatus">
+					<input type="radio" name="status" id="not-so-urgent">
+						<img src="images/btn3.jpg" alt="" width="100" height="75">
+					</input>
+				</label>
+				<label for="" class="mystatus">
+					<input type="radio" name="status" id="not-really-urgent">
+						<img src="images/btn4.jpg" alt="" width="100" height="75">
+					</input>
+				</label>
+		</div>
+</div>
+<script src="jquery-1.11.1.min.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
