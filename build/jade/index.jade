@@ -1,69 +1,48 @@
 doctype html
 html
 	head
-		title MOTIV - Get Motivated
+		title Titan Tech
 		include includes/_meta
 	body
 		//- Header and Nav
 		//- ___________________________.navbar-fixed-top
-
+		include includes/_nav
 		//- Big picture CTA
 		//- ___________________________
-		.tile1.container-fluid.text-center
-			include includes/_nav
-			.cta
-				.cta-content
-					img.cta-logo(src="public/images/logo-04.svg")
-					.tag-line
-						h2
-							| GET MOTIVATED
-					//- p.descript
-					//- 	| MANAGE YOUR WORKOUT
-					a#signUpCta(href="#").col-md-2.col-md-push-5.button
-						h5
-							|SIGN UP
-			.container.col-md-3#signUpContent.signUpContent.pull-right.col-md-push-
-				.col-md-4.padding
-					input#userName.input(name='username', type='text', placeholder='Username', required='')
-				.col-md-4.padding
-					input#password.input(name='password', type='password', placeholder='Password', required='')
-				.col-md-4.padding
-					input#email.input(name='email', type='text', placeholder='Email', required='')
-				.col-md-4.padding
-					a#register.col-md-1.button.textB(href='#' type='submit')
-						|	SIGN UP
+		.cta.container-fluid.text-center
+			.col-md-1.col-md-push-5
+				h5.button
+					| PAPO FLOW.
 
 		.tile2.container-fluid
-			.col-md-12.text-center
-				h2 MORE WORK OUT, LESS CALORIES.
-				p Organize and manage the amount of daily calories.
+			.col-md-10.text-center.col-md-push-1
+				h2 Build your own custom machine.
+				p Make a beast or a silent killer.
 				.grid-spacer.col-md-8.col-md-push-2
 
 			.tile3.container-fluid
-				.grid-align.col-md-10
-					.grid-pad.col-md-3.col-md-push-1
+				.grid-align.col-md-9.col-md-push-2.content-align
+					.grid-pad.col-md-2
 						//- .number.col-md-1
 						//- 	p.text-muted
 						//- 		|	1
-						h5 Calorie Calculator
+						h5 CRAFTSMANSHIP
 						p.text-muted
-							| Create a steady diet with additional information like daily protien intake and saturated fat per week.
-					.grid-pad.col-md-3.col-md-push-1
+							| With over a decade of experience in building the world’s most advanced custom gaming computers.
+					.grid-pad.col-md-2.col-md-push-1
 						//- .number.col-md-1
 						//- 	p.text-muted
 						//- 		|	2
-						h5 Weight Tracker
+						h5 PERFORMANCE
 						p.text-muted
-							| Take control of your bad habbits. You'll know if you're on a roll with a good calorie intake, just make sure not to take too many cheat days!
-					.grid-pad.col-md-3.col-md-push-1
+							| Putting together a custom gaming pc is only part of the process, our expert technicians are obsessed with squeezing every ounce of performance. 
+					.grid-pad.col-md-2.col-md-push-2
 						//- .number.col-md-1
 						//- 	p.text-muted
 						//- 		|	3
-						h5 Share a Common Goal
+						h5 TESTING
 						p.text-muted
-							| Challenge your friends on bike rides, and compare your results. See who's on top of their game.
-
-
+							| High-performance hardware needs to be properly tested for bottlenecks and stability.
 		//-Footer
 		//-___________________________
 		include includes/_footer
