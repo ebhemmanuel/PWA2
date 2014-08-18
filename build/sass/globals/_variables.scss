@@ -1,7 +1,40 @@
+//
+
 $footerType         : 11px;
 $navType            : 12px;
 $addButton          : 50px;
 $logo               :"(./public/images/logo.svg)";
+
+
+// Nav Variables
+// Main persistant header, logo, and navigation
+//
+
+$paddingDesktopNav    : 10px;
+$paddingTabletNav     : 10px;
+$paddingPhoneNav      : 13px;
+$lineheightTabletNav  : 48px;
+$linehPhoneNav        : 45px;
+$lineheight           : -90px;
+$navDesktopHeight     : 85px;
+$navTabletHeight      : 160px;
+$logoSize             : 100%;
+
+//
+//
+// Responsive Variables
+//
+
+$phone             : 360px;
+$tablet            : 600px;
+$smallScreen       : 768px;
+$mediumScreen      : 992px;
+$largeScreen       : 1200px;
+$desktopScreen     : 1920px;
+$BigScreen         : 2800px;
+
+
+//
 
 %feature-block{
   @include background-size(cover);

@@ -1,32 +1,145 @@
-/* line 18, ../../build/sass/globals/_navigation.scss */
-.nav-invis {
+/* line 4, ../../build/sass/globals/_navigation.scss */
+.nav-over {
   width: 100%;
   padding-top: 25px;
-  background: white;
+  background: #191818;
 }
-/* line 24, ../../build/sass/globals/_navigation.scss */
-.nav-invis li > a {
+/* line 10, ../../build/sass/globals/_navigation.scss */
+.nav-over li > a {
   color: #ff4800;
   font-size: 11px;
   font-weight: 300;
   letter-spacing: 2px;
 }
-/* line 31, ../../build/sass/globals/_navigation.scss */
-.nav-invis li > a:hover {
+/* line 17, ../../build/sass/globals/_navigation.scss */
+.nav-over li > a:hover {
   padding-bottom: 8px;
   text-decoration: none;
 }
 
-/* line 39, ../../build/sass/globals/_navigation.scss */
+/* line 26, ../../build/sass/globals/_navigation.scss */
+nav {
+  z-index: 3;
+  position: absolute;
+  height: 85px;
+  padding-top: 10px;
+  background-color: white;
+  top: 0px;
+}
+/* line 34, ../../build/sass/globals/_navigation.scss */
+nav h1 {
+  color: #ff4800;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+/* line 40, ../../build/sass/globals/_navigation.scss */
+nav .log-box {
+  position: absolute;
+  z-index: -1;
+  margin-left: -140px;
+}
+/* line 46, ../../build/sass/globals/_navigation.scss */
+nav .log-in-content {
+  -webkit-border-radius: 4px 4px;
+  -moz-border-radius: 4px / 4px;
+  border-radius: 4px / 4px;
+  background: #191818;
+  height: 180px;
+  padding: 20px;
+  padding-left: 30px;
+  margin-left: -80px;
+  margin-top: 39px;
+}
+/* line 9, ../../build/sass/mixins/_responsive.scss */
+nav .log-in-content ::-webkit-input-placeholder {
+  color: #ff4800;
+}
+/* line 13, ../../build/sass/mixins/_responsive.scss */
+nav .log-in-content :-moz-placeholder {
+  /* Firefox 18- */
+  color: #ff4800;
+}
+/* line 17, ../../build/sass/mixins/_responsive.scss */
+nav .log-in-content ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ff4800;
+}
+/* line 21, ../../build/sass/mixins/_responsive.scss */
+nav .log-in-content :-ms-input-placeholder {
+  color: #ff4800;
+}
+/* line 55, ../../build/sass/globals/_navigation.scss */
+nav .log-in-content input {
+  background: transparent;
+  border: none;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+/* line 62, ../../build/sass/globals/_navigation.scss */
+nav .log-in-content #user {
+  padding-bottom: 10px;
+}
+/* line 65, ../../build/sass/globals/_navigation.scss */
+nav .log-in-content #pass {
+  padding-bottom: 10px;
+}
+/* line 68, ../../build/sass/globals/_navigation.scss */
+nav .log-in-content #email {
+  padding-bottom: 10px;
+}
+/* line 72, ../../build/sass/globals/_navigation.scss */
+nav .log-in-content .sign-in-button {
+  margin-top: 51px;
+  letter-spacing: 1px;
+}
+/* line 75, ../../build/sass/globals/_navigation.scss */
+nav .log-in-content .sign-in-button a {
+  transition: background 0.2s ease, color 0.2s ease;
+  color: white;
+  text-decoration: none;
+}
+/* line 79, ../../build/sass/globals/_navigation.scss */
+nav .log-in-content .sign-in-button a:hover {
+  color: #ff4800;
+}
+/* line 84, ../../build/sass/globals/_navigation.scss */
+nav .log-in-content .sign-up-button {
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+/* line 87, ../../build/sass/globals/_navigation.scss */
+nav .log-in-content .sign-up-button a {
+  transition: background 0.2s ease, color 0.2s ease;
+  color: white;
+  text-decoration: none;
+}
+/* line 91, ../../build/sass/globals/_navigation.scss */
+nav .log-in-content .sign-up-button a:hover {
+  color: #ff4800;
+}
+/* line 98, ../../build/sass/globals/_navigation.scss */
+nav ul {
+  margin-left: 30px;
+  margin-top: -90px;
+  list-style-type: none;
+}
+/* line 103, ../../build/sass/globals/_navigation.scss */
+nav ul li {
+  display: inline;
+  padding: 0 10px;
+}
+
+/* line 110, ../../build/sass/globals/_navigation.scss */
 .navbar-default .navbar-nav > li > a {
   color: #ff4800;
 }
-/* line 41, ../../build/sass/globals/_navigation.scss */
+/* line 112, ../../build/sass/globals/_navigation.scss */
 .navbar-default .navbar-nav > li > a:hover {
   color: #ff4800;
 }
 
-/* line 46, ../../build/sass/globals/_navigation.scss */
+/* line 117, ../../build/sass/globals/_navigation.scss */
 .navbar {
   margin-bottom: 0px;
   border-radius: 0;
@@ -36,23 +149,23 @@
   border: none;
 }
 
-/* line 55, ../../build/sass/globals/_navigation.scss */
+/* line 126, ../../build/sass/globals/_navigation.scss */
 .navbar-admin {
   background: #ff4800;
 }
 
-/* line 61, ../../build/sass/globals/_navigation.scss */
+/* line 130, ../../build/sass/globals/_navigation.scss */
 .navbar-brand, .navbar-nav > li > a {
   text-shadow: none;
 }
 
-/* line 65, ../../build/sass/globals/_navigation.scss */
+/* line 134, ../../build/sass/globals/_navigation.scss */
 .nav-text {
   letter-spacing: 1px;
   margin-left: 120px;
 }
 
-/* line 70, ../../build/sass/globals/_navigation.scss */
+/* line 139, ../../build/sass/globals/_navigation.scss */
 .logo {
   width: 100%;
   height: 100%;
@@ -60,40 +173,13 @@
   margin-left: -35px;
 }
 
-/* line 77, ../../build/sass/globals/_navigation.scss */
+/* line 146, ../../build/sass/globals/_navigation.scss */
 .smallLogo {
   margin-top: -5px;
   margin-left: 85px;
 }
 
-/* line 82, ../../build/sass/globals/_navigation.scss */
-nav {
-  z-index: 3;
-  position: absolute;
-  height: 85px;
-  padding-top: 10px;
-  background-color: white;
-  top: 0px;
-}
-/* line 90, ../../build/sass/globals/_navigation.scss */
-nav h1 {
-  color: #ff4800;
-  margin-left: 20px;
-  margin-top: 0px;
-}
-/* line 96, ../../build/sass/globals/_navigation.scss */
-nav ul {
-  margin-left: 30px;
-  margin-top: -90px;
-  list-style-type: none;
-}
-/* line 101, ../../build/sass/globals/_navigation.scss */
-nav ul li {
-  display: inline;
-  padding: 0 10px;
-}
-
-/* line 18, ../../build/sass/application.scss */
+/* line 19, ../../build/sass/application.scss */
 html, body {
   background: white;
 }
@@ -114,31 +200,32 @@ html, body {
   transition: background 0.2s ease, color 0.2s ease;
   background: transparent;
   border-radius: 6px;
-  border: 1px solid white;
+  border: 1px solid #ff4800;
   color: white;
   margin-left: -3px;
+  font-weight: 300;
   width: 240px;
   height: 40px;
   padding-top: 12px;
 }
-/* line 28, ../../build/sass/views/_index.scss */
+/* line 29, ../../build/sass/views/_index.scss */
 .cta .button h5 {
   font-weight: 300;
 }
-/* line 31, ../../build/sass/views/_index.scss */
+/* line 32, ../../build/sass/views/_index.scss */
 .cta .button:hover {
-  background: white;
-  color: #ff4800;
+  background: #ff4800;
+  color: white;
 }
 
-/* line 38, ../../build/sass/views/_index.scss */
+/* line 39, ../../build/sass/views/_index.scss */
 .cta-logo {
   width: 40%;
   margin-left: 10px;
 }
 
-/* line 43, ../../build/sass/views/_index.scss */
-.tile1 {
+/* line 44, ../../build/sass/views/_index.scss */
+.tile0 {
   color: white;
   padding-top: 180px;
   -webkit-background-size: cover;
@@ -146,84 +233,84 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 45, ../../build/sass/views/_index.scss */
-.tile1 h2 {
+/* line 46, ../../build/sass/views/_index.scss */
+.tile0 h2 {
   font-weight: lighter;
   font-size: 22px;
   letter-spacing: 6px;
   margin-bottom: 20px;
   margin-top: -5px;
 }
-/* line 57, ../../build/sass/views/_index.scss */
-.tile1 a {
-  color: #91cc8e;
+/* line 58, ../../build/sass/views/_index.scss */
+.tile0 a {
+  color: #ff4800;
   letter-spacing: 1px;
 }
-/* line 60, ../../build/sass/views/_index.scss */
-.tile1 a:hover {
+/* line 61, ../../build/sass/views/_index.scss */
+.tile0 a:hover {
   text-decoration: none;
 }
-/* line 65, ../../build/sass/views/_index.scss */
-.tile1 .cta-spacer {
+/* line 66, ../../build/sass/views/_index.scss */
+.tile0 .cta-spacer {
   width: 400px;
   height: 2px;
   background: #ececec;
   opacity: .5;
 }
 
-/* line 73, ../../build/sass/views/_index.scss */
-.tile2 {
+/* line 74, ../../build/sass/views/_index.scss */
+.tile1 {
   height: 525px;
   background: #191818;
   padding-top: 70px;
 }
-/* line 77, ../../build/sass/views/_index.scss */
-.tile2 h2 {
+/* line 78, ../../build/sass/views/_index.scss */
+.tile1 h2 {
   font-weight: 300;
   color: white;
 }
-/* line 81, ../../build/sass/views/_index.scss */
-.tile2 h5 {
+/* line 82, ../../build/sass/views/_index.scss */
+.tile1 h5 {
   font-size: 16px;
   letter-spacing: 3px;
   font-weight: 300;
   color: #ff4800;
 }
-/* line 87, ../../build/sass/views/_index.scss */
-.tile2 p {
+/* line 88, ../../build/sass/views/_index.scss */
+.tile1 p {
   font-weight: 300;
   letter-spacing: 5px;
   color: white;
 }
-/* line 92, ../../build/sass/views/_index.scss */
-.tile2 .content-align {
+/* line 93, ../../build/sass/views/_index.scss */
+.tile1 .content-align {
   margin-left: 120px;
 }
 
-/* line 97, ../../build/sass/views/_index.scss */
-.tile3 {
+/* line 98, ../../build/sass/views/_index.scss */
+.tile2 {
   margin-top: -40px;
   padding-top: 220px;
 }
 
-/* line 102, ../../build/sass/views/_index.scss */
+/* line 103, ../../build/sass/views/_index.scss */
 .grid-align {
   margin-left: 125px;
 }
-/* line 104, ../../build/sass/views/_index.scss */
+/* line 105, ../../build/sass/views/_index.scss */
 .grid-align p {
   font-weight: 300;
   letter-spacing: 2px;
   color: white;
 }
 
-/* line 111, ../../build/sass/views/_index.scss */
+/* line 112, ../../build/sass/views/_index.scss */
 .grid-pad {
   padding: 2px;
   margin-right: 40px;
 }
 
-/* line 117, ../../build/sass/views/_index.scss */
+/* line 118, ../../build/sass/views/_index.scss */
 .grid-spacer {
   height: 2px;
   background: #999;
@@ -232,7 +319,7 @@ html, body {
   border-radius: 2px;
 }
 
-/* line 125, ../../build/sass/views/_index.scss */
+/* line 126, ../../build/sass/views/_index.scss */
 .number {
   display: block;
   margin-top: -50px;
@@ -246,33 +333,18 @@ html, body {
   padding-top: 5px;
 }
 
-/* line 139, ../../build/sass/views/_index.scss */
+/* line 140, ../../build/sass/views/_index.scss */
 #signUpContent {
   display: none;
   opacity: 1;
 }
-/* line 142, ../../build/sass/views/_index.scss */
+/* line 143, ../../build/sass/views/_index.scss */
 #signUpContent input {
   display: block;
 }
-/* line 145, ../../build/sass/views/_index.scss */
+/* line 146, ../../build/sass/views/_index.scss */
 #signUpContent .padding {
   padding-bottom: 20px;
-}
-
-/* line 152, ../../build/sass/views/_index.scss */
-.google-icon {
-  height: 80px;
-  width: 80px;
-}
-
-/* line 157, ../../build/sass/views/_index.scss */
-.google-icon {
-  background: url(../images/follow/gp.svg);
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
 }
 
 /* line 5, ../../build/sass/views/_dashboard.scss */
@@ -319,11 +391,11 @@ input:focus, textarea:focus {
 }
 /* line 35, ../../build/sass/views/_dashboard.scss */
 #addCollapse a {
-  color: #91cc8e;
+  color: #ff4800;
 }
 /* line 38, ../../build/sass/views/_dashboard.scss */
 #addCollapse:hover {
-  background: #91cc8e;
+  background: #ff4800;
 }
 /* line 40, ../../build/sass/views/_dashboard.scss */
 #addCollapse:hover a {
@@ -332,7 +404,7 @@ input:focus, textarea:focus {
 }
 /* line 44, ../../build/sass/views/_dashboard.scss */
 #addCollapse:hover:active {
-  background: #33ba9e;
+  background: #ececec;
   a-color: white;
 }
 
@@ -352,7 +424,7 @@ input:focus, textarea:focus {
 .add-entry {
   display: block;
   padding-top: 30px;
-  background: #33ba9e;
+  background: #ececec;
   height: 90px;
 }
 
@@ -367,7 +439,7 @@ input:focus, textarea:focus {
 /* line 77, ../../build/sass/views/_dashboard.scss */
 .subject-line {
   background: transparent;
-  color: #33ba9e;
+  color: white;
   font-size: 25px;
   font-weight: 200;
   letter-spacing: 1px;
@@ -383,10 +455,10 @@ input:focus, textarea:focus {
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
   border-radius: 6px;
+  transition: background 0.2s ease, color 0.2s ease;
   width: 215px;
   height: 40px;
   border: 1px solid white;
-  transition: background 0.2s ease, color 0.2s ease;
   background: transparent;
   color: white;
   margin-left: -3px;
@@ -402,7 +474,7 @@ input:focus, textarea:focus {
 .button:hover {
   text-decoration: none;
   background: white;
-  color: #33ba9e;
+  color: #ececec;
 }
 
 /* line 111, ../../build/sass/views/_dashboard.scss */

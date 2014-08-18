@@ -1,24 +1,10 @@
-//
-// Main persistant header, logo, and navigation
-//
-
-$paddingDesktopNav    : 10px;
-$paddingTabletNav     : 10px;
-$paddingPhoneNav      : 13px;
-$lineheightTabletNav  : 48px;
-$linehPhoneNav        : 45px;
-$lineheight           : -90px;
-$navDesktopHeight     : 85px;
-$navTabletHeight      : 160px;
-$logoSize             : 100%;
+@import 'mixins/responsive';
 
 // Navigation
-
-
-.nav-invis {
+.nav-over {
   width: 100%;
   padding-top         : 25px;
-  background          : $white;
+  background          : $subjectGrey;
   // transition          : border-bottom 0.2s ease;
 
   li>a{
@@ -31,8 +17,93 @@ $logoSize             : 100%;
   li>a:hover{
     padding-bottom    : 8px;
     text-decoration   : none;
-    
+
     // border-bottom     : 1px solid $white;
+  }
+}
+
+
+nav{
+  z-index             : 3;
+  position            : absolute;
+  height              : $navDesktopHeight;
+  padding-top         : $paddingDesktopNav;
+  background-color    : $white;
+  top                 : 0px;
+
+  h1{
+    color             : $red;
+    margin-left       : 20px;
+    margin-top        : 0px;
+  }
+
+  .log-box{
+    position          : absolute;
+    z-index           : -1;
+    margin-left       : -140px;
+  }
+
+  .log-in-content{
+    @include border-radius(4px, 4px);
+    background        : $subjectGrey;
+    height            : 180px;
+    padding           : 20px;
+    padding-left      : 30px;
+    margin-left       : -80px;
+    margin-top        : 39px;
+    @include placeHolder($red);
+    input{
+      background      : transparent;
+      border          : none;
+      color           : $white;
+      letter-spacing  : 2px;
+      font-weight     : 400;
+    }
+    #user{
+      padding-bottom  : 10px;
+    }
+    #pass{
+      padding-bottom  : 10px;
+    }
+    #email{
+      padding-bottom  : 10px;
+    }
+
+    .sign-in-button{
+      margin-top          : 51px;
+      letter-spacing      : 1px;
+      a{
+        @include transition;
+        color             : $white;
+        text-decoration   : none;
+        &:hover{
+          color           : $red;
+        }
+      }
+    }
+    .sign-up-button{
+      margin-top          : 20px;
+      letter-spacing      : 1px;
+      a{
+        @include transition;
+        color             : $white;
+        text-decoration   : none;
+        &:hover{
+          color           : $red;
+        }
+      }
+    }
+  }
+
+  ul{
+   margin-left        : 30px;
+   margin-top         : $lineheight;
+   list-style-type    : none;
+
+   li{
+      display         : inline;
+      padding         : 0 10px;
+  }
  }
 }
 
@@ -56,8 +127,6 @@ $logoSize             : 100%;
   background          : $backgroundB;
 }
 
-
-
 .navbar-brand, .navbar-nav>li>a{
   text-shadow         : none;
 }
@@ -77,32 +146,6 @@ $logoSize             : 100%;
 .smallLogo{
   margin-top          : -5px;
   margin-left         : 85px;
-}
-
-nav{
-  z-index             : 3;
-  position            : absolute;
-  height              : $navDesktopHeight;
-  padding-top         : $paddingDesktopNav;
-  background-color    : $white;
-  top                 : 0px;
-
-  h1{
-    color             : $red;
-    margin-left       : 20px;
-    margin-top        : 0px;
-  }
-
- ul{
-  margin-left         : 30px;
-  margin-top          : $lineheight;
-  list-style-type     : none;
-
- li{
-  display             : inline;
-  padding             : 0 10px;
-  }
- }
 }
 
 

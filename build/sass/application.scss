@@ -12,17 +12,15 @@
 // Mixins
 //
 @import 'globals/navigation';
+@import 'mixins/responsive';
 //
 // Default on.
 //
 html, body {
   background        : $white;
 }
-
 @import 'views/index';
-
 @import 'views/dashboard';
-
 @import 'includes/footer';
 
 

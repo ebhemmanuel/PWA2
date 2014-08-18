@@ -1,14 +1,27 @@
 //
 // Mixin for inline responsive design
 //
-$phone             : 360px;
-$tablet            : 600px;
-$smallScreen       : 768px;
-$mediumScreen      : 992px;
-$largeScreen       : 1200px;
-$desktopScreen     : 1920px;
-$BigScreen         : 2800px;
+@mixin transition{
+	transition        : background 0.2s ease, color 0.2s ease;
+}
 
+@mixin placeHolder($color) {
+	::-webkit-input-placeholder {
+   color: $color;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+	   color: $color;
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: $color;
+	}
+
+	:-ms-input-placeholder {
+	   color: $color;
+	}
+}
 
 @function minW($breakPoint) {
 	@return "screen and (min-width:" + $breakPoint + ")";

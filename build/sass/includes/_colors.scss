@@ -1,8 +1,6 @@
 // Colors by name
 $white              : #fff;
-$green              : #33BA9E;
 $red                : #ff4800;
-$light-green        : #91CC8E;
 $black              : #333;
 $grey               : #ECECEC;
 $mediumGrey         : #616C72;
@@ -11,8 +9,8 @@ $deepGrey           : #303333;
 $subjectGrey        : #191818;
 // Colors by use
 $brandPrimary       : $deepGrey;
-$brandSecondary     : $green;
-$brandAccent        : $light-green;
+$brandSecondary     : $grey;
+$brandAccent        : $red;
 $backgroundA        : $grey;
 $backgroundB        : $red;
 $backgroundC        : $mediumGrey;

@@ -1,4 +1,4 @@
-//
+  //
 // Index Page
 //
 
@@ -14,14 +14,15 @@
   @extend %big-detail;
   margin-top        : -2px;
   padding-top       : 500px;
-  
+
   .button{
-    transition        : background 0.2s ease, color 0.2s ease;
+    @include transition;
     background        : transparent;
     border-radius     : 6px;
-    border            : 1px solid $white;
+    border            : 1px solid $red;
     color             : $white;;
     margin-left       : -3px;
+    font-weight       : 300;
     width             : 240px;
     height            : 40px;
     padding-top       : 12px;
@@ -29,34 +30,34 @@
       font-weight     : 300;
     }
     &:hover{
-      background      : $white;
-      color           : $red;
+      background      : $red;
+      color           : $white;
     }
   }
 }
 
 .cta-logo{
-  width             : 40%;
-  margin-left       : 10px;
+  width               : 40%;
+  margin-left         : 10px;
 }
 
-.tile1{
+.tile0{
 
   h2{
-    font-weight     : lighter;
-    font-size       : 22px;
-    letter-spacing  : 6px;
-    margin-bottom   : 20px;
-    margin-top      : -5px;
+    font-weight       : lighter;
+    font-size         : 22px;
+    letter-spacing    : 6px;
+    margin-bottom     : 20px;
+    margin-top        : -5px;
   }
-  color             : $white;
-  padding-top       : 180px;
+  color               : $white;
+  padding-top         : 180px;
   // background        : url(../images/cta.jpg) no-repeat center center;
   // background-position: 0px -120px;
   @include background-size(cover);
   a{
-    color           : $brandAccent;
-    letter-spacing  : 1px;
+    color             : $red;
+    letter-spacing    : 1px;
     &:hover{
       text-decoration: none;
       }
@@ -70,7 +71,7 @@
   }
 }
 
-.tile2{
+.tile1{
     height            : 525px;
     background        : $subjectGrey;
     padding-top       : 70px;
@@ -94,7 +95,7 @@
     }
 }
 
-.tile3{
+.tile2{
   margin-top          : -40px ;
   padding-top         : 220px;
 }
@@ -137,25 +138,12 @@ margin-right          : 40px;
 
 
 #signUpContent{
-  display            : none;
-  opacity            : 1;
+  display             : none;
+  opacity             : 1;
   input{
-    display          : block;
+    display           : block;
   }
   .padding{
-    padding-bottom   : 20px;
+    padding-bottom    : 20px;
   }
-}
-
-$icon-size           : 80px;
-
-%social-icon{
-  height             : $icon-size;
-  width              : $icon-size;
-}
-
-.google-icon{
-  @extend %social-icon;
-  background: url(../images/follow/gp.svg);
-  @include background-size(contain);
 }
