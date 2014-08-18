@@ -1,16 +1,16 @@
 nav.container-fluid.nav-invis
-	.container.col-md-2.col-md-push-2
+	.container.col-md-3.col-md-push-1
 		h1
 			| TITAN TECH
-	.container.col-md-2.col-md-push-8
+	.container.col-md-2.col-md-push-6
 		ul.navbar-nav
 			li
-				a(href="index.html")
-					| SIGN IN
-					//- #logInContent.logInContent
-					//- 	input#user.input(name='signinButton', type='text', placeholder='Username', required='')
-					//- 	input#pass.input(name='signinButton', type='password', placeholder='Password', required='')
-					//- 	a#signinButton.button(href='#')
-					//- 		|SIGN IN
-	
-	
+				.logInContent
+					input#user.input(name='signinButton', type='text', placeholder='Username', required='')
+					input#pass.input(name='signinButton', type='password', placeholder='Password', required='')
+					a#signinButton.button(href='#')
+						|SIGN IN
+			li
+				//- li
+				//- 	a(href="index.html")
+				//- 		| SIGN IN
