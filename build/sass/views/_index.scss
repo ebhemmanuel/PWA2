@@ -1,13 +1,82 @@
   //
 // Index Page
 //
-
+.content{
+  z-index           : 1;
+  position          : absolute;
+}
 %big-detail{
   height            : 725px;
 }
 %small-detail{
   height            : 300px
 }
+
+#sign-in{
+}
+
+.log-box{
+  transition        : margin-top .6s ease;
+  position          : absolute;
+  z-index           : 2;
+  margin-top        : -95px;
+  }
+
+.log-box-open{
+
+  margin-top        : 80px;
+}
+
+  .log-in-content{
+    @include border-radius(4px, 4px);
+    background        : $subjectGrey;
+    height            : 180px;
+    padding           : 20px;
+    padding-left      : 30px;
+    margin-left       : -80px;
+    @include placeHolder($red);
+    input{
+      background      : transparent;
+      border          : none;
+      color           : $white;
+      letter-spacing  : 2px;
+      font-weight     : 400;
+    }
+    #user{
+      padding-bottom  : 10px;
+    }
+    #pass{
+      padding-bottom  : 10px;
+    }
+    #email{
+      padding-bottom  : 10px;
+    }
+
+    .sign-in-button{
+      margin-top          : 51px;
+      letter-spacing      : 1px;
+      a{
+        @include transition;
+        color             : $white;
+        text-decoration   : none;
+        &:hover{
+          color           : $red;
+        }
+      }
+    }
+    .sign-up-button{
+      margin-top          : 20px;
+      letter-spacing      : 1px;
+      a{
+        @include transition;
+        color             : $white;
+        text-decoration   : none;
+        &:hover{
+          color           : $red;
+        }
+      }
+    }
+  }
 
 .cta{
   background        : $deepGrey;
@@ -91,7 +160,7 @@
       color           : $white;
     }
     .content-align{
-      margin-left     : 120px;
+      margin-left     : 90px;
     }
 }
 

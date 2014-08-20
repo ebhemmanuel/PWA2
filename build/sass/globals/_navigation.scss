@@ -2,6 +2,7 @@
 
 // Navigation
 .nav-over {
+  z-index             : 3;
   width: 100%;
   padding-top         : 25px;
   background          : $subjectGrey;
@@ -37,63 +38,6 @@ nav{
     margin-top        : 0px;
   }
 
-  .log-box{
-    position          : absolute;
-    z-index           : -1;
-    margin-left       : -140px;
-  }
-
-  .log-in-content{
-    @include border-radius(4px, 4px);
-    background        : $subjectGrey;
-    height            : 180px;
-    padding           : 20px;
-    padding-left      : 30px;
-    margin-left       : -80px;
-    margin-top        : 39px;
-    @include placeHolder($red);
-    input{
-      background      : transparent;
-      border          : none;
-      color           : $white;
-      letter-spacing  : 2px;
-      font-weight     : 400;
-    }
-    #user{
-      padding-bottom  : 10px;
-    }
-    #pass{
-      padding-bottom  : 10px;
-    }
-    #email{
-      padding-bottom  : 10px;
-    }
-
-    .sign-in-button{
-      margin-top          : 51px;
-      letter-spacing      : 1px;
-      a{
-        @include transition;
-        color             : $white;
-        text-decoration   : none;
-        &:hover{
-          color           : $red;
-        }
-      }
-    }
-    .sign-up-button{
-      margin-top          : 20px;
-      letter-spacing      : 1px;
-      a{
-        @include transition;
-        color             : $white;
-        text-decoration   : none;
-        &:hover{
-          color           : $red;
-        }
-      }
-    }
-  }
 
   ul{
    margin-left        : 30px;

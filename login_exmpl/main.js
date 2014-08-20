@@ -6,7 +6,7 @@ function hoverState(item){
              .fadeTo(100, .3)
             		},function(){
       $(this).stop(true, false)
-             .fadeTo(100, 1);
+             .fadeTo(100, 1)
             });
 } // end of function
 

@@ -5,28 +5,7 @@ nav.container-fluid.nav-over
 	.container-fluid.col-md-3.col-md-push-6
 		ul.navbar-nav
 			li
-				a(href="index.html")
-					| SIGN IN
-			li
-				.log-box.text-center
-						.log-in-content
-							.col-md-6
-								.container-fluid
-									input#user.input(name='sign-in-button', type='text', placeholder='Username', required='')
-								.container-fluid
-									input#pass.input(name='sign-in-button', type='password', placeholder='Password', required='')
-								.container-fluid.sign-in-button
-									a(href='#')
-										|SIGN IN
-							.col-md-6
-								.container-fluid
-									input#user.input(name='sign-in-button', type='text', placeholder='Username', required='')
-								.container-fluid
-									input#email.input(name='sign-in-button', type='text', placeholder='Email', required='')
-								.container-fluid
-									input#pass.input(name='sign-in-button', type='password', placeholder='Password', required='')
-								.container-fluid.sign-up-button
-									a(href='#')
-										|SIGN UP
+				a#sign-in(href="index.html")
+					| SIGN IN | SIGN UP
 
 

@@ -1,23 +1,24 @@
 /* line 4, ../../build/sass/globals/_navigation.scss */
 .nav-over {
+  z-index: 3;
   width: 100%;
   padding-top: 25px;
   background: #191818;
 }
-/* line 10, ../../build/sass/globals/_navigation.scss */
+/* line 11, ../../build/sass/globals/_navigation.scss */
 .nav-over li > a {
   color: #ff4800;
   font-size: 11px;
   font-weight: 300;
   letter-spacing: 2px;
 }
-/* line 17, ../../build/sass/globals/_navigation.scss */
+/* line 18, ../../build/sass/globals/_navigation.scss */
 .nav-over li > a:hover {
   padding-bottom: 8px;
   text-decoration: none;
 }
 
-/* line 26, ../../build/sass/globals/_navigation.scss */
+/* line 27, ../../build/sass/globals/_navigation.scss */
 nav {
   z-index: 3;
   position: absolute;
@@ -26,120 +27,34 @@ nav {
   background-color: white;
   top: 0px;
 }
-/* line 34, ../../build/sass/globals/_navigation.scss */
+/* line 35, ../../build/sass/globals/_navigation.scss */
 nav h1 {
   color: #ff4800;
   margin-left: 20px;
   margin-top: 0px;
 }
-/* line 40, ../../build/sass/globals/_navigation.scss */
-nav .log-box {
-  position: absolute;
-  z-index: -1;
-  margin-left: -140px;
-}
-/* line 46, ../../build/sass/globals/_navigation.scss */
-nav .log-in-content {
-  -webkit-border-radius: 4px 4px;
-  -moz-border-radius: 4px / 4px;
-  border-radius: 4px / 4px;
-  background: #191818;
-  height: 180px;
-  padding: 20px;
-  padding-left: 30px;
-  margin-left: -80px;
-  margin-top: 39px;
-}
-/* line 9, ../../build/sass/mixins/_responsive.scss */
-nav .log-in-content ::-webkit-input-placeholder {
-  color: #ff4800;
-}
-/* line 13, ../../build/sass/mixins/_responsive.scss */
-nav .log-in-content :-moz-placeholder {
-  /* Firefox 18- */
-  color: #ff4800;
-}
-/* line 17, ../../build/sass/mixins/_responsive.scss */
-nav .log-in-content ::-moz-placeholder {
-  /* Firefox 19+ */
-  color: #ff4800;
-}
-/* line 21, ../../build/sass/mixins/_responsive.scss */
-nav .log-in-content :-ms-input-placeholder {
-  color: #ff4800;
-}
-/* line 55, ../../build/sass/globals/_navigation.scss */
-nav .log-in-content input {
-  background: transparent;
-  border: none;
-  color: white;
-  letter-spacing: 2px;
-  font-weight: 400;
-}
-/* line 62, ../../build/sass/globals/_navigation.scss */
-nav .log-in-content #user {
-  padding-bottom: 10px;
-}
-/* line 65, ../../build/sass/globals/_navigation.scss */
-nav .log-in-content #pass {
-  padding-bottom: 10px;
-}
-/* line 68, ../../build/sass/globals/_navigation.scss */
-nav .log-in-content #email {
-  padding-bottom: 10px;
-}
-/* line 72, ../../build/sass/globals/_navigation.scss */
-nav .log-in-content .sign-in-button {
-  margin-top: 51px;
-  letter-spacing: 1px;
-}
-/* line 75, ../../build/sass/globals/_navigation.scss */
-nav .log-in-content .sign-in-button a {
-  transition: background 0.2s ease, color 0.2s ease;
-  color: white;
-  text-decoration: none;
-}
-/* line 79, ../../build/sass/globals/_navigation.scss */
-nav .log-in-content .sign-in-button a:hover {
-  color: #ff4800;
-}
-/* line 84, ../../build/sass/globals/_navigation.scss */
-nav .log-in-content .sign-up-button {
-  margin-top: 20px;
-  letter-spacing: 1px;
-}
-/* line 87, ../../build/sass/globals/_navigation.scss */
-nav .log-in-content .sign-up-button a {
-  transition: background 0.2s ease, color 0.2s ease;
-  color: white;
-  text-decoration: none;
-}
-/* line 91, ../../build/sass/globals/_navigation.scss */
-nav .log-in-content .sign-up-button a:hover {
-  color: #ff4800;
-}
-/* line 98, ../../build/sass/globals/_navigation.scss */
+/* line 42, ../../build/sass/globals/_navigation.scss */
 nav ul {
   margin-left: 30px;
   margin-top: -90px;
   list-style-type: none;
 }
-/* line 103, ../../build/sass/globals/_navigation.scss */
+/* line 47, ../../build/sass/globals/_navigation.scss */
 nav ul li {
   display: inline;
   padding: 0 10px;
 }
 
-/* line 110, ../../build/sass/globals/_navigation.scss */
+/* line 54, ../../build/sass/globals/_navigation.scss */
 .navbar-default .navbar-nav > li > a {
   color: #ff4800;
 }
-/* line 112, ../../build/sass/globals/_navigation.scss */
+/* line 56, ../../build/sass/globals/_navigation.scss */
 .navbar-default .navbar-nav > li > a:hover {
   color: #ff4800;
 }
 
-/* line 117, ../../build/sass/globals/_navigation.scss */
+/* line 61, ../../build/sass/globals/_navigation.scss */
 .navbar {
   margin-bottom: 0px;
   border-radius: 0;
@@ -149,23 +64,23 @@ nav ul li {
   border: none;
 }
 
-/* line 126, ../../build/sass/globals/_navigation.scss */
+/* line 70, ../../build/sass/globals/_navigation.scss */
 .navbar-admin {
   background: #ff4800;
 }
 
-/* line 130, ../../build/sass/globals/_navigation.scss */
+/* line 74, ../../build/sass/globals/_navigation.scss */
 .navbar-brand, .navbar-nav > li > a {
   text-shadow: none;
 }
 
-/* line 134, ../../build/sass/globals/_navigation.scss */
+/* line 78, ../../build/sass/globals/_navigation.scss */
 .nav-text {
   letter-spacing: 1px;
   margin-left: 120px;
 }
 
-/* line 139, ../../build/sass/globals/_navigation.scss */
+/* line 83, ../../build/sass/globals/_navigation.scss */
 .logo {
   width: 100%;
   height: 100%;
@@ -173,7 +88,7 @@ nav ul li {
   margin-left: -35px;
 }
 
-/* line 146, ../../build/sass/globals/_navigation.scss */
+/* line 90, ../../build/sass/globals/_navigation.scss */
 .smallLogo {
   margin-top: -5px;
   margin-left: 85px;
@@ -184,18 +99,117 @@ html, body {
   background: white;
 }
 
-/* line 5, ../../build/sass/views/_index.scss */
+/* line 4, ../../build/sass/views/_index.scss */
+.content {
+  z-index: 1;
+  position: absolute;
+}
+
+/* line 8, ../../build/sass/views/_index.scss */
 .cta {
   height: 725px;
 }
 
-/* line 12, ../../build/sass/views/_index.scss */
+/* line 18, ../../build/sass/views/_index.scss */
+.log-box {
+  transition: margin-top .6s ease;
+  position: absolute;
+  z-index: 2;
+  margin-top: -95px;
+}
+
+/* line 25, ../../build/sass/views/_index.scss */
+.log-box-open {
+  margin-top: 80px;
+}
+
+/* line 30, ../../build/sass/views/_index.scss */
+.log-in-content {
+  -webkit-border-radius: 4px 4px;
+  -moz-border-radius: 4px / 4px;
+  border-radius: 4px / 4px;
+  background: #191818;
+  height: 180px;
+  padding: 20px;
+  padding-left: 30px;
+  margin-left: -80px;
+}
+/* line 9, ../../build/sass/mixins/_responsive.scss */
+.log-in-content ::-webkit-input-placeholder {
+  color: #ff4800;
+}
+/* line 13, ../../build/sass/mixins/_responsive.scss */
+.log-in-content :-moz-placeholder {
+  /* Firefox 18- */
+  color: #ff4800;
+}
+/* line 17, ../../build/sass/mixins/_responsive.scss */
+.log-in-content ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ff4800;
+}
+/* line 21, ../../build/sass/mixins/_responsive.scss */
+.log-in-content :-ms-input-placeholder {
+  color: #ff4800;
+}
+/* line 38, ../../build/sass/views/_index.scss */
+.log-in-content input {
+  background: transparent;
+  border: none;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+/* line 45, ../../build/sass/views/_index.scss */
+.log-in-content #user {
+  padding-bottom: 10px;
+}
+/* line 48, ../../build/sass/views/_index.scss */
+.log-in-content #pass {
+  padding-bottom: 10px;
+}
+/* line 51, ../../build/sass/views/_index.scss */
+.log-in-content #email {
+  padding-bottom: 10px;
+}
+/* line 55, ../../build/sass/views/_index.scss */
+.log-in-content .sign-in-button {
+  margin-top: 51px;
+  letter-spacing: 1px;
+}
+/* line 58, ../../build/sass/views/_index.scss */
+.log-in-content .sign-in-button a {
+  transition: background 0.2s ease, color 0.2s ease;
+  color: white;
+  text-decoration: none;
+}
+/* line 62, ../../build/sass/views/_index.scss */
+.log-in-content .sign-in-button a:hover {
+  color: #ff4800;
+}
+/* line 67, ../../build/sass/views/_index.scss */
+.log-in-content .sign-up-button {
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+/* line 70, ../../build/sass/views/_index.scss */
+.log-in-content .sign-up-button a {
+  transition: background 0.2s ease, color 0.2s ease;
+  color: white;
+  text-decoration: none;
+}
+/* line 74, ../../build/sass/views/_index.scss */
+.log-in-content .sign-up-button a:hover {
+  color: #ff4800;
+}
+
+/* line 81, ../../build/sass/views/_index.scss */
 .cta {
   background: #303333;
   margin-top: -2px;
   padding-top: 500px;
 }
-/* line 18, ../../build/sass/views/_index.scss */
+/* line 87, ../../build/sass/views/_index.scss */
 .cta .button {
   transition: background 0.2s ease, color 0.2s ease;
   background: transparent;
@@ -208,23 +222,23 @@ html, body {
   height: 40px;
   padding-top: 12px;
 }
-/* line 29, ../../build/sass/views/_index.scss */
+/* line 98, ../../build/sass/views/_index.scss */
 .cta .button h5 {
   font-weight: 300;
 }
-/* line 32, ../../build/sass/views/_index.scss */
+/* line 101, ../../build/sass/views/_index.scss */
 .cta .button:hover {
   background: #ff4800;
   color: white;
 }
 
-/* line 39, ../../build/sass/views/_index.scss */
+/* line 108, ../../build/sass/views/_index.scss */
 .cta-logo {
   width: 40%;
   margin-left: 10px;
 }
 
-/* line 44, ../../build/sass/views/_index.scss */
+/* line 113, ../../build/sass/views/_index.scss */
 .tile0 {
   color: white;
   padding-top: 180px;
@@ -233,7 +247,7 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 46, ../../build/sass/views/_index.scss */
+/* line 115, ../../build/sass/views/_index.scss */
 .tile0 h2 {
   font-weight: lighter;
   font-size: 22px;
@@ -241,16 +255,16 @@ html, body {
   margin-bottom: 20px;
   margin-top: -5px;
 }
-/* line 58, ../../build/sass/views/_index.scss */
+/* line 127, ../../build/sass/views/_index.scss */
 .tile0 a {
   color: #ff4800;
   letter-spacing: 1px;
 }
-/* line 61, ../../build/sass/views/_index.scss */
+/* line 130, ../../build/sass/views/_index.scss */
 .tile0 a:hover {
   text-decoration: none;
 }
-/* line 66, ../../build/sass/views/_index.scss */
+/* line 135, ../../build/sass/views/_index.scss */
 .tile0 .cta-spacer {
   width: 400px;
   height: 2px;
@@ -258,59 +272,59 @@ html, body {
   opacity: .5;
 }
 
-/* line 74, ../../build/sass/views/_index.scss */
+/* line 143, ../../build/sass/views/_index.scss */
 .tile1 {
   height: 525px;
   background: #191818;
   padding-top: 70px;
 }
-/* line 78, ../../build/sass/views/_index.scss */
+/* line 147, ../../build/sass/views/_index.scss */
 .tile1 h2 {
   font-weight: 300;
   color: white;
 }
-/* line 82, ../../build/sass/views/_index.scss */
+/* line 151, ../../build/sass/views/_index.scss */
 .tile1 h5 {
   font-size: 16px;
   letter-spacing: 3px;
   font-weight: 300;
   color: #ff4800;
 }
-/* line 88, ../../build/sass/views/_index.scss */
+/* line 157, ../../build/sass/views/_index.scss */
 .tile1 p {
   font-weight: 300;
   letter-spacing: 5px;
   color: white;
 }
-/* line 93, ../../build/sass/views/_index.scss */
+/* line 162, ../../build/sass/views/_index.scss */
 .tile1 .content-align {
-  margin-left: 120px;
+  margin-left: 90px;
 }
 
-/* line 98, ../../build/sass/views/_index.scss */
+/* line 167, ../../build/sass/views/_index.scss */
 .tile2 {
   margin-top: -40px;
   padding-top: 220px;
 }
 
-/* line 103, ../../build/sass/views/_index.scss */
+/* line 172, ../../build/sass/views/_index.scss */
 .grid-align {
   margin-left: 125px;
 }
-/* line 105, ../../build/sass/views/_index.scss */
+/* line 174, ../../build/sass/views/_index.scss */
 .grid-align p {
   font-weight: 300;
   letter-spacing: 2px;
   color: white;
 }
 
-/* line 112, ../../build/sass/views/_index.scss */
+/* line 181, ../../build/sass/views/_index.scss */
 .grid-pad {
   padding: 2px;
   margin-right: 40px;
 }
 
-/* line 118, ../../build/sass/views/_index.scss */
+/* line 187, ../../build/sass/views/_index.scss */
 .grid-spacer {
   height: 2px;
   background: #999;
@@ -319,7 +333,7 @@ html, body {
   border-radius: 2px;
 }
 
-/* line 126, ../../build/sass/views/_index.scss */
+/* line 195, ../../build/sass/views/_index.scss */
 .number {
   display: block;
   margin-top: -50px;
@@ -333,16 +347,16 @@ html, body {
   padding-top: 5px;
 }
 
-/* line 140, ../../build/sass/views/_index.scss */
+/* line 209, ../../build/sass/views/_index.scss */
 #signUpContent {
   display: none;
   opacity: 1;
 }
-/* line 143, ../../build/sass/views/_index.scss */
+/* line 212, ../../build/sass/views/_index.scss */
 #signUpContent input {
   display: block;
 }
-/* line 146, ../../build/sass/views/_index.scss */
+/* line 215, ../../build/sass/views/_index.scss */
 #signUpContent .padding {
   padding-bottom: 20px;
 }
