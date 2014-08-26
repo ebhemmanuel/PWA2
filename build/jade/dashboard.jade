@@ -1,7 +1,7 @@
 doctype html
 html
 	head
-		title MOTIV - Dashboard
+		title TITAN TECH - Dashboard
 		include includes/_meta
 	body
 		//- Header and Nav
@@ -16,13 +16,13 @@ html
 			.contrainer-fluid.add-section
 				.col-md-8.col-md-push-2
 					textarea#projectDescription(name='projectDescrition', type='text', placeholder='Just Write..')
-				.col-md-4
-					input#projectDueDate(name='projectDueDate', type='text')
-				.col-md-4
-					input#projectStatus(name='projectStatus', type='text')
+				//- .col-md-4
+				//- 	input#projectDueDate(name='projectDueDate', type='text')
+				//- .col-md-4
+				//- 	input#projectStatus(name='projectStatus', type='text')
 					//- form#addForm
 				.col-md-3
-					a.col-md-2.button.push-add(href="", name='addButton', type='button', value='SUBMIT')
+					a.col-md-2.button.push-add#addButton(href="", name='addButton', type='button', value='SUBMIT')
 						h5
 							|SAVE
 			.add-entry.contrainer-fluid
@@ -42,7 +42,7 @@ html
 			.col-md-8.col-md-push-2
 				#projectlist
 					h2
-						| projects
+						| Orders
 					.projects
 		//-Footer
 		//-___________________________

@@ -8,6 +8,7 @@
     <link href="public/css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <link href="public/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet">
     <link href="public/css/application.css" type="text/css" rel="stylesheet">
+    <link href="https://fontastic.s3.amazonaws.com/XRE5YB6RyKw6pfXrPsMcdF/icons.css" rel="stylesheet">
     <!-- link(href="public/icon/favicon.ico" rel="shortcut icon" type="image/x-icon")-->
   </head>
   <body>
@@ -18,30 +19,50 @@
       </div>
       <div class="container-fluid col-md-3 col-md-push-6">
         <ul class="navbar-nav">
-          <li><a id="sign-in" href="index.html">SIGN IN | SIGN UP</a></li>
+          <li><a id="sign-in" href="#">SIGN IN</a></li>
+          <li><a id="sign-up" href="#">SIGN UP</a></li>
         </ul>
       </div>
     </nav>
-    <div class="log-box text-center col-md-push-8">
+    <div class="log-box-in text-center col-md-push-8">
       <div class="log-in-content">
         <form class="col-md-6">
-          <div class="container-fluid">
-            <input id="user" name="sign-in-button" type="text" placeholder="Username" required="" class="input">
+          <div class="container-fluid padding-b">
+            <div class="side-box icon-torso"></div>
+            <div class="container-fluid">
+              <input id="user" name="sign-in-button" type="text" placeholder="Username" required="" class="input">
+            </div>
           </div>
           <div class="container-fluid">
-            <input id="pass" name="sign-in-button" type="password" placeholder="Password" required="" class="input">
+            <div class="side-box icon-lock"></div>
+            <div class="container-fluid">
+              <input id="pass" name="sign-in-button" type="password" placeholder="Password" required="" class="input">
+            </div>
           </div>
           <div class="container-fluid sign-in-button"><a id="sign-in-button" href="#">SIGN IN</a></div>
         </form>
+      </div>
+    </div>
+    <div class="log-box-up text-center col-md-push-8">
+      <div class="log-up-content">
         <form class="col-md-6">
-          <div class="container-fluid">
-            <input id="userR" name="sign-up-button" type="text" placeholder="Username" required="" class="input">
+          <div class="container-fluid padding-b">
+            <div class="side-box icon-mail"></div>
+            <div class="container-fluid">
+              <input id="emailR" name="sign-up-button" type="text" placeholder="Email" required="" class="input">
+            </div>
+          </div>
+          <div class="container-fluid padding-b">
+            <div class="side-box icon-torso"></div>
+            <div class="container-fluid">
+              <input id="userR" name="sign-up-button" type="text" placeholder="Username" required="" class="input">
+            </div>
           </div>
           <div class="container-fluid">
-            <input id="emailR" name="sign-up-button" type="text" placeholder="Email" required="" class="input">
-          </div>
-          <div class="container-fluid">
-            <input id="passR" name="sign-up-button" type="password" placeholder="Password" required="" class="input">
+            <div class="side-box icon-lock"></div>
+            <div class="container-fluid">
+              <input id="passR" name="sign-up-button" type="password" placeholder="Password" required="" class="input">
+            </div>
           </div>
           <div class="container-fluid sign-in-button"><a id="sign-up-button" href="#">SIGN UP</a></div>
         </form>

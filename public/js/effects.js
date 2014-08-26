@@ -5,7 +5,11 @@ $(document).ready(function(){
 	var 	moveDown 	 = $(".move-down");
 	var		type       = $(".type-replace");
 	var   signIn     = $("#sign-in");
-	var   logBox     = $(".log-box");
+	var   signUp     = $("#sign-up");
+	var   logBoxIn   = $(".log-box-in");
+	var   logBoxUp   = $(".log-box-up");
+	var logContent   = $(".log-in-content")
+	var logUp   = $(".log-up-content")
 
 	$(addSection).on("click", function(e){
 		e.preventDefault();
@@ -19,9 +23,17 @@ $(document).ready(function(){
 		}
 	});
 
-	$(signIn).on("click", function(e){
+	signIn.on("click", function(e){
 		e.preventDefault();
-		$(logBox).toggleClass("log-box-open");
+		logContent.css("display", "block");
+		logBoxIn.toggleClass("log-box-open");
+		logBoxUp.removeClass('log-box-open');
+	});
+	signUp.on("click", function(e){
+		e.preventDefault();
+		logUp.css("display", "block");
+		logBoxUp.toggleClass("log-box-open");
+		logBoxIn.removeClass('log-box-open');
 	});
 });
 
@@ -128,9 +140,9 @@ log.focus(function(){
 
 	$('#addButton').on('click', function(){
 		var projName = $('#projectName').val(),
-		 		projDesc = $('#projectDescription').val(),
-		 		projDue  = $('#projectDueDate').val(),
-				status = $('input[name = "status"]:checked').prop('id');
+		 		projDesc = $('#projectDescription').val();
+		 	// 	projDue  = $('#projectDueDate').val(),
+				// status = $('input[name = "status"]:checked').prop('id');
 
 				$.ajax({
 					url     : 'xhr/new_project.php',
@@ -138,9 +150,9 @@ log.focus(function(){
 					dataType: 'json',
 					data    : {
 							projectName: projName,
-							projectDescription: projDesc,
-							dueDate: projDue,
-							status: status
+							projectDescription: projDesc
+							// dueDate: projDue,
+							// status: status
 					}, success: function(response) {
 						console.log('Testing for success');
 						if(response.error){
@@ -153,7 +165,12 @@ log.focus(function(){
 	});
 
 	var del = $('.deletebtn');
-	del.click(function(e){
+	del.click(function(){
+		console.log("boom")
+	});
+
+	del.on('click',function(e){
+		e.preventDefault();
 		var pid = $(this).parent().find('.projectid').val();
 		console.log('test delete');
 		$.ajax({
@@ -167,14 +184,14 @@ log.focus(function(){
 				console.log('Testing for success');
 				if(response.error){
 					alert(response.error);
-				} else{
+				}else{
 					window.location.assign('projects.html');
 				}
 			}
 		});
 	});
 
-	var projects = function(){
+function projects(){
 
 	$.ajax({
         url: 'xhr/get_projects.php',
@@ -189,16 +206,17 @@ log.focus(function(){
 	                var result = response.projects[i];
 
 	                $(".projects").append(
-	                	'<div style="border:1px solid black">' +
-						//'<div id="sortable" class="ui-state-default">' +
-	                	" <input class='projectid' type='hidden' value='" + result.id + "'>" +
-	                	" Project Name: " + result.projectName + "<br>" +
-						" Project Due Date: " + result.dueDate + "<br>" +
-	                	" Project Description: " + result.projectDescription + "<br>" +
-						" Project Status: " + result.status + "<br>"
-						+ '<button class="deletebtn">Delete</button>'
-						+ '<button class="editbtn">Edit</button>'
-						+ '</div> <br>'
+	                	'<div class="listing">' +
+												//'<div id="sortable" class="ui-state-default">' +
+			                	" <input class='projectid' type='hidden' value='" + result.id + "'>" +
+			                	 result.projectName + "<br>" +
+												// " Project Due Date: " + result.dueDate + "<br>" +
+			                	result.projectDescription + "<br>" +
+												// " Project Status: " + result.status + "<br>"
+												'<div class="buttonHold">'
+											+ '<button class="deletebtn">Delete</button>'
+											+ '<button class="editbtn">Edit</button>'
+								+ '</div> <br>'
 	               	);
 	            };
 						};

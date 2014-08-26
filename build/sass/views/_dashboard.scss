@@ -63,8 +63,21 @@ width                 : 160px;
 .add-entry{
   display             : block;
   padding-top         : 30px;
-  background          : $brandSecondary;
+  // background          : $brandSecondary;
+  background          : transparent;
   height              : 90px;
+}
+
+
+
+.listing{
+  width: 500px;
+  margin-bottom       : 30px;
+  padding:20px;
+}
+
+.buttonHold{
+  padding-top: 20px;
 }
 
 .subject{
@@ -90,9 +103,9 @@ width                 : 160px;
     @include transition;
     width             : 215px;
     height            : 40px;
-    border            : 1px solid $white;
+    border            : 1px solid $deepGrey;
     background        : transparent;
-    color             : $white;
+    color             : $deepGrey;
     margin-left       : -3px;
     letter-spacing    : 2px;
     padding-top       : 3px;
@@ -102,14 +115,15 @@ width                 : 160px;
     }
     &:hover{
       text-decoration : none;
-      background      :$white;
-      color           :$brandSecondary;
+      background      :$deepGrey;
+      color           :$white;
     }
   }
 
 
 .add-section{
-  background          : $backgroundC;
+  // background          : $backgroundC;
+  background          : transparent;
   font-size           : 20px;
   font-weight         : 200;
   height              : 400px;
@@ -186,7 +200,9 @@ width                 : 160px;
 //
 
 .history{
-  height              : 520px;
+  padding-top:60px;
+  min-height          : 720px;
+  max-height          : 100%;
   background          : $grey;
   color               : $black;
 h2{

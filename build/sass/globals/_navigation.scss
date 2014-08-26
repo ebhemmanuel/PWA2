@@ -4,7 +4,7 @@
 .nav-over {
   z-index             : 3;
   width: 100%;
-  padding-top         : 25px;
+  padding-top         : 32px;
   background          : $subjectGrey;
   // transition          : border-bottom 0.2s ease;
 
@@ -41,7 +41,7 @@ nav{
 
   ul{
    margin-left        : 30px;
-   margin-top         : $lineheight;
+   // margin-top         : $lineheight;
    list-style-type    : none;
 
    li{
@@ -68,7 +68,8 @@ nav{
  }
 
 .navbar-admin{
-  background          : $backgroundB;
+  padding-top         : 20px;
+  background          : $deepGrey;
 }
 
 .navbar-brand, .navbar-nav>li>a{

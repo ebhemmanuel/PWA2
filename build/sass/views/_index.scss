@@ -1,6 +1,27 @@
   //
 // Index Page
 //
+%button{
+    @include transition;
+    background        : transparent;
+    border-radius     : 6px;
+    border            : 1px solid $red;
+    color             : $white;
+    margin-left       : -3px;
+    font-weight       : 300;
+    width             : 240px;
+    height            : 40px;
+    padding-top       : 12px;
+    cursor            : pointer;
+    h5{
+      font-weight     : 300;
+    }
+    &:hover{
+      background      : $red;
+      color           : $deepGrey;
+    }
+  }
+
 .content{
   z-index           : 1;
   position          : absolute;
@@ -12,36 +33,99 @@
   height            : 300px
 }
 
+%noRadius{
+  @include border-radius(0px, 0px);
+}
+
 #sign-in{
 }
 
-.log-box{
+.log-box-in{
+  @extend %noRadius;
   transition        : margin-top .6s ease;
   position          : absolute;
   z-index           : 2;
-  margin-top        : -95px;
+  margin-top        : -280px;
+
+  }
+
+.log-box-up{
+  @extend %noRadius;
+  transition        : margin-top .6s ease;
+  position          : absolute;
+  z-index           : 2;
+  margin-top        : -280px;
   }
 
 .log-box-open{
-
   margin-top        : 80px;
 }
 
-  .log-in-content{
-    @include border-radius(4px, 4px);
+.side-box{
+  @include border-radius(4px);
+      @include border-bottom-right-radius(0px);
+      @include border-top-right-radius(0px);
+  display           : inline-block;
+  float             : left;
+  background        : $placeHolder;
+  height            : 30px;
+  width: 30px;
+
+}
+
+.padding-b{
+  padding-bottom   : 12px;
+}
+
+%log-c{
+  @extend %noRadius;
+    @include placeHolder($placeHolderLighter);
+    display           : none;
     background        : $subjectGrey;
-    height            : 180px;
+    width             : 280px;
+    height            : 120px;
     padding           : 20px;
-    padding-left      : 30px;
-    margin-left       : -80px;
-    @include placeHolder($red);
+    padding-left      : 20px;
+    // padding-bottom    : 15px;
+    margin-left       : 120px;
+
+    %icon-settings{
+      display         : inline-block;
+      float           : left;
+      font-size       : 22px;
+      padding-top     : 2px;
+      margin-top      : 2px;
+      margin-bottom   : -80px;
+      color           : $placeHolderLighter;
+    }
+
+    .icon-mail{
+      @extend %icon-settings;
+    }
+    .icon-torso{
+      @extend %icon-settings;
+    }
+    .icon-lock{
+      @extend %icon-settings;
+    }
+
     input{
-      background      : transparent;
+      @include border-radius(4px);
+      @include border-bottom-left-radius(0px);
+      @include border-top-left-radius(0px);
+      height: 30px;
+      padding-top     : 12px;
+      padding-left    : 10px;
+      margin-top      : 2px;
+      // margin-bottom   : 12px;
+      margin-left     : 15px;
+      background      : $placeHolder;
       border          : none;
       color           : $white;
       letter-spacing  : 2px;
       font-weight     : 400;
     }
+
     #user{
       padding-bottom  : 10px;
     }
@@ -51,19 +135,37 @@
     #email{
       padding-bottom  : 10px;
     }
+    #userR{
+      padding-bottom  : 10px;
+    }
+    #passR{
+      padding-bottom  : 10px;
+    }
+    #emailR{
+      padding-bottom  : 10px;
+    }
 
     .sign-in-button{
-      margin-top          : 51px;
+      @extend %button;
+      @extend %noRadius;
+      @include border-radius(4px);
+      @include border-top-right-radius(0px);
+      @include border-top-left-radius(0px);
+      width               : 280px;
+      margin-left         : -35px;
+      margin-top          : 24px;
       letter-spacing      : 1px;
+      background          : $red;
       a{
         @include transition;
-        color             : $white;
+        color             : $deepGrey;
         text-decoration   : none;
         &:hover{
-          color           : $red;
+          color           : $deepGrey;
         }
       }
     }
+
     .sign-up-button{
       margin-top          : 20px;
       letter-spacing      : 1px;
@@ -76,7 +178,17 @@
         }
       }
     }
+
+}
+
+.log-in-content{
+  @extend %log-c;
   }
+.log-up-content{
+  @extend %log-c;
+  height: 200px;
+}
+
 .logo{
   display           : block;
   height            : 120px;
@@ -97,26 +209,11 @@
   padding-top       : 300px;
 
   .button{
-    @include transition;
-    background        : transparent;
-    border-radius     : 6px;
-    border            : 1px solid $red;
-    color             : $white;
-    margin-left       : -3px;
-    font-weight       : 300;
-    width             : 240px;
-    height            : 40px;
-    padding-top       : 12px;
-    cursor            : pointer;
-    h5{
-      font-weight     : 300;
-    }
-    &:hover{
-      background      : $red;
-      color           : $deepGrey;
-    }
-  }
+  @extend %button
 }
+}
+
+
 
 .cta-logo{
   width               : 40%;
@@ -220,7 +317,7 @@ margin-right          : 40px;
 }
 
 .lighter{
-  
+
 }
 
 #signUpContent{
