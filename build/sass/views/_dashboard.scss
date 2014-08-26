@@ -81,18 +81,20 @@ width                 : 160px;
 }
 
 .subject{
-  background          : $backgroundD;
+  @include placeHolder($placeHolderLighter);
+  background          : $mediumGrey;
   height              : 100px;
   padding-top         : 30px;
   margin-left         : -20px;
+
 }
 
  .subject-line{
     background        : transparent;
     color             : $white;
     font-size         : 25px;
-    font-weight       : 200;
-    letter-spacing    : 1px;
+    font-weight       : lighter;
+    letter-spacing    : 2px;
     margin-left       : -10px;
     border-width      : 0;
     width             : 400px;
@@ -142,11 +144,11 @@ width                 : 160px;
   }
 
   ::-webkit-input-placeholder{
-    color             : $subjectGrey;
+    color             : $mediumGrey;
   }
 
   textarea{
-    color             : $grey;
+    color             : $deepGrey;
     background        : transparent;
     border            : none;
     resize            : none;

@@ -39,21 +39,31 @@ nav ul {
   list-style-type: none;
 }
 /* line 47, ../../build/sass/globals/_navigation.scss */
+nav ul .primary {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  color: white;
+  padding: 5px;
+}
+/* line 54, ../../build/sass/globals/_navigation.scss */
 nav ul li {
   display: inline;
   padding: 0 10px;
 }
 
-/* line 54, ../../build/sass/globals/_navigation.scss */
+/* line 61, ../../build/sass/globals/_navigation.scss */
 .navbar-default .navbar-nav > li > a {
   color: #f7ec16;
 }
-/* line 56, ../../build/sass/globals/_navigation.scss */
+/* line 63, ../../build/sass/globals/_navigation.scss */
 .navbar-default .navbar-nav > li > a:hover {
   color: #f7ec16;
 }
 
-/* line 61, ../../build/sass/globals/_navigation.scss */
+/* line 68, ../../build/sass/globals/_navigation.scss */
 .navbar {
   margin-bottom: 0px;
   border-radius: 0;
@@ -63,24 +73,25 @@ nav ul li {
   border: none;
 }
 
-/* line 70, ../../build/sass/globals/_navigation.scss */
+/* line 77, ../../build/sass/globals/_navigation.scss */
 .navbar-admin {
+  z-index: 3;
   padding-top: 20px;
   background: #303333;
 }
 
-/* line 75, ../../build/sass/globals/_navigation.scss */
+/* line 83, ../../build/sass/globals/_navigation.scss */
 .navbar-brand, .navbar-nav > li > a {
   text-shadow: none;
 }
 
-/* line 79, ../../build/sass/globals/_navigation.scss */
+/* line 87, ../../build/sass/globals/_navigation.scss */
 .nav-text {
   letter-spacing: 1px;
   margin-left: 120px;
 }
 
-/* line 84, ../../build/sass/globals/_navigation.scss */
+/* line 92, ../../build/sass/globals/_navigation.scss */
 .logo {
   width: 100%;
   height: 100%;
@@ -88,7 +99,7 @@ nav ul li {
   margin-left: -35px;
 }
 
-/* line 91, ../../build/sass/globals/_navigation.scss */
+/* line 99, ../../build/sass/globals/_navigation.scss */
 .smallLogo {
   margin-top: -5px;
   margin-left: 85px;
@@ -102,8 +113,12 @@ html, body {
 /* line 4, ../../build/sass/views/_index.scss */
 .log-in-content .sign-in-button, .log-up-content .sign-in-button, .cta .button {
   transition: background 0.2s ease, color 0.2s ease;
-  background: transparent;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
   border-radius: 6px;
+  background: transparent;
   border: 1px solid #f7ec16;
   color: white;
   margin-left: -3px;
@@ -123,25 +138,25 @@ html, body {
   color: #303333;
 }
 
-/* line 25, ../../build/sass/views/_index.scss */
+/* line 28, ../../build/sass/views/_index.scss */
 .content {
   z-index: 1;
   position: absolute;
 }
 
-/* line 29, ../../build/sass/views/_index.scss */
+/* line 33, ../../build/sass/views/_index.scss */
 .cta {
   height: 725px;
 }
 
-/* line 36, ../../build/sass/views/_index.scss */
+/* line 40, ../../build/sass/views/_index.scss */
 .log-box-in, .log-box-up, .log-in-content, .log-up-content, .log-in-content .sign-in-button, .log-up-content .sign-in-button {
   -webkit-border-radius: 0px 0px;
   -moz-border-radius: 0px / 0px;
   border-radius: 0px / 0px;
 }
 
-/* line 43, ../../build/sass/views/_index.scss */
+/* line 47, ../../build/sass/views/_index.scss */
 .log-box-in {
   transition: margin-top .6s ease;
   position: absolute;
@@ -149,7 +164,7 @@ html, body {
   margin-top: -280px;
 }
 
-/* line 52, ../../build/sass/views/_index.scss */
+/* line 56, ../../build/sass/views/_index.scss */
 .log-box-up {
   transition: margin-top .6s ease;
   position: absolute;
@@ -157,12 +172,12 @@ html, body {
   margin-top: -280px;
 }
 
-/* line 60, ../../build/sass/views/_index.scss */
+/* line 64, ../../build/sass/views/_index.scss */
 .log-box-open {
   margin-top: 80px;
 }
 
-/* line 64, ../../build/sass/views/_index.scss */
+/* line 68, ../../build/sass/views/_index.scss */
 .side-box {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -178,16 +193,17 @@ html, body {
   display: inline-block;
   float: left;
   background: #282828;
-  height: 30px;
+  height: 35px;
+  padding-left: 5px;
   width: 30px;
 }
 
-/* line 76, ../../build/sass/views/_index.scss */
+/* line 81, ../../build/sass/views/_index.scss */
 .padding-b {
   padding-bottom: 12px;
 }
 
-/* line 80, ../../build/sass/views/_index.scss */
+/* line 85, ../../build/sass/views/_index.scss */
 .log-in-content, .log-up-content {
   display: none;
   background: #191818;
@@ -215,17 +231,17 @@ html, body {
 .log-in-content :-ms-input-placeholder, .log-up-content :-ms-input-placeholder {
   color: #494c4c;
 }
-/* line 92, ../../build/sass/views/_index.scss */
+/* line 97, ../../build/sass/views/_index.scss */
 .log-in-content .icon-mail, .log-up-content .icon-mail, .log-in-content .icon-torso, .log-up-content .icon-torso, .log-in-content .icon-lock, .log-up-content .icon-lock {
   display: inline-block;
   float: left;
   font-size: 22px;
-  padding-top: 2px;
+  padding-top: 5px;
   margin-top: 2px;
   margin-bottom: -80px;
   color: #494c4c;
 }
-/* line 112, ../../build/sass/views/_index.scss */
+/* line 117, ../../build/sass/views/_index.scss */
 .log-in-content input, .log-up-content input {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -238,7 +254,7 @@ html, body {
   -moz-border-radius-topleft: 0px;
   -webkit-border-top-left-radius: 0px;
   border-top-left-radius: 0px;
-  height: 30px;
+  height: 35px;
   padding-top: 12px;
   padding-left: 10px;
   margin-top: 2px;
@@ -249,31 +265,31 @@ html, body {
   letter-spacing: 2px;
   font-weight: 400;
 }
-/* line 129, ../../build/sass/views/_index.scss */
+/* line 134, ../../build/sass/views/_index.scss */
 .log-in-content #user, .log-up-content #user {
   padding-bottom: 10px;
 }
-/* line 132, ../../build/sass/views/_index.scss */
+/* line 137, ../../build/sass/views/_index.scss */
 .log-in-content #pass, .log-up-content #pass {
   padding-bottom: 10px;
 }
-/* line 135, ../../build/sass/views/_index.scss */
+/* line 140, ../../build/sass/views/_index.scss */
 .log-in-content #email, .log-up-content #email {
   padding-bottom: 10px;
 }
-/* line 138, ../../build/sass/views/_index.scss */
+/* line 143, ../../build/sass/views/_index.scss */
 .log-in-content #userR, .log-up-content #userR {
   padding-bottom: 10px;
 }
-/* line 141, ../../build/sass/views/_index.scss */
+/* line 146, ../../build/sass/views/_index.scss */
 .log-in-content #passR, .log-up-content #passR {
   padding-bottom: 10px;
 }
-/* line 144, ../../build/sass/views/_index.scss */
+/* line 149, ../../build/sass/views/_index.scss */
 .log-in-content #emailR, .log-up-content #emailR {
   padding-bottom: 10px;
 }
-/* line 148, ../../build/sass/views/_index.scss */
+/* line 153, ../../build/sass/views/_index.scss */
 .log-in-content .sign-in-button, .log-up-content .sign-in-button {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -286,51 +302,57 @@ html, body {
   -moz-border-radius-topleft: 0px;
   -webkit-border-top-left-radius: 0px;
   border-top-left-radius: 0px;
+  border: 0px solid #f7ec16;
   width: 280px;
   margin-left: -35px;
-  margin-top: 24px;
+  margin-top: 35px;
   letter-spacing: 1px;
   background: #f7ec16;
 }
-/* line 159, ../../build/sass/views/_index.scss */
+/* line 166, ../../build/sass/views/_index.scss */
 .log-in-content .sign-in-button a, .log-up-content .sign-in-button a {
   transition: background 0.2s ease, color 0.2s ease;
-  color: #303333;
+  color: #191818;
   text-decoration: none;
 }
-/* line 163, ../../build/sass/views/_index.scss */
+/* line 170, ../../build/sass/views/_index.scss */
 .log-in-content .sign-in-button a:hover, .log-up-content .sign-in-button a:hover {
-  color: #303333;
+  color: #191818;
 }
-/* line 169, ../../build/sass/views/_index.scss */
+/* line 176, ../../build/sass/views/_index.scss */
 .log-in-content .sign-up-button, .log-up-content .sign-up-button {
   margin-top: 20px;
   letter-spacing: 1px;
 }
-/* line 172, ../../build/sass/views/_index.scss */
+/* line 179, ../../build/sass/views/_index.scss */
 .log-in-content .sign-up-button a, .log-up-content .sign-up-button a {
   transition: background 0.2s ease, color 0.2s ease;
   color: white;
   text-decoration: none;
 }
-/* line 176, ../../build/sass/views/_index.scss */
+/* line 183, ../../build/sass/views/_index.scss */
 .log-in-content .sign-up-button a:hover, .log-up-content .sign-up-button a:hover {
   color: #f7ec16;
 }
 
-/* line 187, ../../build/sass/views/_index.scss */
+/* line 191, ../../build/sass/views/_index.scss */
+.log-in-content {
+  height: 160px;
+}
+
+/* line 195, ../../build/sass/views/_index.scss */
 .log-up-content {
   height: 200px;
 }
 
-/* line 192, ../../build/sass/views/_index.scss */
+/* line 200, ../../build/sass/views/_index.scss */
 .logo {
   display: block;
   height: 120px;
   width: 300px;
 }
 
-/* line 197, ../../build/sass/views/_index.scss */
+/* line 205, ../../build/sass/views/_index.scss */
 .sub {
   margin-top: -20px;
   color: white;
@@ -338,7 +360,7 @@ html, body {
   letter-spacing: 3px;
 }
 
-/* line 203, ../../build/sass/views/_index.scss */
+/* line 211, ../../build/sass/views/_index.scss */
 .cta {
   background: url(../images/cta.jpg) no-repeat center center;
   -webkit-background-size: cover;
@@ -349,13 +371,13 @@ html, body {
   padding-top: 300px;
 }
 
-/* line 218, ../../build/sass/views/_index.scss */
+/* line 226, ../../build/sass/views/_index.scss */
 .cta-logo {
   width: 40%;
   margin-left: 10px;
 }
 
-/* line 223, ../../build/sass/views/_index.scss */
+/* line 231, ../../build/sass/views/_index.scss */
 .tile0 {
   color: white;
   padding-top: 180px;
@@ -364,7 +386,7 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 225, ../../build/sass/views/_index.scss */
+/* line 233, ../../build/sass/views/_index.scss */
 .tile0 h2 {
   font-weight: lighter;
   font-size: 22px;
@@ -372,16 +394,16 @@ html, body {
   margin-bottom: 20px;
   margin-top: -5px;
 }
-/* line 237, ../../build/sass/views/_index.scss */
+/* line 245, ../../build/sass/views/_index.scss */
 .tile0 a {
   color: #f7ec16;
   letter-spacing: 1px;
 }
-/* line 240, ../../build/sass/views/_index.scss */
+/* line 248, ../../build/sass/views/_index.scss */
 .tile0 a:hover {
   text-decoration: none;
 }
-/* line 245, ../../build/sass/views/_index.scss */
+/* line 253, ../../build/sass/views/_index.scss */
 .tile0 .cta-spacer {
   width: 400px;
   height: 2px;
@@ -389,46 +411,46 @@ html, body {
   opacity: .5;
 }
 
-/* line 253, ../../build/sass/views/_index.scss */
+/* line 261, ../../build/sass/views/_index.scss */
 .tile1 {
   height: 525px;
   background: #191818;
   padding-top: 70px;
 }
-/* line 257, ../../build/sass/views/_index.scss */
+/* line 265, ../../build/sass/views/_index.scss */
 .tile1 h2 {
   font-weight: 300;
   color: white;
 }
-/* line 261, ../../build/sass/views/_index.scss */
+/* line 269, ../../build/sass/views/_index.scss */
 .tile1 h5 {
   font-size: 16px;
   letter-spacing: 3px;
   font-weight: 300;
   color: #f7ec16;
 }
-/* line 267, ../../build/sass/views/_index.scss */
+/* line 275, ../../build/sass/views/_index.scss */
 .tile1 p {
   font-weight: 300;
   letter-spacing: 5px;
   color: white;
 }
-/* line 272, ../../build/sass/views/_index.scss */
+/* line 280, ../../build/sass/views/_index.scss */
 .tile1 .content-align {
   margin-left: 90px;
 }
 
-/* line 277, ../../build/sass/views/_index.scss */
+/* line 285, ../../build/sass/views/_index.scss */
 .tile2 {
   margin-top: -40px;
   padding-top: 220px;
 }
 
-/* line 282, ../../build/sass/views/_index.scss */
+/* line 290, ../../build/sass/views/_index.scss */
 .grid-align {
   margin-left: 125px;
 }
-/* line 284, ../../build/sass/views/_index.scss */
+/* line 292, ../../build/sass/views/_index.scss */
 .grid-align p {
   font-weight: 300;
   letter-spacing: 2px;
@@ -436,13 +458,13 @@ html, body {
   font-weight: lighter;
 }
 
-/* line 292, ../../build/sass/views/_index.scss */
+/* line 300, ../../build/sass/views/_index.scss */
 .grid-pad {
   padding: 2px;
   margin-right: 40px;
 }
 
-/* line 298, ../../build/sass/views/_index.scss */
+/* line 306, ../../build/sass/views/_index.scss */
 .grid-spacer {
   height: 2px;
   background: #999;
@@ -451,7 +473,7 @@ html, body {
   border-radius: 2px;
 }
 
-/* line 306, ../../build/sass/views/_index.scss */
+/* line 314, ../../build/sass/views/_index.scss */
 .number {
   display: block;
   margin-top: -50px;
@@ -465,16 +487,16 @@ html, body {
   padding-top: 5px;
 }
 
-/* line 323, ../../build/sass/views/_index.scss */
+/* line 331, ../../build/sass/views/_index.scss */
 #signUpContent {
   display: none;
   opacity: 1;
 }
-/* line 326, ../../build/sass/views/_index.scss */
+/* line 334, ../../build/sass/views/_index.scss */
 #signUpContent input {
   display: block;
 }
-/* line 329, ../../build/sass/views/_index.scss */
+/* line 337, ../../build/sass/views/_index.scss */
 #signUpContent .padding {
   padding-bottom: 20px;
 }
@@ -574,25 +596,43 @@ input:focus, textarea:focus {
 
 /* line 83, ../../build/sass/views/_dashboard.scss */
 .subject {
-  background: #191818;
+  background: #616c72;
   height: 100px;
   padding-top: 30px;
   margin-left: -20px;
 }
+/* line 9, ../../build/sass/mixins/_responsive.scss */
+.subject ::-webkit-input-placeholder {
+  color: #494c4c;
+}
+/* line 13, ../../build/sass/mixins/_responsive.scss */
+.subject :-moz-placeholder {
+  /* Firefox 18- */
+  color: #494c4c;
+}
+/* line 17, ../../build/sass/mixins/_responsive.scss */
+.subject ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #494c4c;
+}
+/* line 21, ../../build/sass/mixins/_responsive.scss */
+.subject :-ms-input-placeholder {
+  color: #494c4c;
+}
 
-/* line 90, ../../build/sass/views/_dashboard.scss */
+/* line 92, ../../build/sass/views/_dashboard.scss */
 .subject-line {
   background: transparent;
   color: white;
   font-size: 25px;
-  font-weight: 200;
-  letter-spacing: 1px;
+  font-weight: lighter;
+  letter-spacing: 2px;
   margin-left: -10px;
   border-width: 0;
   width: 400px;
 }
 
-/* line 101, ../../build/sass/views/_dashboard.scss */
+/* line 103, ../../build/sass/views/_dashboard.scss */
 .button {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -610,18 +650,18 @@ input:focus, textarea:focus {
   padding-top: 3px;
   text-align: center;
 }
-/* line 113, ../../build/sass/views/_dashboard.scss */
+/* line 115, ../../build/sass/views/_dashboard.scss */
 .button h5 {
   font-weight: 300;
 }
-/* line 116, ../../build/sass/views/_dashboard.scss */
+/* line 118, ../../build/sass/views/_dashboard.scss */
 .button:hover {
   text-decoration: none;
   background: #303333;
   color: white;
 }
 
-/* line 124, ../../build/sass/views/_dashboard.scss */
+/* line 126, ../../build/sass/views/_dashboard.scss */
 .add-section {
   background: transparent;
   font-size: 20px;
@@ -630,22 +670,22 @@ input:focus, textarea:focus {
   padding-top: 60px;
   margin-left: -20px;
 }
-/* line 133, ../../build/sass/views/_dashboard.scss */
+/* line 135, ../../build/sass/views/_dashboard.scss */
 .add-section -moz-focus-inner {
   border: 0;
   padding: 0;
 }
-/* line 140, ../../build/sass/views/_dashboard.scss */
+/* line 142, ../../build/sass/views/_dashboard.scss */
 .add-section ul li {
   list-style: none;
 }
-/* line 144, ../../build/sass/views/_dashboard.scss */
+/* line 146, ../../build/sass/views/_dashboard.scss */
 .add-section ::-webkit-input-placeholder {
-  color: #191818;
+  color: #616c72;
 }
-/* line 148, ../../build/sass/views/_dashboard.scss */
+/* line 150, ../../build/sass/views/_dashboard.scss */
 .add-section textarea {
-  color: #ececec;
+  color: #303333;
   background: transparent;
   border: none;
   resize: none;
@@ -655,7 +695,7 @@ input:focus, textarea:focus {
   width: 600px;
   height: 280px;
 }
-/* line 160, ../../build/sass/views/_dashboard.scss */
+/* line 162, ../../build/sass/views/_dashboard.scss */
 .add-section .submit {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -666,7 +706,7 @@ input:focus, textarea:focus {
   padding: 10px;
   width: 160px;
 }
-/* line 167, ../../build/sass/views/_dashboard.scss */
+/* line 169, ../../build/sass/views/_dashboard.scss */
 .add-section input {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -684,7 +724,7 @@ input:focus, textarea:focus {
   padding-left: 10px;
   margin-bottom: 20px;
 }
-/* line 181, ../../build/sass/views/_dashboard.scss */
+/* line 183, ../../build/sass/views/_dashboard.scss */
 .add-section .label {
   -webkit-border-radius: 6px 0px 0px 6px;
   -moz-border-radius: 6px 0px 0px 6px;
@@ -704,7 +744,7 @@ input:focus, textarea:focus {
   padding-right: 10px;
 }
 
-/* line 202, ../../build/sass/views/_dashboard.scss */
+/* line 204, ../../build/sass/views/_dashboard.scss */
 .history {
   padding-top: 60px;
   min-height: 720px;
@@ -712,7 +752,7 @@ input:focus, textarea:focus {
   background: #ececec;
   color: #333333;
 }
-/* line 208, ../../build/sass/views/_dashboard.scss */
+/* line 210, ../../build/sass/views/_dashboard.scss */
 .history h2 {
   font-weight: 300;
   letter-spacing: 1px;

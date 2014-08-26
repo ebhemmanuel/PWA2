@@ -44,6 +44,13 @@ nav{
    // margin-top         : $lineheight;
    list-style-type    : none;
 
+   .primary{
+      @include border-radius(6px);
+      color             : $white;
+      padding:5px;
+
+    }
+
    li{
       display         : inline;
       padding         : 0 10px;
@@ -68,6 +75,7 @@ nav{
  }
 
 .navbar-admin{
+  z-index             : 3;
   padding-top         : 20px;
   background          : $deepGrey;
 }
