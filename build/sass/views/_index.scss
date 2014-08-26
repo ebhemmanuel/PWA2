@@ -77,32 +77,43 @@
       }
     }
   }
-
+.logo{
+  display           : block;
+  height            : 120px;
+  width             : 300px;
+}
+.sub{
+  margin-top        : -20px;
+  color             : $white;
+  font-weight       : lighter;
+  letter-spacing    : 3px;
+}
 .cta{
   background        : url(../images/cta.jpg) no-repeat center center;
   // background-position: 0px -120px;
   @include background-size(cover);
   @extend %big-detail;
   margin-top        : -2px;
-  padding-top       : 500px;
+  padding-top       : 300px;
 
   .button{
     @include transition;
     background        : transparent;
     border-radius     : 6px;
     border            : 1px solid $red;
-    color             : $white;;
+    color             : $white;
     margin-left       : -3px;
     font-weight       : 300;
     width             : 240px;
     height            : 40px;
     padding-top       : 12px;
+    cursor            : pointer;
     h5{
       font-weight     : 300;
     }
     &:hover{
       background      : $red;
-      color           : $white;
+      color           : $deepGrey;
     }
   }
 }
@@ -177,6 +188,7 @@
       font-weight     : 300;
       letter-spacing  : 2px;
       color           : $white;
+      font-weight         : lighter;
     }
 }
 
@@ -207,6 +219,9 @@ margin-right          : 40px;
   padding-top         : 5px;
 }
 
+.lighter{
+  
+}
 
 #signUpContent{
   display             : none;
