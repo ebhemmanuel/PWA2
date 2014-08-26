@@ -79,7 +79,9 @@
   }
 
 .cta{
-  background        : $deepGrey;
+  background        : url(../images/cta.jpg) no-repeat center center;
+  // background-position: 0px -120px;
+  @include background-size(cover);
   @extend %big-detail;
   margin-top        : -2px;
   padding-top       : 500px;
