@@ -123,9 +123,10 @@ log.focus(function(){
 
 	$.getJSON('xhr/check_login.php', function(data){
 		$.each(data,function(key, val){
-			$('.userid').html('Welcome ' + val.first_name);
+			$('.userid').html(val.first_name);
 		})
 	});
+
 	$('html').ready(function() {
     $(this).closest('form').find("input[type=text], textarea").val("");
 		});

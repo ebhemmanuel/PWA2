@@ -179,11 +179,11 @@ html, body {
 
 /* line 68, ../../build/sass/views/_index.scss */
 .side-box {
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
   -moz-border-radius-bottomright: 0px;
   -webkit-border-bottom-right-radius: 0px;
   border-bottom-right-radius: 0px;
@@ -210,7 +210,7 @@ html, body {
   width: 280px;
   height: 120px;
   padding: 20px;
-  padding-left: 20px;
+  padding-left: 17px;
   margin-left: 120px;
 }
 /* line 9, ../../build/sass/mixins/_responsive.scss */
@@ -243,11 +243,11 @@ html, body {
 }
 /* line 117, ../../build/sass/views/_index.scss */
 .log-in-content input, .log-up-content input {
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
   -moz-border-radius-bottomleft: 0px;
   -webkit-border-bottom-left-radius: 0px;
   border-bottom-left-radius: 0px;
@@ -291,11 +291,11 @@ html, body {
 }
 /* line 153, ../../build/sass/views/_index.scss */
 .log-in-content .sign-in-button, .log-up-content .sign-in-button {
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
   -moz-border-radius-topright: 0px;
   -webkit-border-top-right-radius: 0px;
   border-top-right-radius: 0px;
@@ -304,7 +304,7 @@ html, body {
   border-top-left-radius: 0px;
   border: 0px solid #f7ec16;
   width: 280px;
-  margin-left: -35px;
+  margin-left: -32px;
   margin-top: 35px;
   letter-spacing: 1px;
   background: #f7ec16;
@@ -335,24 +335,24 @@ html, body {
   color: #f7ec16;
 }
 
-/* line 191, ../../build/sass/views/_index.scss */
+/* line 190, ../../build/sass/views/_index.scss */
 .log-in-content {
   height: 160px;
 }
 
-/* line 195, ../../build/sass/views/_index.scss */
+/* line 194, ../../build/sass/views/_index.scss */
 .log-up-content {
   height: 200px;
 }
 
-/* line 200, ../../build/sass/views/_index.scss */
+/* line 199, ../../build/sass/views/_index.scss */
 .logo {
   display: block;
   height: 120px;
   width: 300px;
 }
 
-/* line 205, ../../build/sass/views/_index.scss */
+/* line 204, ../../build/sass/views/_index.scss */
 .sub {
   margin-top: -20px;
   color: white;
@@ -360,7 +360,7 @@ html, body {
   letter-spacing: 3px;
 }
 
-/* line 211, ../../build/sass/views/_index.scss */
+/* line 210, ../../build/sass/views/_index.scss */
 .cta {
   background: url(../images/cta.jpg) no-repeat center center;
   -webkit-background-size: cover;
@@ -371,13 +371,13 @@ html, body {
   padding-top: 300px;
 }
 
-/* line 226, ../../build/sass/views/_index.scss */
+/* line 225, ../../build/sass/views/_index.scss */
 .cta-logo {
   width: 40%;
   margin-left: 10px;
 }
 
-/* line 231, ../../build/sass/views/_index.scss */
+/* line 230, ../../build/sass/views/_index.scss */
 .tile0 {
   color: white;
   padding-top: 180px;
@@ -386,7 +386,7 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 233, ../../build/sass/views/_index.scss */
+/* line 232, ../../build/sass/views/_index.scss */
 .tile0 h2 {
   font-weight: lighter;
   font-size: 22px;
@@ -394,16 +394,16 @@ html, body {
   margin-bottom: 20px;
   margin-top: -5px;
 }
-/* line 245, ../../build/sass/views/_index.scss */
+/* line 244, ../../build/sass/views/_index.scss */
 .tile0 a {
   color: #f7ec16;
   letter-spacing: 1px;
 }
-/* line 248, ../../build/sass/views/_index.scss */
+/* line 247, ../../build/sass/views/_index.scss */
 .tile0 a:hover {
   text-decoration: none;
 }
-/* line 253, ../../build/sass/views/_index.scss */
+/* line 252, ../../build/sass/views/_index.scss */
 .tile0 .cta-spacer {
   width: 400px;
   height: 2px;
@@ -411,46 +411,46 @@ html, body {
   opacity: .5;
 }
 
-/* line 261, ../../build/sass/views/_index.scss */
+/* line 260, ../../build/sass/views/_index.scss */
 .tile1 {
   height: 525px;
   background: #191818;
   padding-top: 70px;
 }
-/* line 265, ../../build/sass/views/_index.scss */
+/* line 264, ../../build/sass/views/_index.scss */
 .tile1 h2 {
   font-weight: 300;
   color: white;
 }
-/* line 269, ../../build/sass/views/_index.scss */
+/* line 268, ../../build/sass/views/_index.scss */
 .tile1 h5 {
   font-size: 16px;
   letter-spacing: 3px;
   font-weight: 300;
   color: #f7ec16;
 }
-/* line 275, ../../build/sass/views/_index.scss */
+/* line 274, ../../build/sass/views/_index.scss */
 .tile1 p {
   font-weight: 300;
   letter-spacing: 5px;
   color: white;
 }
-/* line 280, ../../build/sass/views/_index.scss */
+/* line 279, ../../build/sass/views/_index.scss */
 .tile1 .content-align {
   margin-left: 90px;
 }
 
-/* line 285, ../../build/sass/views/_index.scss */
+/* line 284, ../../build/sass/views/_index.scss */
 .tile2 {
   margin-top: -40px;
   padding-top: 220px;
 }
 
-/* line 290, ../../build/sass/views/_index.scss */
+/* line 289, ../../build/sass/views/_index.scss */
 .grid-align {
   margin-left: 125px;
 }
-/* line 292, ../../build/sass/views/_index.scss */
+/* line 291, ../../build/sass/views/_index.scss */
 .grid-align p {
   font-weight: 300;
   letter-spacing: 2px;
@@ -458,13 +458,13 @@ html, body {
   font-weight: lighter;
 }
 
-/* line 300, ../../build/sass/views/_index.scss */
+/* line 299, ../../build/sass/views/_index.scss */
 .grid-pad {
   padding: 2px;
   margin-right: 40px;
 }
 
-/* line 306, ../../build/sass/views/_index.scss */
+/* line 305, ../../build/sass/views/_index.scss */
 .grid-spacer {
   height: 2px;
   background: #999;
@@ -473,7 +473,7 @@ html, body {
   border-radius: 2px;
 }
 
-/* line 314, ../../build/sass/views/_index.scss */
+/* line 313, ../../build/sass/views/_index.scss */
 .number {
   display: block;
   margin-top: -50px;
@@ -487,16 +487,16 @@ html, body {
   padding-top: 5px;
 }
 
-/* line 331, ../../build/sass/views/_index.scss */
+/* line 330, ../../build/sass/views/_index.scss */
 #signUpContent {
   display: none;
   opacity: 1;
 }
-/* line 334, ../../build/sass/views/_index.scss */
+/* line 333, ../../build/sass/views/_index.scss */
 #signUpContent input {
   display: block;
 }
-/* line 337, ../../build/sass/views/_index.scss */
+/* line 336, ../../build/sass/views/_index.scss */
 #signUpContent .padding {
   padding-bottom: 20px;
 }
@@ -603,24 +603,24 @@ input:focus, textarea:focus {
 }
 /* line 9, ../../build/sass/mixins/_responsive.scss */
 .subject ::-webkit-input-placeholder {
-  color: #494c4c;
+  color: #303333;
 }
 /* line 13, ../../build/sass/mixins/_responsive.scss */
 .subject :-moz-placeholder {
   /* Firefox 18- */
-  color: #494c4c;
+  color: #303333;
 }
 /* line 17, ../../build/sass/mixins/_responsive.scss */
 .subject ::-moz-placeholder {
   /* Firefox 19+ */
-  color: #494c4c;
+  color: #303333;
 }
 /* line 21, ../../build/sass/mixins/_responsive.scss */
 .subject :-ms-input-placeholder {
-  color: #494c4c;
+  color: #303333;
 }
 
-/* line 92, ../../build/sass/views/_dashboard.scss */
+/* line 91, ../../build/sass/views/_dashboard.scss */
 .subject-line {
   background: transparent;
   color: white;
@@ -632,7 +632,7 @@ input:focus, textarea:focus {
   width: 400px;
 }
 
-/* line 103, ../../build/sass/views/_dashboard.scss */
+/* line 102, ../../build/sass/views/_dashboard.scss */
 .button {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -650,18 +650,18 @@ input:focus, textarea:focus {
   padding-top: 3px;
   text-align: center;
 }
-/* line 115, ../../build/sass/views/_dashboard.scss */
+/* line 114, ../../build/sass/views/_dashboard.scss */
 .button h5 {
   font-weight: 300;
 }
-/* line 118, ../../build/sass/views/_dashboard.scss */
+/* line 117, ../../build/sass/views/_dashboard.scss */
 .button:hover {
   text-decoration: none;
   background: #303333;
   color: white;
 }
 
-/* line 126, ../../build/sass/views/_dashboard.scss */
+/* line 125, ../../build/sass/views/_dashboard.scss */
 .add-section {
   background: transparent;
   font-size: 20px;
@@ -670,20 +670,20 @@ input:focus, textarea:focus {
   padding-top: 60px;
   margin-left: -20px;
 }
-/* line 135, ../../build/sass/views/_dashboard.scss */
+/* line 134, ../../build/sass/views/_dashboard.scss */
 .add-section -moz-focus-inner {
   border: 0;
   padding: 0;
 }
-/* line 142, ../../build/sass/views/_dashboard.scss */
+/* line 141, ../../build/sass/views/_dashboard.scss */
 .add-section ul li {
   list-style: none;
 }
-/* line 146, ../../build/sass/views/_dashboard.scss */
+/* line 145, ../../build/sass/views/_dashboard.scss */
 .add-section ::-webkit-input-placeholder {
   color: #616c72;
 }
-/* line 150, ../../build/sass/views/_dashboard.scss */
+/* line 149, ../../build/sass/views/_dashboard.scss */
 .add-section textarea {
   color: #303333;
   background: transparent;
@@ -695,7 +695,7 @@ input:focus, textarea:focus {
   width: 600px;
   height: 280px;
 }
-/* line 162, ../../build/sass/views/_dashboard.scss */
+/* line 161, ../../build/sass/views/_dashboard.scss */
 .add-section .submit {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -706,7 +706,7 @@ input:focus, textarea:focus {
   padding: 10px;
   width: 160px;
 }
-/* line 169, ../../build/sass/views/_dashboard.scss */
+/* line 168, ../../build/sass/views/_dashboard.scss */
 .add-section input {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -724,7 +724,7 @@ input:focus, textarea:focus {
   padding-left: 10px;
   margin-bottom: 20px;
 }
-/* line 183, ../../build/sass/views/_dashboard.scss */
+/* line 182, ../../build/sass/views/_dashboard.scss */
 .add-section .label {
   -webkit-border-radius: 6px 0px 0px 6px;
   -moz-border-radius: 6px 0px 0px 6px;
@@ -744,7 +744,7 @@ input:focus, textarea:focus {
   padding-right: 10px;
 }
 
-/* line 204, ../../build/sass/views/_dashboard.scss */
+/* line 203, ../../build/sass/views/_dashboard.scss */
 .history {
   padding-top: 60px;
   min-height: 720px;
@@ -752,7 +752,7 @@ input:focus, textarea:focus {
   background: #ececec;
   color: #333333;
 }
-/* line 210, ../../build/sass/views/_dashboard.scss */
+/* line 209, ../../build/sass/views/_dashboard.scss */
 .history h2 {
   font-weight: 300;
   letter-spacing: 1px;

@@ -81,12 +81,11 @@ width                 : 160px;
 }
 
 .subject{
-  @include placeHolder($placeHolderLighter);
+  @include placeHolder($deepGrey);
   background          : $mediumGrey;
   height              : 100px;
   padding-top         : 30px;
   margin-left         : -20px;
-
 }
 
  .subject-line{
