@@ -141,9 +141,9 @@ log.focus(function(){
 
 	$('#addButton').on('click', function(){
 		var projName = $('#projectName').val(),
-		 		projDesc = $('#projectDescription').val();
-		 	// 	projDue  = $('#projectDueDate').val(),
-				// status = $('input[name = "status"]:checked').prop('id');
+		 		projDesc = $('#projectDescription').val(),
+		 		projDue  = $('#projectDueDate').val(),
+				status = $('input[name = "status"]:checked').prop('id');
 
 				$.ajax({
 					url     : 'xhr/new_project.php',
@@ -151,46 +151,21 @@ log.focus(function(){
 					dataType: 'json',
 					data    : {
 							projectName: projName,
-							projectDescription: projDesc
+							projectDescription: projDesc,
 							// dueDate: projDue,
-							// status: status
+							status: status
 					}, success: function(response) {
 						console.log('Testing for success');
 						if(response.error){
 							alert(response.error)
 						}else{
-							window.location.assign('projects.html');
+							window.location.assign('dashboard.html');
 						}
 					}
 				})
 	});
 
-	var del = $('.deletebtn');
-	del.click(function(){
-		console.log("boom")
-	});
 
-	del.on('click',function(e){
-		e.preventDefault();
-		var pid = $(this).parent().find('.projectid').val();
-		console.log('test delete');
-		$.ajax({
-			url: 'xhr/delete_project.php',
-			dataType: 'json',
-			type: 'post',
-			data: {
-				projectID: pid
-			},
-			success:function(response){
-				console.log('Testing for success');
-				if(response.error){
-					alert(response.error);
-				}else{
-					window.location.assign('projects.html');
-				}
-			}
-		});
-	});
 
 function projects(){
 
@@ -215,7 +190,7 @@ function projects(){
 			                	result.projectDescription + "<br>" +
 												// " Project Status: " + result.status + "<br>"
 												'<div class="buttonHold">'
-											+ '<button class="deletebtn">Delete</button>'
+											+ '<button class="delete">Delete</button>'
 											+ '<button class="editbtn">Edit</button>'
 								+ '</div> <br>'
 	               	);
@@ -225,6 +200,33 @@ function projects(){
 				});
 		};
 			projects();
+var del = $('.delete');
+	del.on('click',function(){
+		console.log("boom")
+	});
+
+	del.on('click',function(e){
+		e.preventDefault();
+		var pid = $(this).parent().find('.projectid').val();
+		console.log('test delete');
+		$.ajax({
+			url: 'xhr/delete_project.php',
+			type: 'post',
+			dataType: 'json',
+			data: {
+				projectID: pid
+			},
+			success: function(response){
+				console.log('Testing for success');
+				if(response.error){
+					alert(response.error);
+				}else{
+					window.location.assign('dashboard.html');
+				}
+			}
+		});
+	});
+
 	// (".datepicker").datepicker();
 });
 

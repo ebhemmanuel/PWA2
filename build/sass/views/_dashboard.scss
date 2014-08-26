@@ -77,8 +77,18 @@ width                 : 160px;
 }
 
 .buttonHold{
-  padding-top: 20px;
+  padding-top          : 20px;
 }
+
+.move{
+  margin-left          : 80px;
+  margin-top           : -7px;
+}
+// .av{
+//   @include border-radius(50%);
+//   height               : 60px;
+//   background           : $white;
+// }
 
 .subject{
   @include placeHolder($deepGrey);
@@ -201,9 +211,10 @@ width                 : 160px;
 //
 
 .history{
-  padding-top:60px;
+  padding-top         : 60px;
+  height              : 1200px;
   min-height          : 720px;
-  max-height          : 100%;
+  max-height          : 9999px;
   background          : $grey;
   color               : $black;
 h2{
