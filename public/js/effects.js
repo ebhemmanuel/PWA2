@@ -8,18 +8,30 @@ $(document).ready(function(){
 	var   signUp     = $("#sign-up");
 	var   logBoxIn   = $(".log-box-in");
 	var   logBoxUp   = $(".log-box-up");
-	var logContent   = $(".log-in-content")
-	var logUp   = $(".log-up-content")
+	var logContent   = $(".log-in-content");
+	var logUp        = $(".log-up-content");
+	var confirmAdd   = $(".confirm-add");
+	var confirmAddOn = $(".confirm-add-on");
+	var   save       = $("#addButton");
+	var   sortIt     = $("#sortable");
+	var del          = $('.delete');
+
+
 
 	$(addSection).on("click", function(e){
 		e.preventDefault();
 		if((type).text() === "+"){
-			$(addEntry).toggleClass("move-down");
-			$(type).text("-");
+			addEntry.toggleClass("move-down");
+			confirmAdd.toggleClass("confirm-add-on");
+			save.animate({opacity:1}, 400);
+			type.text("CANCEL");
 		}
-		else if((type).text() === "-"){
-		$(addEntry).toggleClass("move-down");
-		$(type).text("+");
+		else if((type).text() === "CANCEL"){
+		addEntry.toggleClass("move-down");
+		confirmAdd.toggleClass("confirm-add-on");
+		save.animate({opacity:0}, 400);
+		$("#add-entry").find(".reset").val("");
+		type.text("+");
 		}
 	});
 
@@ -35,10 +47,10 @@ $(document).ready(function(){
 		logBoxUp.toggleClass("log-box-open");
 		logBoxIn.removeClass('log-box-open');
 	});
-});
 
-$(function(){
-	var dashboard  = "dashboard.html"
+
+
+	var dashboard     = "dashboard.html"
 	function logIn(page){
 		var url  				= 'xhr/login.php';
 		var user 				= $('#user').val();
@@ -59,6 +71,7 @@ $(function(){
 			}
 		});
 	};
+
 	function register(page){
 		var url  				= 'xhr/register.php';
 		var user 				= $('#userR').val();
@@ -81,6 +94,7 @@ $(function(){
 			}
 		});
 	};
+
 	$("#sign-in-button").click(function(){
 		console.log("boom");
 		logIn(dashboard);
@@ -142,8 +156,8 @@ log.focus(function(){
 	$('#addButton').on('click', function(){
 		var projName = $('#projectName').val(),
 		 		projDesc = $('#projectDescription').val(),
-		 		projDue  = $('#projectDueDate').val(),
-				status = $('input[name = "status"]:checked').prop('id');
+		 	  projDue  = $('#projectDueDate').val();
+				 status = $('input[name = "status"]:checked').prop('id');
 
 				$.ajax({
 					url     : 'xhr/new_project.php',
@@ -152,7 +166,7 @@ log.focus(function(){
 					data    : {
 							projectName: projName,
 							projectDescription: projDesc,
-							// dueDate: projDue,
+							// dueDate: projDue
 							status: status
 					}, success: function(response) {
 						console.log('Testing for success');
@@ -167,68 +181,92 @@ log.focus(function(){
 
 
 
-function projects(){
-
-	$.ajax({
-        url: 'xhr/get_projects.php',
-        type: 'get',
-        dataType: 'json',
-        success: function(response){
-            if(response.error){
-                console.log(response.error);
-            }else{
-
-	            for(var i=0, j=response.projects.length; i < j; i++){
-	                var result = response.projects[i];
-
-	                $(".projects").append(
-	                	'<div class="listing">' +
-												//'<div id="sortable" class="ui-state-default">' +
-			                	" <input class='projectid' type='hidden' value='" + result.id + "'>" +
-			                	 result.projectName + "<br>" +
-												// " Project Due Date: " + result.dueDate + "<br>" +
-			                	result.projectDescription + "<br>" +
-												// " Project Status: " + result.status + "<br>"
-												'<div class="buttonHold">'
-											+ '<button class="delete">Delete</button>'
-											+ '<button class="editbtn">Edit</button>'
-								+ '</div> <br>'
-	               	);
-	            };
-						};
-					}
-				});
-		};
-			projects();
-var del = $('.delete');
-	del.on('click',function(){
-		console.log("boom")
-	});
-
-	del.on('click',function(e){
-		e.preventDefault();
-		var pid = $(this).parent().find('.projectid').val();
-		console.log('test delete');
+	function projects(){
 		$.ajax({
-			url: 'xhr/delete_project.php',
-			type: 'post',
-			dataType: 'json',
-			data: {
-				projectID: pid
-			},
-			success: function(response){
-				console.log('Testing for success');
-				if(response.error){
-					alert(response.error);
-				}else{
-					window.location.assign('dashboard.html');
-				}
-			}
-		});
-	});
+	        url: 'xhr/get_projects.php',
+	        type: 'get',
+	        dataType: 'json',
+	        success: function(response){
+	            if(response.error){
+	                console.log(response.error);
+	            }else{
 
+		            for(var i=0, j=response.projects.length; i < j; i++){
+		                var result = response.projects[i];
+
+		                $(".projects").append(
+		                	'<div class="listing">' +
+													//'<div id="sortable" class="ui-state-default">' +
+				                	" <input class='projectid' type='hidden' value='" + result.id + "'>" +
+				                	result.projectName + "<br>" +
+													// " Project Due Date: " + result.dueDate + "<br>" +
+				                	result.projectDescription + "<br>" +
+													// " Project Status: " + result.status + "<br>"
+													'<div class="buttonHold">'
+												+ '<button class="delete">Delete</button>'
+												+ '<button class="editbtn">Edit</button>'
+									+ '</div> <br>'
+		               	);
+		               	var height = $(".projects").height()+i+300;
+		               	// console.log(height);
+		               	$(".history").css("height", height);
+		            }; // End of for loop
+		            	$('.delete').on('click', function(e){
+										var pid = $(this).parent().find(".projectid").val();
+								  		console.log('test delete');
+									    $.ajax({
+									        url: 'xhr/delete_project.php',
+									        data: {
+									            projectID: pid
+									        },
+									        type: 'POST',
+									        dataType: 'json',
+									        success: function(response){
+									            // console.log('Testing for success');
+														if(response.error) {
+															alert(response.error);
+														} else {
+													// console.log(result.id);
+													window.location.assign("dashboard.html");
+												}; // end else
+									     } //end success
+									   }); //end ajax
+									}); // End Delete
+
+						}; // end else
+					} // end success
+			});  // end ajax
+	};			// end projects
+			projects();
+
+	sortIt.sortable();
+	sortIt.disableSelection();
 	// (".datepicker").datepicker();
 });
+
+
+// $('.deletebtn').on('click', function(e){
+// 					var pid = $(this).parent().find(".projectid").val();
+// 			  		console.log('test delete');
+// 				    $.ajax({
+// 				        url: 'xhr/delete_project.php',
+// 				        data: {
+// 				            projectID: pid
+// 				        },
+// 				        type: 'POST',
+// 				        dataType: 'json',
+// 				        success: function(response){
+// 				            console.log('Testing for success');
+
+// 							if(response.error) {
+// 								alert(response.error);
+// 							} else {
+// 								//console.log(result.id);
+// 								window.location.assign("projects.html");
+// 							};
+// 				        }
+// 				    });
+// 				}); // End Delete
 
 
 

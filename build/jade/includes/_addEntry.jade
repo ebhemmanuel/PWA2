@@ -1,21 +1,23 @@
-.contrainer-fluid#add-entry.move-up
+.contrainer-fluid#add-entry.reset.move-up
 	.contrainer-fluid.subject
+		form#addForm
 		.col-md-8.col-md-push-2
-			input#projectName.subject-line(name='projectName', type='text', placeholder='Order #')
+			input#projectName.subject-line.reset(name='projectName', type='text', placeholder='Order #')
 	.contrainer-fluid.add-section
 		.col-md-8.col-md-push-2
-			textarea#projectDescription(name='projectDescrition', type='text', placeholder='Additional Details..')
+			textarea#projectDescription.reset(name='projectDescrition', type='text', placeholder='Additional Details..')
 		//- .col-md-4
-		//- 	input#projectDueDate(name='projectDueDate', type='text')
+		//- 	input#projectDueDate.reset(name='projectDueDate', type='text')
 		//- .col-md-4
-		//- 	input#projectStatus(name='projectStatus', type='text')
-			//- form#addForm
-		.col-md-3
-			a.col-md-2.button.push-add#addButton(href="#", name='addButton')
-				h5
-					|SAVE
+		//- 	input#projectStatus.reset(name='projectStatus', type='text')
+
 	.add-entry.contrainer-fluid
-		.col-md-6.col-md-push-5
-			a.col-md-2#add-section.button.cursor(href="#")
-				h5.type-replace
-					|+
+		.confirm-add
+			.col-md-3.col-md-push-1
+				a.col-md-2.button.push-add#addButton(href="#", name='addButton')
+					h5
+						|SAVE
+			.col-md-6.col-md-push-2
+				a.col-md-2#add-section.button.cursor(href="#")
+					h5.type-replace
+						|+

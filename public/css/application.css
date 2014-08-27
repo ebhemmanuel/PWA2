@@ -113,7 +113,7 @@ html, body {
 
 /* line 4, ../../build/sass/views/_index.scss */
 .log-in-content .sign-in-button, .log-up-content .sign-in-button, .cta .button {
-  transition: background 0.2s ease, color 0.2s ease;
+  transition: background .2s ease, color 0.2s ease;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
@@ -214,21 +214,21 @@ html, body {
   padding-left: 17px;
   margin-left: 120px;
 }
-/* line 9, ../../build/sass/mixins/_responsive.scss */
+/* line 13, ../../build/sass/mixins/_responsive.scss */
 .log-in-content ::-webkit-input-placeholder, .log-up-content ::-webkit-input-placeholder {
   color: #494c4c;
 }
-/* line 13, ../../build/sass/mixins/_responsive.scss */
+/* line 17, ../../build/sass/mixins/_responsive.scss */
 .log-in-content :-moz-placeholder, .log-up-content :-moz-placeholder {
   /* Firefox 18- */
   color: #494c4c;
 }
-/* line 17, ../../build/sass/mixins/_responsive.scss */
+/* line 21, ../../build/sass/mixins/_responsive.scss */
 .log-in-content ::-moz-placeholder, .log-up-content ::-moz-placeholder {
   /* Firefox 19+ */
   color: #494c4c;
 }
-/* line 21, ../../build/sass/mixins/_responsive.scss */
+/* line 25, ../../build/sass/mixins/_responsive.scss */
 .log-in-content :-ms-input-placeholder, .log-up-content :-ms-input-placeholder {
   color: #494c4c;
 }
@@ -312,7 +312,7 @@ html, body {
 }
 /* line 166, ../../build/sass/views/_index.scss */
 .log-in-content .sign-in-button a, .log-up-content .sign-in-button a {
-  transition: background 0.2s ease, color 0.2s ease;
+  transition: background .2s ease, color 0.2s ease;
   color: #191818;
   text-decoration: none;
 }
@@ -327,7 +327,7 @@ html, body {
 }
 /* line 179, ../../build/sass/views/_index.scss */
 .log-in-content .sign-up-button a, .log-up-content .sign-up-button a {
-  transition: background 0.2s ease, color 0.2s ease;
+  transition: background .2s ease, color 0.2s ease;
   color: white;
   text-decoration: none;
 }
@@ -576,6 +576,21 @@ input:focus, textarea:focus {
 }
 
 /* line 63, ../../build/sass/views/_dashboard.scss */
+.confirm-add {
+  transition: margin-left 0.4s ease;
+}
+
+/* line 67, ../../build/sass/views/_dashboard.scss */
+#addButton {
+  opacity: 0;
+}
+
+/* line 71, ../../build/sass/views/_dashboard.scss */
+.confirm-add-on {
+  margin-left: 330px;
+}
+
+/* line 75, ../../build/sass/views/_dashboard.scss */
 .add-entry {
   display: block;
   padding-top: 30px;
@@ -583,51 +598,51 @@ input:focus, textarea:focus {
   height: 90px;
 }
 
-/* line 73, ../../build/sass/views/_dashboard.scss */
+/* line 85, ../../build/sass/views/_dashboard.scss */
 .listing {
   width: 500px;
   margin-bottom: 30px;
   padding: 20px;
 }
 
-/* line 79, ../../build/sass/views/_dashboard.scss */
+/* line 91, ../../build/sass/views/_dashboard.scss */
 .buttonHold {
   padding-top: 20px;
 }
 
-/* line 83, ../../build/sass/views/_dashboard.scss */
+/* line 95, ../../build/sass/views/_dashboard.scss */
 .move {
   margin-left: 80px;
   margin-top: -7px;
 }
 
-/* line 93, ../../build/sass/views/_dashboard.scss */
+/* line 105, ../../build/sass/views/_dashboard.scss */
 .subject {
   background: #616c72;
   height: 100px;
   padding-top: 30px;
   margin-left: -20px;
 }
-/* line 9, ../../build/sass/mixins/_responsive.scss */
+/* line 13, ../../build/sass/mixins/_responsive.scss */
 .subject ::-webkit-input-placeholder {
   color: #303333;
 }
-/* line 13, ../../build/sass/mixins/_responsive.scss */
+/* line 17, ../../build/sass/mixins/_responsive.scss */
 .subject :-moz-placeholder {
   /* Firefox 18- */
   color: #303333;
 }
-/* line 17, ../../build/sass/mixins/_responsive.scss */
+/* line 21, ../../build/sass/mixins/_responsive.scss */
 .subject ::-moz-placeholder {
   /* Firefox 19+ */
   color: #303333;
 }
-/* line 21, ../../build/sass/mixins/_responsive.scss */
+/* line 25, ../../build/sass/mixins/_responsive.scss */
 .subject :-ms-input-placeholder {
   color: #303333;
 }
 
-/* line 101, ../../build/sass/views/_dashboard.scss */
+/* line 113, ../../build/sass/views/_dashboard.scss */
 .subject-line {
   background: transparent;
   color: white;
@@ -639,14 +654,14 @@ input:focus, textarea:focus {
   width: 400px;
 }
 
-/* line 112, ../../build/sass/views/_dashboard.scss */
+/* line 124, ../../build/sass/views/_dashboard.scss */
 .button {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
   border-radius: 6px;
-  transition: background 0.2s ease, color 0.2s ease;
+  transition: background .2s ease, color 0.2s ease;
   width: 215px;
   height: 40px;
   border: 1px solid #303333;
@@ -657,18 +672,18 @@ input:focus, textarea:focus {
   padding-top: 3px;
   text-align: center;
 }
-/* line 124, ../../build/sass/views/_dashboard.scss */
+/* line 136, ../../build/sass/views/_dashboard.scss */
 .button h5 {
   font-weight: 300;
 }
-/* line 127, ../../build/sass/views/_dashboard.scss */
+/* line 139, ../../build/sass/views/_dashboard.scss */
 .button:hover {
   text-decoration: none;
   background: #303333;
   color: white;
 }
 
-/* line 135, ../../build/sass/views/_dashboard.scss */
+/* line 147, ../../build/sass/views/_dashboard.scss */
 .add-section {
   background: transparent;
   font-size: 20px;
@@ -677,20 +692,20 @@ input:focus, textarea:focus {
   padding-top: 60px;
   margin-left: -20px;
 }
-/* line 144, ../../build/sass/views/_dashboard.scss */
+/* line 156, ../../build/sass/views/_dashboard.scss */
 .add-section -moz-focus-inner {
   border: 0;
   padding: 0;
 }
-/* line 151, ../../build/sass/views/_dashboard.scss */
+/* line 163, ../../build/sass/views/_dashboard.scss */
 .add-section ul li {
   list-style: none;
 }
-/* line 155, ../../build/sass/views/_dashboard.scss */
+/* line 167, ../../build/sass/views/_dashboard.scss */
 .add-section ::-webkit-input-placeholder {
   color: #616c72;
 }
-/* line 159, ../../build/sass/views/_dashboard.scss */
+/* line 171, ../../build/sass/views/_dashboard.scss */
 .add-section textarea {
   color: #303333;
   background: transparent;
@@ -702,7 +717,7 @@ input:focus, textarea:focus {
   width: 600px;
   height: 280px;
 }
-/* line 171, ../../build/sass/views/_dashboard.scss */
+/* line 183, ../../build/sass/views/_dashboard.scss */
 .add-section .submit {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -713,7 +728,7 @@ input:focus, textarea:focus {
   padding: 10px;
   width: 160px;
 }
-/* line 178, ../../build/sass/views/_dashboard.scss */
+/* line 190, ../../build/sass/views/_dashboard.scss */
 .add-section input {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -731,7 +746,7 @@ input:focus, textarea:focus {
   padding-left: 10px;
   margin-bottom: 20px;
 }
-/* line 192, ../../build/sass/views/_dashboard.scss */
+/* line 204, ../../build/sass/views/_dashboard.scss */
 .add-section .label {
   -webkit-border-radius: 6px 0px 0px 6px;
   -moz-border-radius: 6px 0px 0px 6px;
@@ -751,16 +766,14 @@ input:focus, textarea:focus {
   padding-right: 10px;
 }
 
-/* line 213, ../../build/sass/views/_dashboard.scss */
+/* line 225, ../../build/sass/views/_dashboard.scss */
 .history {
   padding-top: 60px;
-  height: 1200px;
-  min-height: 720px;
-  max-height: 9999px;
+  height: 400px;
   background: #ececec;
   color: #333333;
 }
-/* line 220, ../../build/sass/views/_dashboard.scss */
+/* line 230, ../../build/sass/views/_dashboard.scss */
 .history h2 {
   font-weight: 300;
   letter-spacing: 1px;

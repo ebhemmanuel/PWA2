@@ -60,6 +60,18 @@ padding               : 10px;
 width                 : 160px;
 }
 
+.confirm-add{
+  @include transition-mix(margin-left, .4s, ease);
+}
+
+#addButton{
+  opacity: 0;
+}
+
+.confirm-add-on{
+  margin-left: 330px;
+}
+
 .add-entry{
   display             : block;
   padding-top         : 30px;
@@ -212,9 +224,7 @@ width                 : 160px;
 
 .history{
   padding-top         : 60px;
-  height              : 1200px;
-  min-height          : 720px;
-  max-height          : 9999px;
+  height              : 400px;
   background          : $grey;
   color               : $black;
 h2{

@@ -2,7 +2,11 @@
 // Mixin for inline responsive design
 //
 @mixin transition{
-	transition        : background 0.2s ease, color 0.2s ease;
+	transition        : background .2s ease, color 0.2s ease;
+}
+
+@mixin transition-mix($type, $time, $method ){
+	transition        : $type $time $method;
 }
 
 @mixin placeHolder($color) {
