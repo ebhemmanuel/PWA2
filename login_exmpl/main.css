@@ -1,0 +1,79 @@
+.tooltip{
+	display: 						none;
+	position: 					absolute;
+	border: 						1px solid #999;
+	background: 				#efefef;
+	color: 							#282828;
+	border-radius: 			5px;
+	padding: 						5px;
+	font-size: 					16px;
+}
+
+#tabs {
+background: 					#999;
+width: 								600px;
+height: 							150px;
+padding: 							20px;
+}
+
+#tabs-nav{
+	width: 							600px;
+	height: 						75px;
+	padding: 						20px;
+	background: 				#999;
+	text-decoration: 		none;
+	letter-spacing: 		none;
+}
+
+#tabs-nav li {
+	display: 						inline;
+}
+
+#overlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	display: none;
+}
+
+#modal {
+	width: 350px;
+	background:#CCC;
+	box-shadow: 0 0 10px #000;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -200px;
+	z-index: 1001;
+	display: none;
+}
+
+#modal .header {
+	background:#333;
+	color:#FFF;
+	padding: 10px;
+}
+
+#modal p {
+	margin: 15px;
+}
+
+#modal .close {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	background-color: #F00;
+}
+

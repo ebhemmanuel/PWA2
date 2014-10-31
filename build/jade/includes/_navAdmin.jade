@@ -1,0 +1,20 @@
+nav.navbar.navbar-default.navbar-admin(role="navigation")
+	.container
+		.navbar-header
+			button.navbar-toggle(type="button")(data-toggle="collapse")(data-target=".navbar-collapse")
+				span.sr-only Toggle navigation
+				span.icon-bar
+				span.icon-bar
+				span.icon-bar
+			a.navbar-brand.col-md-push-8(href="#")
+				img.smallLogo(src="public/images/logo.svg")
+		.col-md-1.col-md-push-6.move
+			.av
+		.collapse.navbar-collapse
+			ul.nav.navbar-nav.nav-text.pull-right
+				li
+					a.userid
+				li
+					a#logOut(href="index.html").active.pull-right
+						| Log Out
+//- .spacer-line

@@ -1,0 +1,29 @@
+doctype html
+html
+	head
+		title TITAN TECH - Dashboard
+		include includes/_meta
+	body
+		//- Header and Nav
+		//- ___________________________.navbar-fixed-top
+		include includes/_navAdmin
+		//- Add Project
+		//- ___________________________
+		include includes/_addEntry
+		//- Current Users
+		//- ___________________________
+		.profiles.contrainer-fluid
+		//- Projects
+		//- ___________________________
+		.history.contrainer-fluid
+			.col-md-8.col-md-push-2
+				#project-list
+					h2
+						| Orders
+					.projects#sortable
+		//-Footer
+		//-___________________________
+		include includes/_footer
+		include includes/_js
+
+

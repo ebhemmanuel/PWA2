@@ -1,0 +1,33 @@
+.log-box-in.text-center.col-md-push-8
+	.log-in-content
+		form.col-md-6
+			.container-fluid.padding-b
+				.side-box.icon-torso
+				.container-fluid
+					input#user.input(name='sign-in-button', type='text', placeholder='Username', required='')
+			.container-fluid
+				.side-box.icon-lock
+				.container-fluid
+					input#pass.input(name='sign-in-button', type='password', placeholder='Password', required='')
+			.container-fluid.sign-in-button
+				a#sign-in-button(href='#')
+					|LOG IN
+
+.log-box-up.text-center.col-md-push-8
+	.log-up-content
+		form.col-md-6
+			.container-fluid.padding-b
+				.side-box.icon-mail
+				.container-fluid
+					input#emailR.input(name='sign-up-button', type='text', placeholder='Email', required='')
+			.container-fluid.padding-b
+				.side-box.icon-torso
+				.container-fluid
+					input#userR.input(name='sign-up-button', type='text', placeholder='Username', required='')
+			.container-fluid
+				.side-box.icon-lock
+				.container-fluid
+					input#passR.input(name='sign-up-button', type='password', placeholder='Password', required='')
+			.container-fluid.sign-in-button
+				a#sign-up-button(href='#')
+					|SIGN UP

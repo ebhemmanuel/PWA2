@@ -1,0 +1,22 @@
+
+#footer{
+  font-size         : $footerType;
+  color             : $black;
+  background        : $white;
+  width             : 100%;
+  height            : 120px;
+  padding-top       : 60px;
+  a{
+    color           : $black;
+    &:hover{
+      color         : $red;
+      text-decoration: none;
+    }
+  }
+
+  ul li {
+    padding-right   : 36px;
+    display         : inline;
+  }
+
+}

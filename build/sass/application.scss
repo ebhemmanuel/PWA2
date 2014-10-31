@@ -1,0 +1,28 @@
+//
+// Globals = persistant dom layout across pages
+@import 'compass/css3';
+@import 'compass/css3/transform';
+@import 'compass/css3/transition';
+@import 'globals/variables';
+//
+// Includes = persistent aesthetic styling across pages
+//
+@import 'includes/colors';
+//
+// Mixins
+//
+@import 'globals/navigation';
+@import 'mixins/responsive';
+//
+// Default on.
+//
+html, body {
+  background        : $white;
+  height            : 100%;
+}
+@import 'views/index';
+@import 'views/dashboard';
+@import 'includes/footer';
+
+
+
