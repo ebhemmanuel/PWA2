@@ -1,0 +1,7 @@
+doctype html
+html
+	head
+		title MOTIV - Dashboard
+		include includes/_meta
+
+include includes/_js
