@@ -1,0 +1,30 @@
+
+// Mixin for inline responsive designå
+// Screen Sizes
+$iphone6MinW       : 375px
+$iphone6MaxW       : 667px
+
+@function minW($breakPoint)
+	@return "only screen and (min-width:" + $breakPoint + ")"
+
+@function tablet($dWith,$dHeight,$minRatio,$maxRatio)
+	@return "screen and ( device-width:" + $dWith + ") and (device-height:" + $dHeight + ") and  (-webkit-min-device-pixel-ratio: " + $minRatio + ") and (-webkit-max-device-pixel-ratio:" + $maxRatio + ")"
+
+@function maxW($breakPoint)
+	@return "(max-width:" + $breakPoint + ")"
+
+=media($form,$minW,$maxW,$scale)
+
+	@if $form == "portrait"
+		@media #{minW($minW)} and #{maxW($maxW)} and (orientation : portrait) and (-webkit-min-device-pixel-ratio : $scale)
+			@content
+
+	@if $form == "landscape"
+		@media #{minW($minW)} and #{maxW($maxW)} and (orientation : landscape) and (-webkit-min-device-pixel-ratio : $scale)
+			@content
+
+	@if $form == "desktop" and $scale == null
+		@media #{minW($minW)} and #{maxW($maxW)}
+			@content
+
+

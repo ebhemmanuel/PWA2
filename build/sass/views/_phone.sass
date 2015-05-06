@@ -1,0 +1,217 @@
+// Mobile Iphone5
++media("portrait",320px,569px,2)
+	.header
+		background          : url(../images/iphone6_port.jpg)  no-repeat center center
+		+background-size(cover)
+		.name
+			margin-left   : 5px
+			margin-top    : 0px
+			h1
+				@include rem(font-size, 1.5rem)
+			h3
+				@include rem(font-size, 1.2rem)
+		.avatar
+			width          : 100%
+			max-width      : 120px
+			height         : 220px
+			margin-top     : 60px
+			margin-bottom  : -50px
+		.title
+			margin-top     : 10px
+			h4
+				@include rem(font-size, 1.1rem)
+			h3
+				@include rem(font-size, 1.8rem)
+			ul
+				li
+					margin-bottom: -2px
+		.button-resume
+			@include rem(font-size, 2rem)
+			+border-radius($border-button*2)
+			height         : 50px
+			width          : $button-width*2
+			padding   		: $button-padding*2
+
++media("landscape",320px,569px,2)
+	.header
+		.name
+			margin-left   : 5px
+			margin-top    : 0px
+			h1
+				@include rem(font-size, 1rem)
+				font-weight: normal
+			h3
+				font-size   : 1em
+		.avatar
+			width          : 100%
+			max-width      : 80px
+			height         : 100px
+			margin-top     : 0px
+			margin-bottom  : -30px
+			opacity   		: 0
+		.button-resume
+			@include rem(font-size, 2rem)
+			+border-radius($border-button*2)
+			height         : 50px
+			width          : $button-width*2
+			padding   		: $button-padding*2
+		.title
+			margin-top     : 10px
+			h4
+				@include rem(font-size, 1.1rem)
+			h3
+				@include rem(font-size, 1rem)
+			ul
+				li
+					margin-bottom: -2px
+		.resume
+			ul
+				li
+					margin-top: 20px
+	.landscape
+		display           : block
+	.desktop
+		display           : none
+
+
+// Mobile HTC
++media("portrait",360px,640px,2)
+	.header
+		background          : url(../images/iphone6_port.jpg)  no-repeat center center
+		+background-size(cover)
+		.name
+			margin-left   : 5px
+			margin-top    : 0px
+			h1
+				font-size  : 18px
+			h3
+				font-size   : 14px
+		.avatar
+			width          : 100%
+			max-width      : 120px
+			height         : 220px
+			margin-top     : 60px
+			margin-bottom  : -50px
+		.title
+			margin-top     : 10px
+		.button-resume
+			@include rem(font-size, 2rem)
+			+border-radius($border-button*2)
+			height         : 50px
+			width          : $button-width*2
+			padding   		: $button-padding*2
+
++media("landscape",360px,640px,2)
+	.header
+		.name
+			margin-left   : 5px
+			margin-top    : 0px
+			h1
+				@include rem(font-size, 1.4rem)
+				font-weight: normal
+			h3
+				@include rem(font-size, 1.4rem)
+				@include rem(line-height, 1.1rem)
+		.avatar
+			width          : 100%
+			max-width      : 80px
+			height         : 100px
+			margin-top     : 0px
+			margin-bottom  : -30px
+			opacity   		: 0
+		.button-resume
+			@include rem(font-size, 2rem)
+			+border-radius($border-button*2)
+			height         : 50px
+			width          : $button-width*2
+			padding   		: $button-padding*2
+		.title
+			margin-top     : 10px
+			h4
+				@include rem(font-size, 1.4rem)
+			h3
+				@include rem(font-size, 1.4rem)
+				@include rem(line-height, 1.1rem)
+			ul
+				li
+					margin-bottom: -2px
+		.resume
+			ul
+				li
+					margin-top: 20px
+	.landscape
+		display           : block
+	.desktop
+		display           : none
+
+// Mobile Iphone6
++media("portrait",$iphone6MinW,$iphone6MaxW,2)
+	.header
+		background          : url(../images/iphone6_port.jpg)  no-repeat center center
+		+background-size(cover)
+		.name
+			margin-left   : 5px
+			margin-top    : 0px
+			h1
+				@include rem(font-size, 1.7rem)
+			h3
+				@include rem(font-size, 1.4rem)
+		.avatar
+			width          : 100%
+			max-width      : 120px
+			height         : 220px
+			margin-top     : 60px
+			margin-bottom  : -50px
+		.title
+			margin-top     : 10px
+		.button-resume
+			@include rem(font-size, 2rem)
+			+border-radius($border-button*2)
+			height         : 50px
+			width          : $button-width*2
+			padding   		: $button-padding*2
+
++media("landscape",$iphone6MinW,$iphone6MaxW,2)
+	.header
+		.name
+			margin-left   : 5px
+			margin-top    : 0px
+			h1
+				@include rem(font-size, 1.5rem)
+				font-weight: normal
+			h3
+				@include rem(font-size, 1.4rem)
+				@include rem(line-height, 1.4rem)
+		.avatar
+			width          : 100%
+			max-width      : 80px
+			height         : 100px
+			margin-top     : 0px
+			margin-bottom  : -30px
+			opacity   		: 0
+		.button-resume
+			@include rem(font-size, 2rem)
+			+border-radius($border-button*2)
+			height         : 50px
+			width          : $button-width*2
+			padding   		: $button-padding*2
+		.title
+			margin-top     : 10px
+			h4
+				@include rem(font-size, 1.5rem)
+			h3
+				@include rem(font-size, 1.4rem)
+				@include rem(line-height, 1.4rem)
+			ul
+				li
+					margin-bottom: -2px
+		.resume
+			ul
+				li
+					margin-top: 20px
+	.landscape
+		display           : block
+	.desktop
+		display           : none
+
+

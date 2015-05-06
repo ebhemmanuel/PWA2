@@ -9,7 +9,7 @@ module.exports = function (grunt) {
 		watch:{
 
 			css: {
-				files: 'build/sass/**/*.scss', // look in public sass, and within any sub directory for any scss
+				files: 'build/sass/**/*.sass', // look in public sass, and within any sub directory for any scss
 				tasks: 'compass',
 				option: {
 					livereload: true //can change it to a specific port
@@ -37,7 +37,8 @@ module.exports = function (grunt) {
 		jade: {
 			html: {
 				options: {
-					pretty: true
+					pretty: true,
+					livereload: true
 				},
 				files: [{
 					expand: true,
@@ -52,7 +53,7 @@ module.exports = function (grunt) {
 		express: {
 			all: {
 				options: {
-					port: 9000,
+					port: 9001,
 					hostname: 'localhost',
 					bases: [__dirname] // ['.'] wont work due to local file system issues
 				}
@@ -69,7 +70,7 @@ module.exports = function (grunt) {
 		grunt.loadNpmTasks('grunt-express');
 
 		// Register our CLI tasks
-		grunt.registerTask('pwa2', ['compass', 'jade', 'express','watch']);
+		grunt.registerTask('run', ['compass', 'jade', 'express','watch']);
 
 }
 

@@ -1,0 +1,74 @@
+// Navigation
+.nav-over
+  z-index: 3
+  width: 100%
+  padding-top: 32px
+  background: $subjectGrey
+  // transition          : border-bottom 0.2s ease;
+  li>a
+    color: $red
+    font-size: 11px
+    font-weight: 300
+    letter-spacing: 2px
+  li>a:hover
+    padding-bottom: 8px
+    text-decoration: none
+    // border-bottom     : 1px solid $white;
+
+nav
+  z-index: 3
+  position: absolute
+  height: $navDesktopHeight
+  padding-top: $paddingDesktopNav
+  background-color: $white
+  top: 0px
+  h1
+    color: $red
+    margin-left: 20px
+    margin-top: 0px
+  ul
+    margin-left: 30px
+    // margin-top         : $lineheight;
+    list-style-type: none
+    .primary
+      +border-radius(6px)
+      color: $white
+      padding: 5px
+    li
+      display: inline
+      padding: 0 10px
+
+.navbar-default .navbar-nav>li>a
+  color: $red
+  &:hover
+    color: $red
+
+.navbar
+  margin-bottom: 0px
+  border-radius: 0
+  box-shadow: none
+  font-size: $navType
+  background: $backgroundB
+  border: none
+
+.navbar-admin
+  z-index: 3
+  padding-top: 20px
+  background: $deepGrey
+
+.navbar-brand, .navbar-nav>li>a
+  text-shadow: none
+
+.nav-text
+  letter-spacing: 1px
+  margin-left: 120px
+
+.logo
+  width: $logoSize
+  height: $logoSize
+  margin-top: -5px
+  margin-left: -35px
+
+.smallLogo
+  margin-top: -5px
+  margin-left: 85px
