@@ -34,6 +34,23 @@ ul, ol, li {
   padding-bottom: 30px;
 }
 
+/* line 1, ../../build/sass/globals/_extends.sass */
+.cta {
+  height: 725px;
+  width: 100%;
+}
+
+/* line 8, ../../build/sass/globals/_extends.sass */
+.log-in-content .icon-mail, .log-up-content .icon-mail, .log-in-content .icon-torso, .log-up-content .icon-torso, .log-in-content .icon-lock, .log-up-content .icon-lock {
+  display: inline-block;
+  float: left;
+  font-size: 22px;
+  padding-top: 5px;
+  margin-top: 2px;
+  margin-bottom: -80px;
+  color: #494c4c;
+}
+
 /* line 1, ../../build/sass/includes/_button.sass */
 .log-in-content .sign-in-button, .log-up-content .sign-in-button, .cta .button {
   transition: background 0.2s ease, color 0.2s ease;
@@ -58,6 +75,178 @@ ul, ol, li {
 .log-in-content .sign-in-button:hover, .log-up-content .sign-in-button:hover, .cta .button:hover {
   background: #f7ec16;
   color: #303333;
+}
+
+/* line 1, ../../build/sass/includes/_menu.sass */
+.log-box-in, .log-box-up, .log-in-content, .log-up-content, .log-in-content .sign-in-button, .log-up-content .sign-in-button {
+  -moz-border-radius: 0px / 0px;
+  -webkit-border-radius: 0px 0px;
+  border-radius: 0px / 0px;
+}
+
+/* line 4, ../../build/sass/includes/_menu.sass */
+.log-box-in {
+  transition: margin-top 0.6s ease;
+  position: absolute;
+  z-index: 2;
+  margin-top: -280px;
+}
+
+/* line 11, ../../build/sass/includes/_menu.sass */
+.log-box-up {
+  transition: margin-top 0.6s ease;
+  position: absolute;
+  z-index: 2;
+  margin-top: -280px;
+}
+
+/* line 18, ../../build/sass/includes/_menu.sass */
+.log-box-open {
+  margin-top: 80px;
+}
+
+/* line 21, ../../build/sass/includes/_menu.sass */
+.side-box {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-border-radius-bottomright: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  -moz-border-radius-topright: 0px;
+  -webkit-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  display: inline-block;
+  float: left;
+  background: #282828;
+  height: 35px;
+  padding-left: 5px;
+  width: 30px;
+}
+
+/* line 32, ../../build/sass/includes/_menu.sass */
+.padding-b {
+  padding-bottom: 12px;
+}
+
+/* line 35, ../../build/sass/includes/_menu.sass */
+.log-in-content, .log-up-content {
+  -moz-placeholder-color: #494c4c;
+  -ms-input-placeholder-color: #494c4c;
+  display: none;
+  background: #191818;
+  width: 280px;
+  height: 120px;
+  padding: 20px;
+  padding-left: 17px;
+  margin-left: 120px;
+}
+/* line 25, ../../build/sass/mixins/_tools.sass */
+.log-in-content ::-webkit-input-placeholder, .log-up-content ::-webkit-input-placeholder {
+  color: #494c4c;
+}
+/* line 29, ../../build/sass/mixins/_tools.sass */
+.log-in-content ::-moz-placeholder, .log-up-content ::-moz-placeholder {
+  color: #494c4c;
+}
+/* line 52, ../../build/sass/includes/_menu.sass */
+.log-in-content input, .log-up-content input {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-border-radius-bottomleft: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  -webkit-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  height: 35px;
+  padding-top: 12px;
+  padding-left: 10px;
+  margin-top: 2px;
+  margin-left: 15px;
+  background: #282828;
+  border: none;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+/* line 67, ../../build/sass/includes/_menu.sass */
+.log-in-content #user, .log-up-content #user {
+  padding-bottom: 10px;
+}
+/* line 69, ../../build/sass/includes/_menu.sass */
+.log-in-content #pass, .log-up-content #pass {
+  padding-bottom: 10px;
+}
+/* line 71, ../../build/sass/includes/_menu.sass */
+.log-in-content #email, .log-up-content #email {
+  padding-bottom: 10px;
+}
+/* line 73, ../../build/sass/includes/_menu.sass */
+.log-in-content #userR, .log-up-content #userR {
+  padding-bottom: 10px;
+}
+/* line 75, ../../build/sass/includes/_menu.sass */
+.log-in-content #passR, .log-up-content #passR {
+  padding-bottom: 10px;
+}
+/* line 77, ../../build/sass/includes/_menu.sass */
+.log-in-content #emailR, .log-up-content #emailR {
+  padding-bottom: 10px;
+}
+/* line 79, ../../build/sass/includes/_menu.sass */
+.log-in-content .sign-in-button, .log-up-content .sign-in-button {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-border-radius-topright: 0px;
+  -webkit-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  -webkit-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border: 0px solid #f7ec16;
+  width: 280px;
+  margin-left: -32px;
+  margin-top: 35px;
+  letter-spacing: 1px;
+  background: #f7ec16;
+}
+/* line 91, ../../build/sass/includes/_menu.sass */
+.log-in-content .sign-in-button a, .log-up-content .sign-in-button a {
+  transition: background 0.2s ease, color 0.2s ease;
+  color: #191818;
+  text-decoration: none;
+}
+/* line 95, ../../build/sass/includes/_menu.sass */
+.log-in-content .sign-in-button a:hover, .log-up-content .sign-in-button a:hover {
+  color: #191818;
+}
+/* line 97, ../../build/sass/includes/_menu.sass */
+.log-in-content .sign-up-button, .log-up-content .sign-up-button {
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+/* line 100, ../../build/sass/includes/_menu.sass */
+.log-in-content .sign-up-button a, .log-up-content .sign-up-button a {
+  transition: background 0.2s ease, color 0.2s ease;
+  color: white;
+  text-decoration: none;
+}
+/* line 104, ../../build/sass/includes/_menu.sass */
+.log-in-content .sign-up-button a:hover, .log-up-content .sign-up-button a:hover {
+  color: #f7ec16;
+}
+
+/* line 107, ../../build/sass/includes/_menu.sass */
+.log-in-content {
+  height: 160px;
+}
+
+/* line 111, ../../build/sass/includes/_menu.sass */
+.log-up-content {
+  height: 200px;
 }
 
 /* line 2, ../../build/sass/includes/_navigation.sass */
@@ -189,215 +378,28 @@ nav ul li {
   display: inline;
 }
 
-/* line 4, ../../build/sass/views/_index.sass */
+/* line 3, ../../build/sass/views/_index.sass */
 .content {
   z-index: 1;
   position: absolute;
 }
 
-/* line 8, ../../build/sass/views/_index.sass */
-.cta {
-  height: 725px;
-  width: 100%;
-}
-
-/* line 15, ../../build/sass/views/_index.sass */
-.log-box-in, .log-box-up, .log-in-content, .log-up-content, .log-in-content .sign-in-button, .log-up-content .sign-in-button {
-  -moz-border-radius: 0px / 0px;
-  -webkit-border-radius: 0px 0px;
-  border-radius: 0px / 0px;
-}
-
-/* line 20, ../../build/sass/views/_index.sass */
-.log-box-in {
-  transition: margin-top 0.6s ease;
-  position: absolute;
-  z-index: 2;
-  margin-top: -280px;
-}
-
-/* line 27, ../../build/sass/views/_index.sass */
-.log-box-up {
-  transition: margin-top 0.6s ease;
-  position: absolute;
-  z-index: 2;
-  margin-top: -280px;
-}
-
-/* line 34, ../../build/sass/views/_index.sass */
-.log-box-open {
-  margin-top: 80px;
-}
-
-/* line 37, ../../build/sass/views/_index.sass */
-.side-box {
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  -moz-border-radius-bottomright: 0px;
-  -webkit-border-bottom-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  -moz-border-radius-topright: 0px;
-  -webkit-border-top-right-radius: 0px;
-  border-top-right-radius: 0px;
-  display: inline-block;
-  float: left;
-  background: #282828;
-  height: 35px;
-  padding-left: 5px;
-  width: 30px;
-}
-
-/* line 48, ../../build/sass/views/_index.sass */
-.padding-b {
-  padding-bottom: 12px;
-}
-
-/* line 51, ../../build/sass/views/_index.sass */
-.log-in-content, .log-up-content {
-  -moz-placeholder-color: #494c4c;
-  -ms-input-placeholder-color: #494c4c;
-  display: none;
-  background: #191818;
-  width: 280px;
-  height: 120px;
-  padding: 20px;
-  padding-left: 17px;
-  margin-left: 120px;
-}
-/* line 25, ../../build/sass/mixins/_tools.sass */
-.log-in-content ::-webkit-input-placeholder, .log-up-content ::-webkit-input-placeholder {
-  color: #494c4c;
-}
-/* line 29, ../../build/sass/mixins/_tools.sass */
-.log-in-content ::-moz-placeholder, .log-up-content ::-moz-placeholder {
-  color: #494c4c;
-}
-/* line 62, ../../build/sass/views/_index.sass */
-.log-in-content .icon-mail, .log-up-content .icon-mail, .log-in-content .icon-torso, .log-up-content .icon-torso, .log-in-content .icon-lock, .log-up-content .icon-lock {
-  display: inline-block;
-  float: left;
-  font-size: 22px;
-  padding-top: 5px;
-  margin-top: 2px;
-  margin-bottom: -80px;
-  color: #494c4c;
-}
-/* line 76, ../../build/sass/views/_index.sass */
-.log-in-content input, .log-up-content input {
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  -moz-border-radius-bottomleft: 0px;
-  -webkit-border-bottom-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-  -moz-border-radius-topleft: 0px;
-  -webkit-border-top-left-radius: 0px;
-  border-top-left-radius: 0px;
-  height: 35px;
-  padding-top: 12px;
-  padding-left: 10px;
-  margin-top: 2px;
-  margin-left: 15px;
-  background: #282828;
-  border: none;
-  color: white;
-  letter-spacing: 2px;
-  font-weight: 400;
-}
-/* line 91, ../../build/sass/views/_index.sass */
-.log-in-content #user, .log-up-content #user {
-  padding-bottom: 10px;
-}
-/* line 93, ../../build/sass/views/_index.sass */
-.log-in-content #pass, .log-up-content #pass {
-  padding-bottom: 10px;
-}
-/* line 95, ../../build/sass/views/_index.sass */
-.log-in-content #email, .log-up-content #email {
-  padding-bottom: 10px;
-}
-/* line 97, ../../build/sass/views/_index.sass */
-.log-in-content #userR, .log-up-content #userR {
-  padding-bottom: 10px;
-}
-/* line 99, ../../build/sass/views/_index.sass */
-.log-in-content #passR, .log-up-content #passR {
-  padding-bottom: 10px;
-}
-/* line 101, ../../build/sass/views/_index.sass */
-.log-in-content #emailR, .log-up-content #emailR {
-  padding-bottom: 10px;
-}
-/* line 103, ../../build/sass/views/_index.sass */
-.log-in-content .sign-in-button, .log-up-content .sign-in-button {
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  -moz-border-radius-topright: 0px;
-  -webkit-border-top-right-radius: 0px;
-  border-top-right-radius: 0px;
-  -moz-border-radius-topleft: 0px;
-  -webkit-border-top-left-radius: 0px;
-  border-top-left-radius: 0px;
-  border: 0px solid #f7ec16;
-  width: 280px;
-  margin-left: -32px;
-  margin-top: 35px;
-  letter-spacing: 1px;
-  background: #f7ec16;
-}
-/* line 115, ../../build/sass/views/_index.sass */
-.log-in-content .sign-in-button a, .log-up-content .sign-in-button a {
-  transition: background 0.2s ease, color 0.2s ease;
-  color: #191818;
-  text-decoration: none;
-}
-/* line 119, ../../build/sass/views/_index.sass */
-.log-in-content .sign-in-button a:hover, .log-up-content .sign-in-button a:hover {
-  color: #191818;
-}
-/* line 121, ../../build/sass/views/_index.sass */
-.log-in-content .sign-up-button, .log-up-content .sign-up-button {
-  margin-top: 20px;
-  letter-spacing: 1px;
-}
-/* line 124, ../../build/sass/views/_index.sass */
-.log-in-content .sign-up-button a, .log-up-content .sign-up-button a {
-  transition: background 0.2s ease, color 0.2s ease;
-  color: white;
-  text-decoration: none;
-}
-/* line 128, ../../build/sass/views/_index.sass */
-.log-in-content .sign-up-button a:hover, .log-up-content .sign-up-button a:hover {
-  color: #f7ec16;
-}
-
-/* line 131, ../../build/sass/views/_index.sass */
-.log-in-content {
-  height: 160px;
-}
-
-/* line 135, ../../build/sass/views/_index.sass */
-.log-up-content {
-  height: 200px;
-}
-
-/* line 139, ../../build/sass/views/_index.sass */
+/* line 7, ../../build/sass/views/_index.sass */
 .logo {
   display: block;
   height: 120px;
   width: 300px;
 }
 
-/* line 144, ../../build/sass/views/_index.sass */
+/* line 12, ../../build/sass/views/_index.sass */
 .sub {
+  margin-top: -20px;
   color: white;
   font-weight: lighter;
   letter-spacing: 3px;
 }
 
-/* line 149, ../../build/sass/views/_index.sass */
+/* line 18, ../../build/sass/views/_index.sass */
 .cta {
   background: url(../images/cta.jpg) no-repeat center center;
   -moz-background-size: cover;
@@ -408,13 +410,13 @@ nav ul li {
   padding-top: 300px;
 }
 
-/* line 159, ../../build/sass/views/_index.sass */
+/* line 27, ../../build/sass/views/_index.sass */
 .cta-logo {
   width: 40%;
   margin-left: 10px;
 }
 
-/* line 163, ../../build/sass/views/_index.sass */
+/* line 31, ../../build/sass/views/_index.sass */
 .tile0 {
   color: white;
   padding-top: 180px;
@@ -423,7 +425,7 @@ nav ul li {
   -webkit-background-size: cover;
   background-size: cover;
 }
-/* line 164, ../../build/sass/views/_index.sass */
+/* line 32, ../../build/sass/views/_index.sass */
 .tile0 h2 {
   font-weight: lighter;
   font-size: 22px;
@@ -431,16 +433,16 @@ nav ul li {
   margin-bottom: 20px;
   margin-top: -5px;
 }
-/* line 175, ../../build/sass/views/_index.sass */
+/* line 41, ../../build/sass/views/_index.sass */
 .tile0 a {
   color: #f7ec16;
   letter-spacing: 1px;
 }
-/* line 178, ../../build/sass/views/_index.sass */
+/* line 44, ../../build/sass/views/_index.sass */
 .tile0 a:hover {
   text-decoration: none;
 }
-/* line 180, ../../build/sass/views/_index.sass */
+/* line 46, ../../build/sass/views/_index.sass */
 .tile0 .cta-spacer {
   width: 400px;
   height: 2px;
@@ -448,46 +450,46 @@ nav ul li {
   opacity: 0.5;
 }
 
-/* line 186, ../../build/sass/views/_index.sass */
+/* line 52, ../../build/sass/views/_index.sass */
 .tile1 {
   height: 525px;
   background: #191818;
   padding-top: 70px;
 }
-/* line 190, ../../build/sass/views/_index.sass */
+/* line 56, ../../build/sass/views/_index.sass */
 .tile1 h2 {
   font-weight: 300;
   color: white;
 }
-/* line 193, ../../build/sass/views/_index.sass */
+/* line 59, ../../build/sass/views/_index.sass */
 .tile1 h5 {
   font-size: 16px;
   letter-spacing: 3px;
   font-weight: 300;
   color: #f7ec16;
 }
-/* line 198, ../../build/sass/views/_index.sass */
+/* line 64, ../../build/sass/views/_index.sass */
 .tile1 p {
   font-weight: 300;
   letter-spacing: 5px;
   color: white;
 }
-/* line 202, ../../build/sass/views/_index.sass */
+/* line 68, ../../build/sass/views/_index.sass */
 .tile1 .content-align {
   margin-left: 90px;
 }
 
-/* line 205, ../../build/sass/views/_index.sass */
+/* line 71, ../../build/sass/views/_index.sass */
 .tile2 {
   margin-top: -40px;
   padding-top: 220px;
 }
 
-/* line 209, ../../build/sass/views/_index.sass */
+/* line 75, ../../build/sass/views/_index.sass */
 .grid-align {
   margin-left: 125px;
 }
-/* line 211, ../../build/sass/views/_index.sass */
+/* line 77, ../../build/sass/views/_index.sass */
 .grid-align p {
   font-weight: 300;
   letter-spacing: 2px;
@@ -495,13 +497,13 @@ nav ul li {
   font-weight: lighter;
 }
 
-/* line 217, ../../build/sass/views/_index.sass */
+/* line 83, ../../build/sass/views/_index.sass */
 .grid-pad {
   padding: 2px;
   margin-right: 40px;
 }
 
-/* line 221, ../../build/sass/views/_index.sass */
+/* line 87, ../../build/sass/views/_index.sass */
 .grid-spacer {
   height: 2px;
   background: #999;
@@ -510,7 +512,7 @@ nav ul li {
   border-radius: 2px;
 }
 
-/* line 228, ../../build/sass/views/_index.sass */
+/* line 94, ../../build/sass/views/_index.sass */
 .number {
   display: block;
   margin-top: -50px;
@@ -524,16 +526,16 @@ nav ul li {
   padding-top: 5px;
 }
 
-/* line 240, ../../build/sass/views/_index.sass */
+/* line 106, ../../build/sass/views/_index.sass */
 #signUpContent {
   display: none;
   opacity: 1;
 }
-/* line 243, ../../build/sass/views/_index.sass */
+/* line 109, ../../build/sass/views/_index.sass */
 #signUpContent input {
   display: block;
 }
-/* line 245, ../../build/sass/views/_index.sass */
+/* line 111, ../../build/sass/views/_index.sass */
 #signUpContent .padding {
   padding-bottom: 20px;
 }
