@@ -381,17 +381,16 @@ nav ul li {
 /* line 3, ../../build/sass/views/_index.sass */
 .content {
   z-index: 1;
-  position: absolute;
 }
 
-/* line 7, ../../build/sass/views/_index.sass */
+/* line 8, ../../build/sass/views/_index.sass */
 .logo {
   display: block;
   height: 120px;
   width: 300px;
 }
 
-/* line 12, ../../build/sass/views/_index.sass */
+/* line 13, ../../build/sass/views/_index.sass */
 .sub {
   margin-top: -20px;
   color: white;
@@ -399,7 +398,7 @@ nav ul li {
   letter-spacing: 3px;
 }
 
-/* line 18, ../../build/sass/views/_index.sass */
+/* line 19, ../../build/sass/views/_index.sass */
 .cta {
   background: url(../images/cta.jpg) no-repeat center center;
   -moz-background-size: cover;
@@ -410,13 +409,13 @@ nav ul li {
   padding-top: 300px;
 }
 
-/* line 27, ../../build/sass/views/_index.sass */
+/* line 28, ../../build/sass/views/_index.sass */
 .cta-logo {
   width: 40%;
   margin-left: 10px;
 }
 
-/* line 31, ../../build/sass/views/_index.sass */
+/* line 32, ../../build/sass/views/_index.sass */
 .tile0 {
   color: white;
   padding-top: 180px;
@@ -425,7 +424,7 @@ nav ul li {
   -webkit-background-size: cover;
   background-size: cover;
 }
-/* line 32, ../../build/sass/views/_index.sass */
+/* line 33, ../../build/sass/views/_index.sass */
 .tile0 h2 {
   font-weight: lighter;
   font-size: 22px;
@@ -433,16 +432,16 @@ nav ul li {
   margin-bottom: 20px;
   margin-top: -5px;
 }
-/* line 41, ../../build/sass/views/_index.sass */
+/* line 42, ../../build/sass/views/_index.sass */
 .tile0 a {
   color: #f7ec16;
   letter-spacing: 1px;
 }
-/* line 44, ../../build/sass/views/_index.sass */
+/* line 45, ../../build/sass/views/_index.sass */
 .tile0 a:hover {
   text-decoration: none;
 }
-/* line 46, ../../build/sass/views/_index.sass */
+/* line 47, ../../build/sass/views/_index.sass */
 .tile0 .cta-spacer {
   width: 400px;
   height: 2px;
@@ -450,46 +449,46 @@ nav ul li {
   opacity: 0.5;
 }
 
-/* line 52, ../../build/sass/views/_index.sass */
+/* line 53, ../../build/sass/views/_index.sass */
 .tile1 {
   height: 525px;
   background: #191818;
   padding-top: 70px;
 }
-/* line 56, ../../build/sass/views/_index.sass */
+/* line 57, ../../build/sass/views/_index.sass */
 .tile1 h2 {
   font-weight: 300;
   color: white;
 }
-/* line 59, ../../build/sass/views/_index.sass */
+/* line 60, ../../build/sass/views/_index.sass */
 .tile1 h5 {
   font-size: 16px;
   letter-spacing: 3px;
   font-weight: 300;
   color: #f7ec16;
 }
-/* line 64, ../../build/sass/views/_index.sass */
+/* line 65, ../../build/sass/views/_index.sass */
 .tile1 p {
   font-weight: 300;
   letter-spacing: 5px;
   color: white;
 }
-/* line 68, ../../build/sass/views/_index.sass */
+/* line 69, ../../build/sass/views/_index.sass */
 .tile1 .content-align {
   margin-left: 90px;
 }
 
-/* line 71, ../../build/sass/views/_index.sass */
+/* line 72, ../../build/sass/views/_index.sass */
 .tile2 {
   margin-top: -40px;
   padding-top: 220px;
 }
 
-/* line 75, ../../build/sass/views/_index.sass */
+/* line 76, ../../build/sass/views/_index.sass */
 .grid-align {
   margin-left: 125px;
 }
-/* line 77, ../../build/sass/views/_index.sass */
+/* line 78, ../../build/sass/views/_index.sass */
 .grid-align p {
   font-weight: 300;
   letter-spacing: 2px;
@@ -497,13 +496,13 @@ nav ul li {
   font-weight: lighter;
 }
 
-/* line 83, ../../build/sass/views/_index.sass */
+/* line 84, ../../build/sass/views/_index.sass */
 .grid-pad {
   padding: 2px;
   margin-right: 40px;
 }
 
-/* line 87, ../../build/sass/views/_index.sass */
+/* line 88, ../../build/sass/views/_index.sass */
 .grid-spacer {
   height: 2px;
   background: #999;
@@ -512,7 +511,7 @@ nav ul li {
   border-radius: 2px;
 }
 
-/* line 94, ../../build/sass/views/_index.sass */
+/* line 95, ../../build/sass/views/_index.sass */
 .number {
   display: block;
   margin-top: -50px;
@@ -526,16 +525,16 @@ nav ul li {
   padding-top: 5px;
 }
 
-/* line 106, ../../build/sass/views/_index.sass */
+/* line 107, ../../build/sass/views/_index.sass */
 #signUpContent {
   display: none;
   opacity: 1;
 }
-/* line 109, ../../build/sass/views/_index.sass */
+/* line 110, ../../build/sass/views/_index.sass */
 #signUpContent input {
   display: block;
 }
-/* line 111, ../../build/sass/views/_index.sass */
+/* line 112, ../../build/sass/views/_index.sass */
 #signUpContent .padding {
   padding-bottom: 20px;
 }
